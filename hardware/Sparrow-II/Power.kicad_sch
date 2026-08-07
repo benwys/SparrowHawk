@@ -3485,6 +3485,12 @@
 		(uuid "a6660d13-e2d5-4cde-ba34-bb993a0d54bf")
 	)
 	(junction
+		(at 304.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a80a4bcf-1e78-4744-b7be-f06beec61ef8")
+	)
+	(junction
 		(at 77.47 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3919,6 +3925,16 @@
 			(type default)
 		)
 		(uuid "59a9b2db-34ec-4741-acfb-4ade0102387f")
+	)
+	(wire
+		(pts
+			(xy 304.8 106.68) (xy 304.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be95189-b256-46a3-9bfd-e11cbdb587ee")
 	)
 	(wire
 		(pts
@@ -9014,6 +9030,84 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 304.8 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12a7422-75ee-4efd-a1eb-f2733eed50a3")
+		(property "Reference" "#FLG07"
+			(at 304.8 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 304.8 103.505 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 304.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b3f3bc0-40c2-4dfb-83c2-cdf24c8afefa")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)

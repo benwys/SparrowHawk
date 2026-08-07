@@ -200,7 +200,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "DVDD"
@@ -524,7 +524,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 35.56 -17.78 180)
 					(length 5.08)
 					(name "AVDD"
@@ -578,7 +578,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 35.56 -10.16 180)
 					(length 5.08)
 					(name "PVDD"
@@ -1494,7 +1494,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1519,7 +1519,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1551,7 +1551,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1573,7 +1573,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1611,7 +1611,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1751,7 +1751,7 @@
 	)
 	(rectangle
 		(start 133.604 21.336)
-		(end 326.644 157.48)
+		(end 326.644 177.546)
 		(stroke
 			(width 0)
 			(type default)
@@ -1795,11 +1795,22 @@
 		)
 		(uuid "bdc5e391-124d-42de-b9f6-6ffe93748536")
 	)
+	(text "OBEJSCIE OSD - AWARYJNE"
+		(exclude_from_sim no)
+		(at 279.654 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd018c89-0565-4ca3-b9e3-7b249526d66a")
+	)
 	(junction
-		(at 163.83 71.12)
+		(at 163.83 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00b5a29a-526f-4a3b-8ba3-08b3dad6ab87")
+		(uuid "098e1f96-4e1d-4596-8be5-5bebdc4bfb8c")
 	)
 	(junction
 		(at 66.04 53.34)
@@ -1932,6 +1943,16 @@
 			(type default)
 		)
 		(uuid "06a6b25f-5c10-4057-a971-0f5c2b02caae")
+	)
+	(wire
+		(pts
+			(xy 163.83 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c94766-eada-4986-aeed-2297dafc8a99")
 	)
 	(wire
 		(pts
@@ -2225,6 +2246,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 160.02) (xy 302.26 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b4c53f-8511-4f46-8508-ed7ea88bf869")
+	)
+	(wire
+		(pts
 			(xy 57.15 53.34) (xy 66.04 53.34)
 		)
 		(stroke
@@ -2395,6 +2426,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 76.2) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad292b8-da6f-4e81-b0dd-c2fbaf48a41a")
+	)
+	(wire
+		(pts
 			(xy 227.33 132.08) (xy 231.14 132.08)
 		)
 		(stroke
@@ -2412,6 +2453,16 @@
 			(type default)
 		)
 		(uuid "ceb2b8c7-09e1-424e-8263-71a453d3e8e8")
+	)
+	(wire
+		(pts
+			(xy 288.29 160.02) (xy 281.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5a5694-e59c-4972-b518-d2c4a264a3df")
 	)
 	(wire
 		(pts
@@ -2475,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 166.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5e94f22-3a63-44a2-aa85-6f1e5d5baef1")
-	)
-	(wire
-		(pts
 			(xy 284.48 105.41) (xy 284.48 106.68)
 		)
 		(stroke
@@ -2492,16 +2533,6 @@
 			(type default)
 		)
 		(uuid "f8cb4c7c-ab2c-49ab-a215-5881344c0949")
-	)
-	(wire
-		(pts
-			(xy 166.37 71.12) (xy 166.37 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe23335b-0cae-4932-af08-e43737992b1d")
 	)
 	(label "OSD_CLK_IN"
 		(at 175.26 81.28 180)
@@ -2533,6 +2564,26 @@
 		)
 		(uuid "c23b2f84-4d78-4fe0-b6d9-fc44bb8df165")
 	)
+	(label "VIDEO_OUT"
+		(at 302.26 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d38e4cbf-713f-43f3-97e8-591844c6276e")
+	)
+	(label "VIDEO_IN"
+		(at 281.94 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df922960-6016-4842-837b-263acfdc2494")
+	)
 	(label "OSD_CLK_OUT"
 		(at 175.26 83.82 180)
 		(effects
@@ -2543,7 +2594,7 @@
 		)
 		(uuid "ecda4841-6fac-47a2-b910-41e57817bd82")
 	)
-	(global_label "+5_VIDEO"
+	(global_label "+5V_VIDEO"
 		(shape input)
 		(at 248.92 102.87 90)
 		(fields_autoplaced yes)
@@ -2567,7 +2618,7 @@
 			)
 		)
 	)
-	(global_label "+5_VIDEO"
+	(global_label "+5V_VIDEO"
 		(shape input)
 		(at 273.05 64.77 90)
 		(fields_autoplaced yes)
@@ -2591,7 +2642,7 @@
 			)
 		)
 	)
-	(global_label "+5_VIDEO"
+	(global_label "+5V_VIDEO"
 		(shape input)
 		(at 308.61 86.36 90)
 		(fields_autoplaced yes)
@@ -3811,6 +3862,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 231.14 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f7f13b2-d48b-4f7a-8a3c-39acf87481ee")
+		(property "Reference" "#PWR086"
+			(at 231.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 231.14 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 231.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "874c5bd7-a46b-4bfd-92e2-47b948c5ac06")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/21e0c0df-5477-4a68-8911-aafd9a2904df"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 127 0)
 		(unit 1)
@@ -4463,7 +4592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3V3")
 		(at 163.83 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -4485,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 163.83 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,85 +4748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 231.14 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c238e71a-e702-4326-8da1-9e9037b8667f")
-		(property "Reference" "#PWR056"
-			(at 231.14 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 233.68 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88ba528b-0421-44dd-8a8f-14b240f4154f")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/21e0c0df-5477-4a68-8911-aafd9a2904df"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 91.44 0)
 		(unit 1)
@@ -4770,6 +4820,86 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/21e0c0df-5477-4a68-8911-aafd9a2904df"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 292.1 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e175ad6b-c7a6-40c8-9e9f-0f62735e195b")
+		(property "Reference" "R_VID_BYPASS1"
+			(at 292.1 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 292.1 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 292.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0d60612-7aaa-4224-8ae4-7470971ed2d6")
+		)
+		(pin "2"
+			(uuid "bf1aa7b5-fb84-4844-b180-17193fe2551f")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/21e0c0df-5477-4a68-8911-aafd9a2904df"
+					(reference "R_VID_BYPASS1")
 					(unit 1)
 				)
 			)

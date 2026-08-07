@@ -956,7 +956,7 @@
         "uuid": "64d08664-7c2b-4b48-a9dd-dae3f797396a"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#PWR86,U1",
     "variants": []
   },
   "sheets": [
