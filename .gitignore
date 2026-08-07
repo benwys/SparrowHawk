@@ -1,0 +1,62 @@
+# Compiled Objects
+*.o
+*.obj
+*.d
+
+# Binary files
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.a
+*.lib
+
+# Make
+build/
+out/
+bin/
+Debug/
+Release/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# OpenOCD
+JLinkLog.txt
+openocd.log
+*.log
+*.svd.cache
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# STM32CubeIDE
+.metadata/
+*.launch
+
+# KiCad
+*-backups/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.bck
+*-bak
+_autosave-*
+fp-info-cache
+*.lck
+~*.lck
+*.net
+*.000
+
+# System
+.DS_Store
+Thumbs.db
