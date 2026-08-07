@@ -4197,7 +4197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:SOP65P640X120-29N"
+		(property "Footprint" "SparrowHawk:SOP65P640X120-29N"
 			(at 214.63 166.04 0)
 			(hide yes)
 			(show_name no)

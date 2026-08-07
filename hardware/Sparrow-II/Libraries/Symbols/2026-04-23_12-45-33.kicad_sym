@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:SOT23_INF-M"
+		(property "Footprint" "SparrowHawk:SOT23_INF-M"
 			(at 0 0 0)
 			(effects
 				(font

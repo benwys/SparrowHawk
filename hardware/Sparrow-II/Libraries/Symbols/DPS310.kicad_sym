@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:XDCR_DPS310"
+		(property "Footprint" "SparrowHawk:XDCR_DPS310"
 			(at 0 0 0)
 			(effects
 				(font

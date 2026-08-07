@@ -986,7 +986,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:SOIC127P600X170-9N"
+	(footprint "SparrowHawk:SOIC127P600X170-9N"
 		(layer "F.Cu")
 		(uuid "07cfc660-e031-4316-8d55-e05070d36b2d")
 		(at 42.255 37.9)
@@ -2139,7 +2139,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:VBAT_SolderPad_2x_5x5mm"
+	(footprint "SparrowHawk:VBAT_SolderPad_2x_5x5mm"
 		(layer "F.Cu")
 		(uuid "13d66845-7f5f-4e78-bb84-d03f4875ccae")
 		(at 31.455 31.625)
@@ -3555,7 +3555,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:JST_BM06B-SRSS-TB_LF__SN_"
+	(footprint "SparrowHawk:JST_BM06B-SRSS-TB_LF__SN_"
 		(layer "F.Cu")
 		(uuid "35521f32-a8b9-4628-8fda-ccae999fe9b5")
 		(at 23.62 71.99)
@@ -9733,7 +9733,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:JST_BM04B-SRSS-TB_LF__SN_"
+	(footprint "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
 		(layer "F.Cu")
 		(uuid "705d0e69-0a9c-4bf3-9029-30568e2634b6")
 		(at 34.22 67.145)
@@ -10175,7 +10175,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "FC Drone Footprint Library:SOP65P640X120-29N"
+	(footprint "SparrowHawk:SOP65P640X120-29N"
 		(layer "F.Cu")
 		(uuid "714f96d9-5d39-45dd-a9b7-2c7c36f093be")
 		(at 51.345 57.65)
@@ -12261,7 +12261,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:PQFN50P300X250X97-14N"
+	(footprint "SparrowHawk:PQFN50P300X250X97-14N"
 		(layer "F.Cu")
 		(uuid "859f2795-fa3c-48d8-a0f3-1a2d7fca3542")
 		(at 70.265 61.55)
@@ -15265,7 +15265,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:JST_BM04B-SRSS-TB_LF__SN_"
+	(footprint "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
 		(layer "F.Cu")
 		(uuid "9a898c4c-1d84-447c-8c6f-6decdb53f1aa")
 		(at 34.22 60.77)
@@ -17336,7 +17336,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:XDCR_DPS310"
+	(footprint "SparrowHawk:XDCR_DPS310"
 		(layer "F.Cu")
 		(uuid "affa9439-7946-49ae-b481-e838d708eb22")
 		(at 70.265 65.4)
@@ -19583,7 +19583,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "FC Drone Footprint Library:JST_BM08B-SRSS-TB_LF__SN_"
+	(footprint "SparrowHawk:JST_BM08B-SRSS-TB_LF__SN_"
 		(layer "F.Cu")
 		(uuid "c6fa7b6e-a850-4ae5-ae02-fc527ea00615")
 		(at 24.62 54.4)
@@ -22720,7 +22720,7 @@
 			)
 		)
 	)
-	(footprint "FC Drone Footprint Library:JST_BM03B-SRSS-TB_LF__SN_"
+	(footprint "SparrowHawk:JST_BM03B-SRSS-TB_LF__SN_"
 		(layer "F.Cu")
 		(uuid "f6644bbe-c857-449f-a5c9-a5e71d910083")
 		(at 34.47 54.4)

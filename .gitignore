@@ -47,6 +47,7 @@ openocd.log
 
 # KiCad
 *-backups/
+.history/
 *.kicad_prl
 *.kicad_sch-bak
 *.kicad_pcb-bak
@@ -59,6 +60,7 @@ fp-info-cache
 ~*.lck
 *.net
 *.000
+*.rpt
 
 # System
 .DS_Store

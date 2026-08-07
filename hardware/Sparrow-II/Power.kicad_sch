@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FC Drone Footprint Library:SOT23_INF-M"
+			(property "Footprint" "SparrowHawk:SOT23_INF-M"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LMR14030SDDAR:SOIC127P600X170-9N"
+			(property "Footprint" "SparrowHawk:SOIC127P600X170-9N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2182,7 +2182,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SIMPLE SWITCHER® 40-V, 3.5-A, 2.2-MHz step-down converter with 40-uA IQ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2191,6 +2191,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "MF" "Texas Instruments"
@@ -2302,18 +2303,6 @@
 				)
 			)
 			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1237662&manufacturer=Texas Instruments&part_name=LMR14030SDDAR&search_term=lmr14030sddar"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "SIMPLE SWITCHER® 40-V, 3.5-A, 2.2-MHz step-down converter with 40-uA IQ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2508,7 +2497,7 @@
 				(pin power_in line
 					(at 17.78 -7.62 180)
 					(length 5.08)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2527,7 +2516,7 @@
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(hide yes)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2546,7 +2535,7 @@
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(hide yes)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2565,7 +2554,7 @@
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(hide yes)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2584,7 +2573,7 @@
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(hide yes)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2603,7 +2592,7 @@
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(hide yes)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2622,7 +2611,7 @@
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(hide yes)
-					(name "EXP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3334,12 +3323,6 @@
 		(uuid "20ff8a87-e5c5-4977-a57b-b9fd9f24a25e")
 	)
 	(junction
-		(at 45.72 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22d97586-ceb4-4c85-96cf-8632d808cb49")
-	)
-	(junction
 		(at 328.93 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3388,10 +3371,22 @@
 		(uuid "3e801ac4-ed92-429a-a82e-99236bf8049f")
 	)
 	(junction
+		(at 251.46 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e8251c0-87d4-4859-b934-de397cf78deb")
+	)
+	(junction
 		(at 353.06 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40982a14-70a7-4d8c-bc72-35c3ac5561b9")
+	)
+	(junction
+		(at 62.23 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5381fcac-e360-4f80-b9af-d64e2490dcef")
 	)
 	(junction
 		(at 152.4 50.8)
@@ -3460,12 +3455,6 @@
 		(uuid "913b3788-f5a4-47a3-a1e2-2326565d536c")
 	)
 	(junction
-		(at 62.23 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "922c082a-e771-4910-925a-16e390c173b3")
-	)
-	(junction
 		(at 287.02 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3488,12 +3477,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a28f4c46-0441-45cc-8110-3f471458225a")
-	)
-	(junction
-		(at 251.46 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6321976-5b11-4903-b66a-cfabca687eaf")
 	)
 	(junction
 		(at 323.85 45.72)
@@ -3569,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 86.36) (xy 45.72 86.36)
+			(xy 40.64 86.36) (xy 52.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3749,7 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 62.23 43.18)
+			(xy 62.23 40.64) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4169,6 +4152,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 60.96) (xy 251.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d891e0a-663c-4ce4-a19a-910719145f40")
+	)
+	(wire
+		(pts
 			(xy 149.86 113.03) (xy 149.86 115.57)
 		)
 		(stroke
@@ -4279,16 +4272,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 52.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff52c38-2c04-4053-af05-eab5056e41ef")
-	)
-	(wire
-		(pts
 			(xy 55.88 45.72) (xy 62.23 45.72)
 		)
 		(stroke
@@ -4339,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 60.96) (xy 251.46 73.66)
+			(xy 251.46 58.42) (xy 251.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4529,16 +4512,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 58.42) (xy 251.46 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e960a63f-0ff0-40de-8eaa-60afe790a52d")
-	)
-	(wire
-		(pts
 			(xy 259.08 53.34) (xy 259.08 66.04)
 		)
 		(stroke
@@ -4677,16 +4650,6 @@
 		)
 		(uuid "02376e58-76e8-42a6-969b-8b1f88671ecc")
 	)
-	(label "VBAT"
-		(at 62.23 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8003b805-2b9a-49b6-9cd7-8743b6856690")
-	)
 	(global_label "+5V_VIDEO"
 		(shape input)
 		(at 358.14 111.76 0)
@@ -4756,6 +4719,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 62.23 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65519cd4-1deb-41f6-a10d-f2bde824e1d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5063,7 +5050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:VBAT_SolderPad_2x_5x5mm"
+		(property "Footprint" "SparrowHawk:VBAT_SolderPad_2x_5x5mm"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5106,84 +5093,6 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
 					(reference "J_BAT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 45.72 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13b77239-7f4a-4555-8bcd-2e5136a6dadf")
-		(property "Reference" "#FLG06"
-			(at 45.72 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 45.72 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af28906a-5345-4754-a704-0d9a2a6d0005")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6068,6 +5977,271 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LMR14030SDDAR:LMR14030SDDAR")
+		(at 233.68 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44620f8c-f36d-4c51-b259-51f037e74481")
+		(property "Reference" "U_BUCK1"
+			(at 233.68 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR14030SDDAR"
+			(at 233.68 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparrowHawk:SOIC127P600X170-9N"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SIMPLE SWITCHER® 40-V, 3.5-A, 2.2-MHz step-down converter with 40-uA IQ"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.70 mm"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "HSOIC-8 Texas Instruments"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMR14030SDDAR/Texas+Instruments/view-part/?ref=eda"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR14030SDDAR/Texas+Instruments/view-part/?ref=snap"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LMR14030SDDAR"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1237662&manufacturer=Texas Instruments&part_name=LMR14030SDDAR&search_term=lmr14030sddar"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 233.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "V3"
+			(uuid "d3145abc-9d80-473e-a42d-312a94388baa")
+		)
+		(pin "V2"
+			(uuid "9f2eae95-04e3-47c2-86f6-06b95ad91121")
+		)
+		(pin "V1"
+			(uuid "bcb009a1-76af-4985-ac8e-5d1f47db8e16")
+		)
+		(pin "9"
+			(uuid "f2c4bd4d-efcd-4a5e-a77e-1a155daa8374")
+		)
+		(pin "8"
+			(uuid "51daface-6d38-48fe-a0b6-f1630ed55e4d")
+		)
+		(pin "7"
+			(uuid "a1c125a9-2270-4588-9857-6ce76914ba6e")
+		)
+		(pin "6"
+			(uuid "100dedca-3bca-498f-9a65-3f86a2cb4d76")
+		)
+		(pin "5"
+			(uuid "c787a9b5-7e29-4ea4-8d57-7f656b589273")
+		)
+		(pin "4"
+			(uuid "87d0a643-8aad-496a-ab88-ec24d89dfd90")
+		)
+		(pin "3"
+			(uuid "d873e62d-f90e-46c3-9391-d78e1d0c972c")
+		)
+		(pin "2"
+			(uuid "bde1454a-1afe-4521-b35b-a1cbfe8127b2")
+		)
+		(pin "V4"
+			(uuid "932f0f4d-e24d-43d0-a0c5-eac9055adb2c")
+		)
+		(pin "1"
+			(uuid "3912b20d-0060-4c97-a87e-0f3e9a5a7db0")
+		)
+		(pin "V5"
+			(uuid "e7feee1e-d6fb-4513-a3e7-9e5e1b6c479a")
+		)
+		(pin "V6"
+			(uuid "aa71cfe2-e064-454a-84e7-7411da0703c2")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
+					(reference "U_BUCK1")
 					(unit 1)
 				)
 			)
@@ -8608,282 +8782,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LMR14030SDDAR:LMR14030SDDAR")
-		(at 233.68 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d200978d-c7f3-4035-949e-bc0523373794")
-		(property "Reference" "U_BUCK1"
-			(at 233.68 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR14030SDDAR"
-			(at 233.68 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FC Drone Footprint Library:SOIC127P600X170-9N"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.70 mm"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "HSOIC-8 Texas Instruments"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LMR14030SDDAR/Texas+Instruments/view-part/?ref=eda"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR14030SDDAR/Texas+Instruments/view-part/?ref=snap"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LMR14030SDDAR"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1237662&manufacturer=Texas Instruments&part_name=LMR14030SDDAR&search_term=lmr14030sddar"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "SIMPLE SWITCHER® 40-V, 3.5-A, 2.2-MHz step-down converter with 40-uA IQ"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "V5"
-			(uuid "610acf40-d760-4d5d-985c-620e7d246520")
-		)
-		(pin "9"
-			(uuid "968eaf01-ab34-4bf3-b5a0-65d8720ef5da")
-		)
-		(pin "4"
-			(uuid "208079ae-b25b-42a0-af0c-26a779c5ef5d")
-		)
-		(pin "8"
-			(uuid "b3939e5a-ab09-4529-b9e2-d75752646973")
-		)
-		(pin "V1"
-			(uuid "24413bf4-004b-478a-9cb8-67ef2a185167")
-		)
-		(pin "V2"
-			(uuid "424cc9a0-714d-42c8-a529-fdc799250c43")
-		)
-		(pin "1"
-			(uuid "7d05eb8e-9004-467c-80ff-6f0c2c622895")
-		)
-		(pin "V3"
-			(uuid "3ac29092-6dbe-4118-8cde-687caece9767")
-		)
-		(pin "6"
-			(uuid "3a6b59a9-9f66-41da-ba79-df8665c9856a")
-		)
-		(pin "5"
-			(uuid "cb4cc801-149b-44d9-84f2-8ed0116fe80f")
-		)
-		(pin "V4"
-			(uuid "d93606f5-50de-4a47-a89c-e64dcfdf2c10")
-		)
-		(pin "3"
-			(uuid "e4abf751-b7f2-44e3-ab34-ef58167ed38e")
-		)
-		(pin "V6"
-			(uuid "945c4300-8157-4fea-a450-60ba219bb046")
-		)
-		(pin "7"
-			(uuid "c45bc4cb-2beb-4608-b0af-b8251486ae1f")
-		)
-		(pin "2"
-			(uuid "5d0d42a1-32f7-48a4-8a13-451e65a14987")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
-					(reference "U_BUCK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 293.37 111.76 90)
 		(unit 1)
@@ -9551,7 +9449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:SOT23_INF-M"
+		(property "Footprint" "SparrowHawk:SOT23_INF-M"
 			(at 59.69 73.66 0)
 			(hide yes)
 			(show_name no)

@@ -5979,7 +5979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:JST_BM06B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:JST_BM06B-SRSS-TB_LF__SN_"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6746,7 +6746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:JST_BM04B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
 			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7153,7 +7153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:JST_BM08B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:JST_BM08B-SRSS-TB_LF__SN_"
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8289,7 +8289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:JST_BM04B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
 			(at 345.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9314,7 +9314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC Drone Footprint Library:JST_BM03B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:JST_BM03B-SRSS-TB_LF__SN_"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
