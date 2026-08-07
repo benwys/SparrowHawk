@@ -1,0 +1,110 @@
+(footprint "VBAT_SolderPad_2x_5x5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15973f5e-a013-4788-9ffd-3e0cb3525306")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VBAT_SolderPad_2x_5x5mm"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8722cba4-ce1d-40a0-a19a-aa30b7c76c8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "799a79ba-1947-4695-a73e-4980c437db8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a41e61b-c2c5-40cd-bcdf-4a714c91f657")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "BAT+"
+		(at -5.5 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a09d0568-3ed9-49ed-9fc2-fa9f9d46a2b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.5 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cab9dbe2-fffd-4fc0-a71f-8e90bba247cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88f55cbd-cb6a-4593-8a45-d2a3be3587cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4 0)
+		(size 5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "fbac2137-372b-48b2-a5ca-1cdcd978bbf1")
+	)
+	(pad "2" smd roundrect
+		(at 4 0)
+		(size 5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6acf6c61-1516-4b1e-b0d1-67930c0ec99a")
+	)
+	(embedded_fonts no)
+)
