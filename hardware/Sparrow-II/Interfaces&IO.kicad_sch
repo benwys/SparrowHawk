@@ -1508,8 +1508,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J_USB1"
-				(at 0 22.86 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1519,7 +1519,7 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 20.32 0)
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1528,7 +1528,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+			(property "Footprint" ""
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)

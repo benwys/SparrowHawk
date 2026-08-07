@@ -909,6 +909,28 @@
 					)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(show_name no)
@@ -993,18 +1015,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -1060,9 +1070,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,7 +1108,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1797,6 +1808,12 @@
 		(uuid "0a1269ac-4adc-49fe-b06f-3864f0bb3b4c")
 	)
 	(junction
+		(at 55.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "103e4651-f492-45e7-8166-0519f36a47a2")
+	)
+	(junction
 		(at 44.45 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1827,12 +1844,6 @@
 		(uuid "99a24a7b-9072-480f-bb9b-659efcdd4ede")
 	)
 	(junction
-		(at 66.04 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca8918a8-c0a3-4901-86dc-c828da3316f9")
-	)
-	(junction
 		(at 284.48 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1843,12 +1854,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e967840e-62ef-4961-9687-68b6172af16c")
-	)
-	(junction
-		(at 55.88 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa6927c9-d21f-452d-8d95-c95bee7a5eed")
 	)
 	(no_connect
 		(at 182.88 99.06)
@@ -1927,16 +1932,6 @@
 			(type default)
 		)
 		(uuid "06a6b25f-5c10-4057-a971-0f5c2b02caae")
-	)
-	(wire
-		(pts
-			(xy 71.12 59.69) (xy 71.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0adaec2a-2738-4cb8-9e74-ae03e991bc4d")
 	)
 	(wire
 		(pts
@@ -2110,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 66.04 78.74)
+			(xy 55.88 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2127,16 +2122,6 @@
 			(type default)
 		)
 		(uuid "634171a6-b091-42fc-b395-632eaa465048")
-	)
-	(wire
-		(pts
-			(xy 60.96 71.12) (xy 66.04 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63f0f675-47e7-4019-8d7f-ba13903193c1")
 	)
 	(wire
 		(pts
@@ -2300,16 +2285,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 71.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb0fda4-7534-4618-bfd5-96ffb204f6a9")
-	)
-	(wire
-		(pts
 			(xy 175.26 91.44) (xy 182.88 91.44)
 		)
 		(stroke
@@ -2440,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 66.04 78.74)
+			(xy 71.12 59.69) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2467,16 +2442,6 @@
 			(type default)
 		)
 		(uuid "e5b93667-fa65-4d1b-9407-ebda516411e3")
-	)
-	(wire
-		(pts
-			(xy 60.96 59.69) (xy 60.96 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eacf048f-82da-44e0-8131-924b12ded6b3")
 	)
 	(wire
 		(pts

@@ -441,6 +441,28 @@
 					)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(show_name no)
@@ -525,18 +547,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -592,9 +602,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -630,7 +640,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3319,6 +3330,12 @@
 		(uuid "7e351743-292c-4060-a4b3-866f89cc28d9")
 	)
 	(junction
+		(at 86.36 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83c25dc7-e0c9-4e9e-917f-bcee21bcb3f9")
+	)
+	(junction
 		(at 101.6 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3329,12 +3346,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f0998a-4614-4db9-97cc-4150fe000f5b")
-	)
-	(junction
-		(at 86.36 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ba31061-f515-4c51-a70e-19929a997db0")
 	)
 	(junction
 		(at 74.93 212.09)
@@ -3377,12 +3388,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c238a365-a0ee-42f6-8b06-dad66e4a7490")
-	)
-	(junction
-		(at 96.52 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5fdd9a1-19bd-45ce-85a1-9b6307adf253")
 	)
 	(junction
 		(at 298.45 67.31)
@@ -3810,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 69.85) (xy 101.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d45e3ae-e4f2-4e69-b6ae-f810cefcf147")
-	)
-	(wire
-		(pts
 			(xy 262.89 151.13) (xy 271.78 151.13)
 		)
 		(stroke
@@ -3950,16 +3945,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 58.42) (xy 91.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "753ab23f-8399-416b-96ed-1e4b59d2e651")
-	)
-	(wire
-		(pts
 			(xy 219.71 115.57) (xy 222.25 115.57)
 		)
 		(stroke
@@ -4070,7 +4055,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 69.85) (xy 96.52 77.47)
+			(xy 101.6 58.42) (xy 101.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4290,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 77.47) (xy 96.52 77.47)
+			(xy 86.36 77.47) (xy 101.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4590,16 +4575,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 96.52 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f8bcac-9549-4264-8880-b7286becaa9e")
-	)
-	(wire
-		(pts
 			(xy 189.23 120.65) (xy 222.25 120.65)
 		)
 		(stroke
@@ -4747,16 +4722,6 @@
 			(type default)
 		)
 		(uuid "fb630bcf-d881-431b-bfa7-fdffb539cb1d")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 101.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc203ef1-0a7f-41fe-b80c-767dd6e2ddb3")
 	)
 	(label "I2C1_SDA"
 		(at 271.78 176.53 0)

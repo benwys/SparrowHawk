@@ -23,4 +23,5 @@
 	(lib (name "RC0402FR-07100KL") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/RC0402FR-07100KL.kicad_sym") (options "") (descr ""))
 	(lib (name "STM32F722RET6") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/STM32F722RET6.kicad_sym") (options "") (descr ""))
 	(lib (name "WE-PD_7345") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/WE-PD_7345.kicad_sym") (options "") (descr ""))
+	(lib (name "NON-BOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/NON-BOM.kicad_sym") (options "") (descr "Testpoints, mounting holes - excluded from BOM"))
 )
