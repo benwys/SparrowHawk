@@ -1879,10 +1879,6 @@
 		(uuid "55c66e0a-c92f-49da-a27b-2f9387c798cd")
 	)
 	(no_connect
-		(at 182.88 101.6)
-		(uuid "711ae8cf-d8a2-40e1-ad45-5edf21070c83")
-	)
-	(no_connect
 		(at 182.88 86.36)
 		(uuid "71f03059-fdeb-4483-a3b9-2720646a99da")
 	)
@@ -5222,6 +5218,94 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/21e0c0df-5477-4a68-8911-aafd9a2904df"
 					(reference "R_OSD_RST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416e63bc-5ccc-4a1a-a5d6-09037ea33c11")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3db768f-f8d1-4d42-b4cd-122a39959661")
+		(property "Reference" "#PWR090"
+			(at 175.26 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 104.77499999999999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2683a0a1-3cc3-45bd-9d09-3f959ab54b09")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/21e0c0df-5477-4a68-8911-aafd9a2904df"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
