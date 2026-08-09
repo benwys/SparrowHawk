@@ -6626,7 +6626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51f3003a-c649-4030-b73d-76de197fb5a0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR087"
 			(at 97.79 114.935 0)
 			(hide yes)
 			(show_name no)
@@ -6686,7 +6686,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/68c3808c-080f-4420-8614-2f4fdfbceec8"
-					(reference "#PWR040")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
