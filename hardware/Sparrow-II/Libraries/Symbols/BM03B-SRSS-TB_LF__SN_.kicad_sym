@@ -31,7 +31,7 @@
   			(justify left bottom)
   		)
   	)
-  	(property "Footprint" "BM03B-SRSS-TB_LF__SN_:JST_BM03B-SRSS-TB_LF__SN_"
+  	(property "Footprint" "SparrowHawk:JST_BM03B-SRSS-TB_LF__SN_"
   		(at 0 0 0)
   		(show_name no)
   		(do_not_autoplace no)

@@ -5,7 +5,7 @@
 	(uuid "d14da3d9-5033-4645-b148-029ec984a698")
 	(paper "A3")
 	(lib_symbols
-		(symbol "2026-04-23_12-45-33:IRLML6402TRPBF"
+		(symbol "SparrowHawk_Misc:IRLML6402TRPBF"
 			(pin_names
 				(offset 0.254)
 			)
@@ -573,7 +573,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5099,6 +5099,17 @@
 				)
 			)
 		)
+		(property "Note" "Awaryjne wejscie VBAT (pakiet lutowany wprost). Nie uzywac rownoczesnie z zasilaniem przez J_ESC1"
+			(at 90.17 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32bbd8e2-3631-451f-8181-33d457231568")
 		)
@@ -5335,6 +5346,28 @@
 				)
 			)
 		)
+		(property "Voltage" "50V"
+			(at 259.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 259.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4aad6e2a-33d0-4379-9902-76593ee27466")
 		)
@@ -5384,7 +5417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.3752 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5407,6 +5440,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 232.41 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5466,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 314.6552 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5489,6 +5544,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 313.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 313.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
 			(at 313.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 345.1352 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5571,6 +5648,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 344.17 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 344.17 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 344.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +5796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 175.26 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 172.4152 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5731,6 +5830,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5790,7 +5911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.8652 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5823,6 +5944,28 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 215.9 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 215.9 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9cede9ca-a67a-4933-a6cd-f38618d0fca7")
 		)
@@ -5844,10 +5987,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "387bfa46-d683-4b3f-bbbc-5f1cd773a23b")
 		(property "Reference" "C_B3"
@@ -5872,7 +6015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 127 0)
 			(hide yes)
 			(show_name no)
@@ -5895,6 +6038,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Wylaczony: redundantny z C_BUCK_IN1/2"
 			(at 90.17 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6065,30 +6219,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.70 mm"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "HSOIC-8 Texas Instruments"
 			(at 233.68 50.8 0)
 			(hide yes)
@@ -6101,7 +6231,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "LMR14030SDDAR"
 			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6110,10 +6240,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LMR14030SDDAR/Texas+Instruments/view-part/?ref=eda"
+		(property "Manufacturer" "Texas Instruments"
 			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6122,91 +6251,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR14030SDDAR/Texas+Instruments/view-part/?ref=snap"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LMR14030SDDAR"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1237662&manufacturer=Texas Instruments&part_name=LMR14030SDDAR&search_term=lmr14030sddar"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 233.68 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "V3"
@@ -6269,10 +6313,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "56e1efc0-bcbe-4a76-af86-1b10754cbd05")
 		(property "Reference" "C_B2"
@@ -6297,7 +6341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 78.4352 127 0)
 			(hide yes)
 			(show_name no)
@@ -6320,6 +6364,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Wylaczony: redundantny z C_BUCK_IN1/2 (ta sama siec VBAT)"
 			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6534,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 71.882 90)
 			(hide yes)
 			(show_name no)
@@ -6557,6 +6612,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6694,7 +6771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.342 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -6717,6 +6794,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 198.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 198.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 287.9852 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6809,6 +6908,28 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 287.02 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 287.02 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "688838a2-8728-44b4-a3bf-002fbfd94a4c")
 		)
@@ -6830,10 +6951,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "813eed3b-7e9e-442a-baa4-da12dffbe55a")
 		(property "Reference" "C_BUCK_OUT2"
@@ -6858,7 +6979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 307.0352 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6881,6 +7002,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 306.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Wylaczony: 1x47uF wystarcza przy 0,8 A (ripple ~12 mV)"
 			(at 306.07 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7008,7 +7140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "100uF"
 			(at 67.31 123.5709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.9"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 64.4652 127 0)
 			(hide yes)
 			(show_name no)
@@ -7042,6 +7174,50 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 63.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 63.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EEE-FTH101XAP"
+			(at 63.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 63.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "bulk VBAT; TI SNVSA81B zaleca 47-100uF. ESR 340mR tlumi dzwonienie przy hot-plug"
 			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7101,7 +7277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.8252 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7124,6 +7300,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 149.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7183,7 +7381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7206,6 +7404,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 208.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7343,7 +7563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 357.8352 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7366,6 +7586,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 356.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 356.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
 			(at 356.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7425,7 +7667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 325.882 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -7448,6 +7690,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 327.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 327.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 327.66 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7583,7 +7847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7617,30 +7881,6 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Inc."
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Voltage Regulators, LDO, 600mA CMOS LDO 50mA 3.3V 250mV | Diodes Inc AP2112K-3.3TRG1"
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "SOT-753 Diodes Inc."
 			(at 179.07 118.11 0)
 			(hide yes)
@@ -7653,7 +7893,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "AP2112K-3.3TRG1"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7662,10 +7902,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AP2112K-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
+		(property "Manufacturer" "Diodes Inc."
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7674,67 +7913,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "2-2"
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP2112K-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AP2112K-3.3TRG1"
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Diodes Inc."
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -8186,7 +8364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8209,6 +8387,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8322,10 +8522,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd6dee77-8607-4841-be0f-3e3847394a00")
 		(property "Reference" "C_B4"
@@ -8350,7 +8550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 127 0)
 			(hide yes)
 			(show_name no)
@@ -8373,6 +8573,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Wylaczony: redundantny z C_BUCK_IN3"
 			(at 102.87 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8541,6 +8752,28 @@
 				)
 			)
 		)
+		(property "Spec" "6.8uH, Isat>=2.5A, Irms>=1.5A, DCR<=80mOhm"
+			(at 276.86 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "SRN6028 zostaje - zapas na nasycenie przy zwarciu +5V. SRN5020 oszczedza 11mm2 (wlasny footprint)"
+			(at 276.86 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9029740c-1d32-4289-9c33-63648022f38d")
 		)
@@ -8640,10 +8873,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cd21f8ed-b758-4ab6-a8f4-01f48b7ebaaa")
 		(property "Reference" "C_VID2"
 			(at 332.74 115.57 0)
@@ -8667,7 +8900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 329.8952 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8690,6 +8923,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 328.93 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Wylaczony: 1x22uF wystarcza dla kamery; usuwa tez blad symbolu polaryzowanego"
 			(at 328.93 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8738,7 +8982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B560C-13-F"
+		(property "Value" "B260A-13-F"
 			(at 270.51 53.0224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,7 +8993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 267.97 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8772,6 +9016,39 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 267.97 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B260A-13-F"
+			(at 267.97 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 267.97 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "60V/2A. Poprzednio B560C-13-F (5A) w footprincie SMB - B560C jest w SMC"
 			(at 267.97 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8829,7 +9106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA3015S"
 			(at 293.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8852,6 +9129,39 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 293.37 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SWPA3015S4R7MT"
+			(at 293.37 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 293.37 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "3x3x1.5mm, 1.09A, DCR 163mR. Poprzednio WE-PD 7345 (7.3x4.5x3.2mm)"
 			(at 293.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8932,6 +9242,39 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
+			(at 52.07 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMAJ28A"
+			(at 52.07 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 52.07 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Vwm 28V, Vc 45.4V @8.8A. Uwaga: LMR14030 ma abs.max VIN = 44V"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9381,7 +9724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9404,6 +9747,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 62.23 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 62.23 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 156.21 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +9828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 153.3652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9496,6 +9861,39 @@
 				)
 			)
 		)
+		(property "Voltage" "100V"
+			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "100V wg TI SNVSA81B (2x Vin); przy 25V bias ok. 2uF efektywnie"
+			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "625bc62c-83bf-49a6-b972-5080330cadf4")
 		)
@@ -9512,7 +9910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-04-23_12-45-33:IRLML6402TRPBF")
+		(lib_id "SparrowHawk_Misc:IRLML6402TRPBF")
 		(at 59.69 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -9708,7 +10106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.788 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -9731,6 +10129,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 80.01 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -9790,7 +10210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.788 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -9813,6 +10233,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 80.01 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 80.01 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9950,7 +10392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 325.882 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -9973,6 +10415,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 327.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 327.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 327.66 69.85 0)
 			(hide yes)
 			(show_name no)

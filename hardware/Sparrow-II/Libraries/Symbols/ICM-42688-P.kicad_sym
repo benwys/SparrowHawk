@@ -31,7 +31,7 @@
   			(justify left bottom)
   		)
   	)
-  	(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+  	(property "Footprint" "SparrowHawk:PQFN50P300X250X97-14N"
   		(at 0 0 0)
   		(show_name no)
   		(do_not_autoplace no)

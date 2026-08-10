@@ -772,7 +772,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -848,7 +848,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1003,7 +1003,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1019,7 +1019,7 @@
 				)
 			)
 		)
-		(property "Value" "Test Point Loop"
+		(property "Value" "Solder Pad"
 			(at 75.438 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1029,7 +1029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 78.74 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1062,6 +1062,17 @@
 				)
 			)
 		)
+		(property "Note" "pad lutowniczy 2.5x2.5mm dla uzytkownika (LED/buzzer/peryferia)"
+			(at 78.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1979fafc-ca42-49f9-9050-7288c8614546")
 		)
@@ -1080,7 +1091,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1156,7 +1167,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1172,7 +1183,7 @@
 				)
 			)
 		)
-		(property "Value" "Test Point Loop"
+		(property "Value" "Solder Pad"
 			(at 75.438 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1182,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 78.74 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -1215,6 +1226,17 @@
 				)
 			)
 		)
+		(property "Note" "pad lutowniczy 2.5x2.5mm dla uzytkownika (LED/buzzer/peryferia)"
+			(at 78.74 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63d913bf-bf88-4393-9aa3-20e00bde8d8a")
 		)
@@ -1233,7 +1255,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1249,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Value" "Test Point Loop"
+		(property "Value" "Solder Pad"
 			(at 75.438 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1259,7 +1281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 78.74 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -1292,6 +1314,17 @@
 				)
 			)
 		)
+		(property "Note" "pad lutowniczy 2.5x2.5mm dla uzytkownika (LED/buzzer/peryferia)"
+			(at 78.74 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89dfd7aa-7685-4961-bf85-ed8cf61c5f98")
 		)
@@ -1310,7 +1343,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1386,7 +1419,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1402,7 +1435,7 @@
 				)
 			)
 		)
-		(property "Value" "Test Point Loop"
+		(property "Value" "Test Point"
 			(at 75.438 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 78.74 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -1542,7 +1575,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1558,7 +1591,7 @@
 				)
 			)
 		)
-		(property "Value" "Test Point Loop"
+		(property "Value" "Test Point"
 			(at 75.438 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,7 +1601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 78.74 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -1619,7 +1652,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -1635,7 +1668,7 @@
 				)
 			)
 		)
-		(property "Value" "Test Point Loop"
+		(property "Value" "Solder Pad"
 			(at 75.438 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1645,7 +1678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
 			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -1668,6 +1701,17 @@
 			)
 		)
 		(property "Description" "test point 1mm Pad"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "pad lutowniczy 2.5x2.5mm dla uzytkownika (LED/buzzer/peryferia)"
 			(at 78.74 173.99 0)
 			(hide yes)
 			(show_name no)

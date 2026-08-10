@@ -6,7 +6,7 @@
     (property "Value" "AT7456E" (at 31.75 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "SOP65P640X120-29N" (at 31.75 -94.92 0)
+    (property "Footprint" "SparrowHawk:SOP65P640X120-29N" (at 31.75 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ZHONGKEWEI-AT7456E_C82351.pdf" (at 31.75 -194.92 0)

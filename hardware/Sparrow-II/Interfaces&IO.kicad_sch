@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BM03B-SRSS-TB_LF__SN_:JST_BM03B-SRSS-TB_LF__SN_"
+			(property "Footprint" "SparrowHawk:JST_BM03B-SRSS-TB_LF__SN_"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -375,7 +375,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BM04B-SRSS-TB_LF__SN_:JST_BM04B-SRSS-TB_LF__SN_"
+			(property "Footprint" "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -720,7 +720,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BM06B-SRSS-TB_LF__SN_:JST_BM06B-SRSS-TB_LF__SN_"
+			(property "Footprint" "SparrowHawk:JST_BM06B-SRSS-TB_LF__SN_"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1113,7 +1113,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BM08B-SRSS-TB_LF__SN_:JST_BM08B-SRSS-TB_LF__SN_"
+			(property "Footprint" "SparrowHawk:JST_BM08B-SRSS-TB_LF__SN_"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5571,7 +5571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 168.148 90)
 			(hide yes)
 			(show_name no)
@@ -5594,6 +5594,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 82.55 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 82.55 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5653,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.252 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -5676,6 +5698,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6013,30 +6057,6 @@
 				)
 			)
 		)
-		(property "MF" "JST Sales"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 344.17 153.67 0)
 			(hide yes)
@@ -6049,7 +6069,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "BM06B-SRSS-TB (LF)(SN)"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6058,10 +6078,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BM06B-SRSS-TB%20(LF)(SN)/JST/view-part/?ref=eda"
+		(property "Manufacturer" "JST Sales"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6070,115 +6089,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM06B-SRSS-TB%20(LF)(SN)/JST/view-part/?ref=snap"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BM06B-SRSS-TB (LF)(SN)"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3216179&manufacturer=JST Sales&part_name=BM06B-SRSS-TB (LF)(SN)&search_term=bm06b-srss-tb"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Connector Header Surface Mount 6 position 0.039 (1.00mm)"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "BM06B-SRSS-TB(LF)(SN)"
-			(at 344.17 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -6220,10 +6130,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "263345e2-15a1-4b69-9db4-289abd01b9b8")
 		(property "Reference" "C_USB_SH1"
@@ -6248,7 +6158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.1152 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6271,6 +6181,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Wylaczony: ekran USB zwarty do GND przez R_USB_SH1 = 0R"
 			(at 57.15 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6351,6 +6272,28 @@
 			)
 		)
 		(property "Description" "20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PMEG2010AEH,115"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
 			(at 153.67 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6718,7 +6661,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6735,7 +6678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM04B-SRSS-TB_LF__SN_"
+		(property "Value" "RX Pads"
 			(at 271.78 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6746,7 +6689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:SolderPads_RX_1x04"
 			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6780,30 +6723,6 @@
 				)
 			)
 		)
-		(property "MF" "JST Sales"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 265.43 153.67 0)
 			(hide yes)
@@ -6816,7 +6735,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
 			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6825,10 +6744,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
+		(property "Manufacturer" "JST Sales"
 			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6837,10 +6755,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "Note" "Pady lutownicze zamiast zlacza: 5V / GND / RX / TX + 2 pady GND"
 			(at 265.43 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6849,91 +6766,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BM04B-SRSS-TB(LF)(SN)"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Connector Header Surface Mount 4 position 0.039 (1.00mm)"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 265.43 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "3"
@@ -7187,30 +7019,6 @@
 				)
 			)
 		)
-		(property "MF" "JST Sales"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 347.98 100.33 0)
 			(hide yes)
@@ -7223,7 +7031,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "BM08B-SRSS-TB(LF)(SN)"
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7232,10 +7040,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BM08B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
+		(property "Manufacturer" "JST Sales"
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7244,10 +7051,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "Note" "PINOUT DO USTALENIA po wyborze 4in1 ESC - przepisac 1:1 z instrukcji"
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7256,91 +7062,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM08B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BM08B-SRSS-TB(LF)(SN)"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Connector Header Surface Mount 8 position 0.039 (1.00mm)"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "BM08B-SRSS-TB(LF)(SN)"
-			(at 347.98 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -7649,7 +7370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -7672,6 +7393,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 87.63 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.63 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +7630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.682 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -7910,6 +7653,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8125,7 +7890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.5852 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8148,6 +7913,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8196,7 +7983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "0R"
 			(at 78.74 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +7994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.422 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -8240,6 +8027,39 @@
 				)
 			)
 		)
+		(property "Note" "ekran USB-C wprost do GND (plytka ma jedna mase). Wczesniej 1M || 10nF"
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ced8ee1a-1ef0-446c-a98a-e5a21596f679")
 		)
@@ -8261,7 +8081,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8278,7 +8098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM04B-SRSS-TB_LF__SN_"
+		(property "Value" "VTX Pads"
 			(at 351.79 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +8109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparrowHawk:JST_BM04B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:SolderPads_VTX_1x04"
 			(at 345.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8323,30 +8143,6 @@
 				)
 			)
 		)
-		(property "MF" "JST Sales"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 345.44 54.61 0)
 			(hide yes)
@@ -8359,7 +8155,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
 			(at 345.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8368,10 +8164,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
+		(property "Manufacturer" "JST Sales"
 			(at 345.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8380,10 +8175,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "Note" "Pad BAT = surowe VBAT. Na 6S to 25,2 V - sprawdz zakres wejsciowy VTX (typowo 7-26 V)"
 			(at 345.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8392,91 +8186,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM04B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BM04B-SRSS-TB(LF)(SN)"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Connector Header Surface Mount 4 position 0.039 (1.00mm)"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 345.44 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -8717,6 +8426,28 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 83.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USB4085-GF-A"
+			(at 83.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GCT"
 			(at 83.82 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8975,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 275.59 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -8998,6 +8729,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 275.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 275.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
 			(at 275.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9083,6 +8836,28 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 153.67 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9286,7 +9061,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9303,7 +9078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM03B-SRSS-TB_LF__SN_"
+		(property "Value" "CAM Pads"
 			(at 269.24 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,7 +9089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparrowHawk:JST_BM03B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SparrowHawk:SolderPads_CAM_1x03"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9348,30 +9123,6 @@
 				)
 			)
 		)
-		(property "MF" "JST Sales"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 262.89 53.34 0)
 			(hide yes)
@@ -9384,7 +9135,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "MPN" "BM03B-SRSS-TB(LF)(SN)"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9393,10 +9144,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BM03B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
+		(property "Manufacturer" "JST Sales"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9405,10 +9155,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "Note" "Pady lutownicze zamiast zlacza: 5V / GND / VIDEO_IN + 2 pady GND"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9417,103 +9166,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM03B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BM03B-SRSS-TB(LF)(SN)"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=513929&manufacturer=JST Sales&part_name=BM03B-SRSS-TB(LF)(SN)&search_term=bm03b-srss-tb"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Connector Header Surface Mount 3 position 0.039 (1.00mm)"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "BM03B-SRSS-TB(LF)(SN)"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "S2"
