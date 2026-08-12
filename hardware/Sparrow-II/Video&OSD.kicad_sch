@@ -2951,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie zasilania analogowego OSD"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3055,7 +3055,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Terminacja 75 Ω wejścia wideo z kamery"
 			(at 284.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3237,7 +3237,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Kondensator sprzęgający wyjścia wideo (COUT). Wartość powiązana z C_OSD_SAG1"
 			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3352,7 +3352,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Rezystor szeregowy 75 Ω wyjścia wideo do nadajnika"
 			(at 251.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3534,7 +3534,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Sprzężenie zmiennoprądowe wejścia wideo z kamery — odcina składową stałą"
 			(at 284.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3638,7 +3638,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Zapas ładunku dla stopnia wyjściowego wideo"
 			(at 252.73 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3820,7 +3820,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Kondensator korekcji zwisu (CSAG). Para 22 µF + 22 µF z C_VID_OUT_AC1 daje 0,4 % zniekształcenia line-time wg Tabeli 2 datasheetu AT7456E"
 			(at 251.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4000,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/Resonators/ABM8.pdf"
 			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4011,7 +4011,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "Kwarc 27 MHz — zegar próbkowania toru wideo OSD"
 			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4044,7 +4044,7 @@
 				)
 			)
 		)
-		(property "Spec" "27MHz, CL=18pF, ESR 50R"
+		(property "Spec" "27 MHz, CL = 18 pF, ESR 50 Ω, obudowa 3225 4-pad"
 			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4299,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie HF stopnia wyjściowego wideo"
 			(at 273.05 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4401,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Kondensator obciążenia kwarcu 27 MHz, C0G"
 			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4503,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Drugi kondensator obciążenia kwarcu 27 MHz, C0G"
 			(at 53.34 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4607,7 +4607,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Video Character Overlay Chip (OSD)"
+		(property "Description" "Generator napisów OSD, odpowiednik MAX7456. Nakłada telemetrię na analogowy sygnał wideo"
 			(at 182.88 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4804,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+		(property "Description" "Ogranicznik sygnału wideo. Para szeregowa: pad 3 (VIDEO_IN) jest złączem, obcina poniżej −0,7 V i powyżej +5,7 V"
 			(at 308.61 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5221,7 +5221,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "NIE MONTOWAĆ. Zworka ratunkowa omijająca OSD — do zamontowania tylko gdyby sekcja OSD nie zadziałała. Przy działającym OSD zwierałaby wyjście z wejściem"
 			(at 292.1 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5401,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Rezystor szeregowy oscylatora OSD, 0 Ω. Układ referencyjny MAX7456 nie ma tu rezystora — przy 1 kΩ kwarc by nie wystartował"
 			(at 77.47 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5505,7 +5505,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie zasilania cyfrowego OSD. DVDD na +3V3, bo próg wejściowy to 0,65 × VDVDD"
 			(at 163.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5609,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Podciągnięcie linii /RESET OSD"
 			(at 231.14 125.73 0)
 			(hide yes)
 			(show_name no)

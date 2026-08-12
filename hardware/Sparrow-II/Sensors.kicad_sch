@@ -2978,7 +2978,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Podciągnięcie /WP — wyłącza sprzętową blokadę zapisu"
 			(at 257.81 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3082,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Drugi kondensator odsprzęgający VDDIO wg noty aplikacyjnej TDK"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3186,7 +3186,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie zasilania analogowego IMU"
 			(at 160.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3523,7 +3523,7 @@
 				)
 			)
 		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+		(property "Description" "Pamięć Flash SPI 16 MB na logi blackbox"
 			(at 303.53 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3567,7 +3567,7 @@
 				)
 			)
 		)
-		(property "Spec" "128Mbit SPI NOR, 2.7-3.6V"
+		(property "Spec" "128 Mbit SPI NOR, 2,7–3,6 V"
 			(at 303.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3748,7 +3748,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie zasilania interfejsu cyfrowego IMU"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3852,7 +3852,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie VDDIO barometru"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3954,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Koralik ferrytowy na zasilaniu IMU — odcina szum przetwornicy od czujnika"
 			(at 163.83 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3965,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Spec" "600R@100MHz, Idc>=200mA"
+		(property "Spec" "600 Ω @ 100 MHz, Idc ≥ 200 mA"
 			(at 163.83 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4267,7 +4267,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_02-EN.pdf"
 			(at 137.16 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -4278,7 +4278,7 @@
 				)
 			)
 		)
-		(property "Description" "The DPS310 is a miniaturized Digital Barometric Air Pressure Sensor with a high accuracy and a low current consumption, capable of measuring both pressure and temperature."
+		(property "Description" "Barometr. Interfejs I2C wybrany przez CSB→VDDIO, adres 0x76 przez SDO→GND"
 			(at 137.16 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie zasilania pamięci Flash"
 			(at 321.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4605,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie zasilania barometru"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5174,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Podciągnięcie /HOLD — wyłącza wstrzymywanie transmisji"
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5266,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2020/03/DS-000347-ICM-42688-P-v1.5.pdf"
 			(at 114.3 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5277,7 +5277,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Żyroskop i akcelerometr 6-osiowy, SPI. Główny czujnik pętli sterowania"
 			(at 114.3 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5429,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Podciągnięcie /CS pamięci — trzyma układ nieaktywny, zanim MCU skonfiguruje piny"
 			(at 287.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5533,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie HF zasilania IMU"
 			(at 177.8 85.09 0)
 			(hide yes)
 			(show_name no)

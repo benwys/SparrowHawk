@@ -5,545 +5,6 @@
 	(uuid "d14da3d9-5033-4645-b148-029ec984a698")
 	(paper "A3")
 	(lib_symbols
-		(symbol "SparrowHawk_Misc:IRLML6402TRPBF"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q_RPP1"
-				(at 20.32 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "IRLML6402TRPBF"
-				(at 20.32 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SparrowHawk:SOT23_INF-M"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "IRLML6402TRPBF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT23_INF SOT23_INF-M SOT23_INF-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IRLML6402TRPBF_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 10.795 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -2.54) (xy 10.795 -6.985)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -6.985) (xy 23.495 -6.985)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -4.445) (xy 13.97 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.145 1.905) (xy 17.145 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.145 -4.445) (xy 13.97 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 2.54) (xy 17.78 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 1.905) (xy 23.495 1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -0.635) (xy 17.78 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -1.27) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -4.445) (xy 23.495 -4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -5.08) (xy 17.78 -3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -0.635) (xy 19.05 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.415 -1.905) (xy 18.415 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -1.27) (xy 18.415 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -1.27) (xy 18.415 -1.905) (xy 18.415 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 20.32 -1.27)
-					(radius 5.08)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -4.445) (xy 20.32 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 4.445) (xy 29.845 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -1.905) (xy 22.86 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 23.495 -6.985) (xy 23.495 4.445)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 24.13 -0.635) (xy 22.86 -0.635)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 24.13 -0.635) (xy 23.495 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 24.13 -0.635) (xy 23.495 -1.905) (xy 22.86 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 24.13 -1.905) (xy 22.86 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 4.445) (xy 29.845 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29.845 -2.54) (xy 33.02 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 7.62)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "IRLML6402TRPBF_1_1"
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "AP2112K-3.3TRG1:AP2112K-3.3TRG1"
 			(pin_names
 				(offset 1.016)
@@ -2622,6 +2083,545 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparrowHawk_Misc:IRLML6402TRPBF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q_RPP1"
+				(at 20.32 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "IRLML6402TRPBF"
+				(at 20.32 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SparrowHawk:SOT23_INF-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IRLML6402TRPBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT23_INF SOT23_INF-M SOT23_INF-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRLML6402TRPBF_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 10.795 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -2.54) (xy 10.795 -6.985)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -6.985) (xy 23.495 -6.985)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -4.445) (xy 13.97 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 1.905) (xy 17.145 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -4.445) (xy 13.97 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 17.78 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 1.905) (xy 23.495 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -0.635) (xy 17.78 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -1.27) (xy 20.32 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -4.445) (xy 23.495 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -5.08) (xy 17.78 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -0.635) (xy 19.05 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -1.905) (xy 18.415 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 18.415 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 18.415 -1.905) (xy 18.415 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 20.32 -1.27)
+					(radius 5.08)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -4.445) (xy 20.32 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.495 4.445) (xy 29.845 4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.495 -1.905) (xy 22.86 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.495 -6.985) (xy 23.495 4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -0.635) (xy 22.86 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -0.635) (xy 23.495 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -0.635) (xy 23.495 -1.905) (xy 22.86 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -1.905) (xy 22.86 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.845 4.445) (xy 29.845 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.845 -2.54) (xy 33.02 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 7.62)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IRLML6402TRPBF_1_1"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pady lutownicze VBAT — AWARYJNE wejście zasilania (pakiet wprost). Normalnie zasilanie idzie taśmą z ESC przez J_ESC1"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5335,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Kondensator bootstrap. Zasila bramkę wewnętrznego górnego MOSFET-a; wpięty między BOOT a SW"
 			(at 259.08 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5439,7 +5439,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Bulk szyny +3V3 — zapas ładunku dla szczytów poboru MCU"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5543,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Kondensator za dławikiem filtru LC szyny wideo"
 			(at 313.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5647,7 +5647,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie HF szyny +5V_VIDEO"
 			(at 344.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5704,7 +5704,7 @@
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "326c894e-b9ba-4934-9b7e-bec0e45b7886")
 		(property "Reference" "#PWR01"
@@ -5829,7 +5829,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Drugi kondensator wejściowy przetwornicy, równolegle do C_BUCK_IN1"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5933,7 +5933,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ustawia czas miękkiego startu przetwornicy — ogranicza prąd rozruchowy"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6037,7 +6037,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "WYŁĄCZONY (exclude BOM+board) — redundantny wobec C_BUCK_IN1/2"
 			(at 90.17 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6196,7 +6196,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr14030.pdf"
 			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6207,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Description" "SIMPLE SWITCHER® 40-V, 3.5-A, 2.2-MHz step-down converter with 40-uA IQ"
+		(property "Description" "Przetwornica step-down 40 V / 3,5 A, asynchroniczna. Zasila szynę +5 V całej płytki"
 			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6363,7 +6363,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "WYŁĄCZONY (exclude BOM+board) — redundantny wobec C_BUCK_IN1/2 na tej samej sieci VBAT"
 			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6566,7 +6566,7 @@
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65159659-9013-4588-9fdc-fce16a75b6b6")
 		(property "Reference" "R_RPP1"
@@ -6611,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WYŁĄCZONY — rezystor bramkowy zabezpieczenia odwrotnej polaryzacji"
 			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6793,7 +6793,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Ustawia częstotliwość kluczowania na 500 kHz (Tabela 6-1 datasheetu LMR14030)"
 			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6897,7 +6897,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Kondensator wyjściowy przetwornicy +5 V. Sam wystarcza: tętnienie ok. 12 mV przy 0,8 A"
 			(at 287.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7001,7 +7001,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "WYŁĄCZONY (exclude BOM+board) — jeden 47 µF pokrywa zapotrzebowanie"
 			(at 306.07 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7162,7 +7162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/capacitors/aluminum-electrolytic-capacitors"
 			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7173,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Bulk VBAT. Tłumi dzwonienie przy podłączaniu pakietu i podtrzymuje wejście przetwornicy. ESR 340 mΩ jest tu zaletą — to on tłumi, nie pojemność"
 			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7299,7 +7299,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie wejścia stabilizatora 3,3 V"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7403,7 +7403,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie wyjścia stabilizatora 3,3 V — AP2112K wymaga min. 1 µF dla stabilności pętli"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7585,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Bulk szyny +5 V przy odbiornikach (GPS, RX)"
 			(at 356.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7689,7 +7689,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Górna gałąź dzielnika sprzężenia zwrotnego przetwornicy. Z 17,8 kΩ daje 5,06 V"
 			(at 327.66 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7859,7 +7859,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7870,7 +7870,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Stabilizator liniowy 5 V → 3,3 V, 600 mA. Zasila MCU, czujniki i pamięć"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8386,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Filtr wysokiej częstotliwości tuż przy pinie VIN — najkrótsza pętla do pinu GND"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8443,7 +8443,7 @@
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5ab546b-041e-4d8d-acc3-aefbb30bc34d")
 		(property "Reference" "D_RPP_GATE1"
@@ -8490,7 +8490,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode, filled shape"
+		(property "Description" "WYŁĄCZONY — zener ograniczający V_GS tranzystora zabezpieczenia"
 			(at 57.15 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8572,7 +8572,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "WYŁĄCZONY (exclude BOM+board) — redundantny wobec C_BUCK_IN3"
 			(at 102.87 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8719,7 +8719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN6028"
+		(property "Footprint" "SparrowHawk:L_Sunlord_SWPA6028S"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +8730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sunlordinc.com/product/power-inductors"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8741,7 +8741,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Dławik przetwornicy 25,2 V → 5 V przy 500 kHz. Tętnienie prądu ok. 1,18 A, szczyt ok. 1,6 A przy 1 A obciążenia"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8752,7 +8752,7 @@
 				)
 			)
 		)
-		(property "Spec" "6.8uH, Isat>=2.5A, Irms>=1.5A, DCR<=80mOhm"
+		(property "Spec" "6,8 µH ±20 %, Isat ≥ 2,6 A, Irms ≥ 2,4 A, DCR ≤ 61 mΩ"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8763,7 +8763,29 @@
 				)
 			)
 		)
-		(property "Note" "SRN6028 zostaje - zapas na nasycenie przy zwarciu +5V. SRN5020 oszczedza 11mm2 (wlasny footprint)"
+		(property "Note" "Bourns SRN6028 jest wycofany z produkcji (EOL). Land pattern Sunlorda rozni sie od Bournsa: pad 1.7x5.7 @ +/-2.25 zamiast 1.6x5.7 @ +/-2.35"
+			(at 276.86 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SWPA6028S6R8MT"
+			(at 276.86 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8922,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "WYŁĄCZONY (exclude BOM+board) — jeden 22 µF wystarcza dla kamery ~300 mA. Miał też zły symbol (polaryzowany na footprincie ceramicznym)"
 			(at 328.93 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9004,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds13004.pdf"
 			(at 267.97 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9015,7 +9037,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Dioda zaporowa (catch diode) przetwornicy. LMR14030 jest asynchroniczny — ma tylko górny MOSFET, więc ta dioda przewodzi przez ok. 80 % okresu"
 			(at 267.97 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9117,7 +9139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sunlordinc.com/product/power-inductors"
 			(at 293.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9128,7 +9150,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Dławik filtru LC szyny wideo. Odcina 500 kHz z przetwornicy od analogowego toru CVBS; z 22 µF daje częstotliwość graniczną ok. 15 kHz"
 			(at 293.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9162,6 +9184,17 @@
 			)
 		)
 		(property "Note" "3x3x1.5mm, 1.09A, DCR 163mR. Poprzednio WE-PD 7345 (7.3x4.5x3.2mm)"
+			(at 293.37 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "4,7 µH ±20 %, Isat ≥ 1,1 A, DCR ≤ 163 mΩ, obudowa 3×3×1,5 mm"
 			(at 293.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9241,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
+		(property "Description" "TVS na szynie VBAT. Standoff 28 V przepuszcza 6S (25,2 V), przebicie od 31,1 V"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9746,7 +9779,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Filtr dolnoprzepustowy dzielnika pomiaru napięcia pakietu. Z impedancją Thevenina 9,1 kΩ daje stałą ok. 0,9 ms"
 			(at 62.23 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -9850,7 +9883,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Odsprzęganie HF wejścia przetwornicy, przy pinie VIN. 100 V wg zalecenia TI (2× Vin) — przy biasie 25 V zostaje ok. 1,7 µF z 4,7 µF"
 			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9918,7 +9951,7 @@
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f48f0a83-86ea-4895-9d8f-5f4c05bdb43a")
 		(property "Reference" "Q_RPP1"
@@ -9965,7 +9998,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WYŁĄCZONY (exclude BOM+board) — zabezpieczenie odwrotnej polaryzacji. Przy zasilaniu kluczowanym złączem z ESC nie da się odwrócić biegunów. Przy powrocie: V_DS ≥ 60 V ze względu na clamp TVS"
 			(at 59.69 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10128,7 +10161,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dolna gałąź dzielnika pomiaru napięcia pakietu"
 			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10232,7 +10265,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Górna gałąź dzielnika pomiaru napięcia pakietu, 1:11. Na 6S daje 2,29 V na ADC"
 			(at 80.01 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10414,7 +10447,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dolna gałąź dzielnika sprzężenia zwrotnego przetwornicy"
 			(at 327.66 69.85 0)
 			(hide yes)
 			(show_name no)
