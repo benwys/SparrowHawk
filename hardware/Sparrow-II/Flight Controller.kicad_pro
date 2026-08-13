@@ -577,6 +577,17 @@
         "via_drill": 0.3
       },
       {
+        "clearance": 0.15,
+        "name": "Power_5V_USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 160, 46)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.3,
         "name": "Power_VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -630,6 +641,10 @@
       {
         "netclass": "Power_5V",
         "pattern": "+5V_VIDEO"
+      },
+      {
+        "netclass": "Power_5V_USB",
+        "pattern": "*+5V_USB"
       },
       {
         "netclass": "Power_3V3",
