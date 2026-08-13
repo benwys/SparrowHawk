@@ -62,6 +62,11 @@ fp-info-cache
 *.000
 *.rpt
 
+# Foldery niezamieszczone
+tools/
+history/
+hardware/Sparrow-II/plan.py
+
 # System
 .DS_Store
 Thumbs.db
