@@ -1,0 +1,45 @@
+(version 1)
+
+# Sparrow-II — reguly niestandardowe
+#
+# Dlaczego osobny plik, a nie clearance w netklasie:
+# clearance z netklasy obowiazuje TAKZE miedzy padami ukladu, na ktorym
+# dana siec ma pin. LQFP-64 (U_MCU1) i SOP-29 (U_OSD1) maja 0.20 mm miedzy
+# sasiednimi padami, wiec kazda netklasa z clearance > 0.20 mm generuje
+# bledy DRC na samych padach — zanim padnie pierwsza sciezka.
+# Ponizsze reguly wymuszaja izolacje tylko dla trasowanej miedzi
+# (sciezki i przelotki), zostawiajac pady w spokoju.
+
+(rule "Oscylatory — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.25mm))
+	(condition "A.NetClass == 'Xtal' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "Sprzezenie zwrotne przetwornicy — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.30mm))
+	(condition "A.NetClass == 'Buck_FB' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+# Klasyczny blad ukladu przetwornicy: wysokoimpedancyjne FB poprowadzone
+# wzdluz wezla przelaczajacego. Dzielnik 100k/17.8k ma impedancje rzedu
+# 15 kOhm — sprzezenie pojemnosciowe z SW wprost moduluje napiecie wyjsciowe.
+(rule "FB z dala od wezla przelaczajacego"
+	(constraint clearance (min 0.60mm))
+	(condition "A.NetClass == 'Buck_FB' && B.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "Tory analogowe ADC — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.25mm))
+	(condition "A.NetClass == 'Analog_Sense' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+# Wezel przelaczajacy jest zrodlem zaklocen: trzymaj od niego wszystko inne.
+(rule "Wezel przelaczajacy — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.30mm))
+	(condition "A.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+# Para USB 2.0. Szerokosc 0.25 mm i odstep 0.15 mm nad prepregiem 0.2104 mm
+# (eps_r 4.4) daja ok. 92 Ohm roznicowo — patrz docs/sparrow-ii-pre-route.md.
+(rule "USB — sprzezenie pary roznicowej"
+	(constraint diff_pair_gap (opt 0.15mm) (min 0.13mm) (max 0.25mm))
+	(condition "A.NetClass == 'USB_diff'"))
+
+(rule "USB — dlugosc odcinkow nieskorelowanych"
+	(constraint diff_pair_uncoupled (max 5mm))
+	(condition "A.NetClass == 'USB_diff'"))

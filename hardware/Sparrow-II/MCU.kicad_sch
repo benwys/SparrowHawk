@@ -5309,7 +5309,7 @@
 		)
 		(uuid "f176f3e8-e08f-48f7-ae90-3e42499d77dd")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 271.78 143.51 0)
 		(effects

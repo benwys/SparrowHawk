@@ -61,9 +61,9 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
+          "min_island_area": 9.9999993548,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 0,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.5,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -148,21 +153,21 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.29,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_text_thickness": 0.1,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -210,7 +215,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.5,
+        0.75,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +251,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -521,32 +534,76 @@
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Analog_Sense",
+        "pcb_color": "rgb(90, 190, 220)",
+        "priority": 12,
+        "schematic_color": "rgb(90, 190, 220)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Buck_BOOT",
+        "pcb_color": "rgb(255, 140, 60)",
+        "priority": 9,
+        "schematic_color": "rgb(255, 140, 60)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Buck_FB",
+        "pcb_color": "rgb(200, 120, 255)",
+        "priority": 10,
+        "schematic_color": "rgb(200, 120, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Buck_SW",
+        "pcb_color": "rgb(255, 80, 40)",
+        "priority": 8,
+        "schematic_color": "rgb(255, 80, 40)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       },
       {
         "clearance": 0.15,
         "name": "HS_Digital",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(164, 18, 255)",
         "priority": 3,
         "schematic_color": "rgb(164, 18, 255)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.2
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(30, 159, 255)",
         "priority": 2,
         "schematic_color": "rgb(30, 159, 255)",
         "track_width": 0.2,
@@ -557,7 +614,7 @@
       {
         "clearance": 0.15,
         "name": "Power_3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(17, 219, 135)",
         "priority": 4,
         "schematic_color": "rgb(17, 219, 135)",
         "track_width": 0.4,
@@ -568,8 +625,19 @@
       {
         "clearance": 0.2,
         "name": "Power_5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 160, 46)",
         "priority": 5,
+        "schematic_color": "rgb(255, 160, 46)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "name": "Power_5V_USB",
+        "pcb_color": "rgb(255, 160, 46)",
+        "priority": 6,
         "schematic_color": "rgb(255, 160, 46)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -578,11 +646,11 @@
       },
       {
         "clearance": 0.15,
-        "name": "Power_5V_USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(255, 160, 46)",
-        "track_width": 0.5,
+        "name": "Power_Local",
+        "pcb_color": "rgb(17, 219, 135)",
+        "priority": 13,
+        "schematic_color": "rgb(17, 219, 135)",
+        "track_width": 0.35,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -590,8 +658,8 @@
       {
         "clearance": 0.3,
         "name": "Power_VBAT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "pcb_color": "rgb(210, 61, 83)",
+        "priority": 7,
         "schematic_color": "rgb(210, 61, 83)",
         "track_width": 1.5,
         "tuning_profile": "",
@@ -601,24 +669,34 @@
       {
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "name": "USB_diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(83, 40, 255)",
         "priority": 0,
         "schematic_color": "rgb(83, 40, 255)",
         "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.2
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "name": "Video_75",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(14, 194, 149)",
         "priority": 1,
         "schematic_color": "rgb(14, 194, 149)",
         "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Xtal",
+        "pcb_color": "rgb(120, 200, 120)",
+        "priority": 11,
+        "schematic_color": "rgb(120, 200, 120)",
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -675,8 +753,64 @@
         "pattern": "*USB_C_D*"
       },
       {
-        "netclass": "Power_VBAT",
-        "pattern": "/Power/VBAT_IN"
+        "netclass": "Buck_SW",
+        "pattern": "Net-(D_BUCK1-K)"
+      },
+      {
+        "netclass": "Buck_BOOT",
+        "pattern": "Net-(U_BUCK1-BOOT)"
+      },
+      {
+        "netclass": "Buck_FB",
+        "pattern": "Net-(U_BUCK1-FB)"
+      },
+      {
+        "netclass": "Xtal",
+        "pattern": "/MCU Core/RCC_OSC_IN"
+      },
+      {
+        "netclass": "Xtal",
+        "pattern": "/MCU Core/RCC_OSC_OUT"
+      },
+      {
+        "netclass": "Xtal",
+        "pattern": "Net-(C_HSE1-Pad2)"
+      },
+      {
+        "netclass": "Xtal",
+        "pattern": "/Video&OSD/OSD_CLK_IN"
+      },
+      {
+        "netclass": "Xtal",
+        "pattern": "/Video&OSD/OSD_CLK_OUT"
+      },
+      {
+        "netclass": "Analog_Sense",
+        "pattern": "*ESC_CURR*"
+      },
+      {
+        "netclass": "Analog_Sense",
+        "pattern": "*VBAT_ADC*"
+      },
+      {
+        "netclass": "Power_Local",
+        "pattern": "Net-(U_IMU1-VDD)"
+      },
+      {
+        "netclass": "Power_Local",
+        "pattern": "Net-(U_MCU1-VDDA)"
+      },
+      {
+        "netclass": "Power_Local",
+        "pattern": "Net-(U_MCU1-VCAP_1)"
+      },
+      {
+        "netclass": "Video_75",
+        "pattern": "Net-(U_OSD1-VIN)"
+      },
+      {
+        "netclass": "Video_75",
+        "pattern": "Net-(U_OSD1-VOUT)"
       }
     ]
   },

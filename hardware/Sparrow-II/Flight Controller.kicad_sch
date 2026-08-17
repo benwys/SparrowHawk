@@ -2154,7 +2154,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_DN" bidirectional
 			(at 134.62 76.2 0)
 			(uuid "dcc01473-d630-4a6a-b42b-5909aa2b4c75")
 			(effects
@@ -2360,7 +2360,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_DN" bidirectional
 			(at 176.53 76.2 180)
 			(uuid "4124fe3c-ae72-4764-95b1-23ac8c5afa5b")
 			(effects

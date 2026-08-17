@@ -5141,7 +5141,7 @@
 		)
 		(uuid "64e2d354-465b-4071-af05-88d44aa1173a")
 	)
-	(label "USB_C_DM"
+	(label "USB_C_DN"
 		(at 101.6 71.12 0)
 		(effects
 			(font
@@ -5151,7 +5151,7 @@
 		)
 		(uuid "67991623-28d8-46cb-9125-ef5f696ca7ea")
 	)
-	(label "USB_C_DM"
+	(label "USB_C_DN"
 		(at 146.05 91.44 180)
 		(effects
 			(font
@@ -5307,7 +5307,7 @@
 		)
 		(uuid "27da5e9d-f5e8-419b-a182-cdb4e81e8411")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 161.29 91.44 0)
 		(effects
