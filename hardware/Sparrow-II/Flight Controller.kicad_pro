@@ -617,7 +617,7 @@
         "pcb_color": "rgb(17, 219, 135)",
         "priority": 4,
         "schematic_color": "rgb(17, 219, 135)",
-        "track_width": 0.4,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -628,7 +628,7 @@
         "pcb_color": "rgb(255, 160, 46)",
         "priority": 5,
         "schematic_color": "rgb(255, 160, 46)",
-        "track_width": 0.6,
+        "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -650,7 +650,7 @@
         "pcb_color": "rgb(17, 219, 135)",
         "priority": 13,
         "schematic_color": "rgb(17, 219, 135)",
-        "track_width": 0.35,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -700,6 +700,17 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power_5V_VIDEO",
+        "pcb_color": "rgb(255, 200, 46)",
+        "priority": 14,
+        "schematic_color": "rgb(255, 200, 46)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -715,10 +726,6 @@
       {
         "netclass": "Power_5V",
         "pattern": "+5V"
-      },
-      {
-        "netclass": "Power_5V",
-        "pattern": "+5V_VIDEO"
       },
       {
         "netclass": "Power_5V_USB",
@@ -811,6 +818,10 @@
       {
         "netclass": "Video_75",
         "pattern": "Net-(U_OSD1-VOUT)"
+      },
+      {
+        "netclass": "Power_5V_VIDEO",
+        "pattern": "+5V_VIDEO"
       }
     ]
   },

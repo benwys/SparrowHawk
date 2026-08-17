@@ -1,14 +1,6 @@
 (version 1)
 
 # Sparrow-II — reguly niestandardowe
-#
-# Dlaczego osobny plik, a nie clearance w netklasie:
-# clearance z netklasy obowiazuje TAKZE miedzy padami ukladu, na ktorym
-# dana siec ma pin. LQFP-64 (U_MCU1) i SOP-29 (U_OSD1) maja 0.20 mm miedzy
-# sasiednimi padami, wiec kazda netklasa z clearance > 0.20 mm generuje
-# bledy DRC na samych padach — zanim padnie pierwsza sciezka.
-# Ponizsze reguly wymuszaja izolacje tylko dla trasowanej miedzi
-# (sciezki i przelotki), zostawiajac pady w spokoju.
 
 (rule "Oscylatory — izolacja trasowanej miedzi"
 	(constraint clearance (min 0.25mm))
