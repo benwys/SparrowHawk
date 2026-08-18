@@ -1912,16 +1912,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 81.28 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c1a3e2-5f40-4d18-9a6b-3e21c0d4f857")
-	)
-	(wire
-		(pts
 			(xy 233.68 62.23) (xy 251.46 62.23)
 		)
 		(stroke
@@ -2242,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 66.04) (xy 73.66 66.04)
+			(xy 66.04 66.04) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2389,16 +2379,6 @@
 			(type default)
 		)
 		(uuid "bbd3da7d-db7b-4fb9-b856-017b89047e41")
-	)
-	(wire
-		(pts
-			(xy 81.28 66.04) (xy 85.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd069243-9217-408b-a4ca-1c382387f638")
 	)
 	(wire
 		(pts
@@ -5356,7 +5336,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 163.83 67.31 180)
 		(unit 1)
