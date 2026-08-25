@@ -62,10 +62,18 @@ fp-info-cache
 *.000
 *.rpt
 
-# Foldery niezamieszczone
+# Python
+__pycache__/
+*.py[cod]
+
+# Folders
 tools/
 history/
+.codex/
+.codex-skill-update-*/
+.agents/
 hardware/Sparrow-II/plan.py
+
 
 # System
 .DS_Store

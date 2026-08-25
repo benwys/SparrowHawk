@@ -4136,14 +4136,8 @@
 		)
 		(uuid "879c483a-e797-4154-bdfe-68d3e082f387")
 	)
-	(wire
-		(pts
-			(xy 100.33 76.2) (xy 106.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
+	(no_connect
+		(at 100.33 76.2)
 		(uuid "87d10970-0410-498b-af96-08fced25b334")
 	)
 	(wire
@@ -4656,16 +4650,6 @@
 		)
 		(uuid "fdb31b64-d5a6-4a28-bb53-366eaca91915")
 	)
-	(label "VBAT_IN"
-		(at 106.68 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02376e58-76e8-42a6-969b-8b1f88671ecc")
-	)
 	(global_label "+5V_VIDEO"
 		(shape input)
 		(at 358.14 111.76 0)
@@ -5038,7 +5022,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
