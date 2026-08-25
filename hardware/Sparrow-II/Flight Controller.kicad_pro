@@ -81,7 +81,40 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|170455000|89155000|46cfad00-3831-467e-adda-8c133f7961ce|dbf6e745-189c-4afb-93cf-f5af202a0c1f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170455000|98345000|46cfad00-3831-467e-adda-8c133f7961ce|5af838ce-3bdf-4cce-985f-b31163f9d2a1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170455000|98345000|46cfad00-3831-467e-adda-8c133f7961ce|62aad1c9-15b3-46ed-8d59-3029dd0bbb49",
+          ""
+        ],
+        [
+          "silk_over_copper|132654608|106811479|87cfec5a-e336-4d9f-9b6f-9b284616f251|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168181936|101295086|a9bb256e-a5b7-499c-a6af-3ce115259bac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168190443|100487732|0f6f4dbb-7e4d-49b1-8221-50b0a463e9fb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168224057|103078039|edf47a6d-b290-4330-a8f7-841fdfc89023|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168309750|103600020|f863bcdb-6fda-4d83-bda4-285fa828844a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -860,7 +893,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "../../docs/Flight Controller.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1071,6 +1104,60 @@
           "group_by": false,
           "label": "SNAPEDA_PN",
           "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Spec",
+          "name": "Spec",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],
