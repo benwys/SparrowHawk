@@ -1,0 +1,190 @@
+(footprint "SolderPads_VTX_1x04"
+	(version 20241229)
+	(generator "sparrowhawk-fpgen")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Rzad padow lutowniczych zamiast zlacza JST-SH 4-pin (nadajnik wideo). UWAGA: pad BAT to surowe VBAT - sprawdz zakres napiecia VTX dla 6S.")
+	(tags "solder pad vtx video transmitter")
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(property "Reference" "REF**"
+		(at 0 -2.80 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d1249311-96f6-4459-a092-4a98e05a77d7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SolderPads_VTX_1x04"
+		(at 0 4.30 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0e6370d8-78e3-4416-b2d4-7299e151b26f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce01c7bc-79a8-48ab-9502-eab81ec315e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a36d2c68-6d82-4e78-80a2-d6c78af10e74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "BAT"
+		(at -3.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "c76d3761-f439-4c98-9347-714f9c77939d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "VID"
+		(at -1.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "f94ede75-f09a-4a73-9898-1b32b554663e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "TX"
+		(at 1.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "b1a2922b-e66b-4a38-8cfa-00c4bd94df52")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "G"
+		(at 3.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "aed8c5ff-f65a-4da5-b802-7978dc5b5d5e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.80 0)
+		(layer "F.Fab")
+		(uuid "103cc322-593c-462a-8dfb-a930099f7866")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_rect
+		(start -3.650 -1.900)
+		(end 3.650 1.900)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae38298d-3ab3-4174-9916-36cbcc17ade1")
+	)
+	(fp_rect
+		(start -3.900 -2.150)
+		(end 3.900 3.650)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "179198a7-c46d-4c8b-8e25-174c9a421ee0")
+	)
+	(fp_circle
+		(center -4.100 0.000)
+		(end -3.900 0.000)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e59cac0b-a1ec-4217-8cac-187bd215d3e7")
+	)
+	(pad "1" smd roundrect
+		(at -3.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "38582ce5-4b47-4915-ba1d-0045307c8f80")
+	)
+	(pad "2" smd roundrect
+		(at -1.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "8e31fb23-847c-4072-91c7-bfe91fc6dcd0")
+	)
+	(pad "3" smd roundrect
+		(at 1.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "a51d43e2-c71c-4129-9b96-538bb86c5e26")
+	)
+	(pad "4" smd roundrect
+		(at 3.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "30da5d8e-335e-48e0-a1d8-3cf98be52d60")
+	)
+	(pad "S1" smd roundrect
+		(at 3.000 -1.450)
+		(size 1.30 0.90)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "f836c1f8-a207-4888-af1d-4f63bb9e48b8")
+	)
+	(pad "S2" smd roundrect
+		(at 3.000 1.450)
+		(size 1.30 0.90)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "8d2754a5-047b-4c68-9bbd-e517be3a4aa7")
+	)
+	(embedded_fonts no)
+)
