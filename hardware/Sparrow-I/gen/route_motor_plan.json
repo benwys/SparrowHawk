@@ -1,0 +1,6 @@
+[
+  {"net": "/M4", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 24, "tight": true},
+  {"net": "/M3", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 24, "tight": true},
+  {"net": "/M2", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 20, "tight": true},
+  {"net": "/M1", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 20, "tight": true}
+]

@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SparrowHawk_Modules") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/SparrowHawk_Modules.kicad_sym") (options "") (descr "Sparrow-I: BlackPill V3.1, LSM6DSO32, BMP280"))
+	(lib (name "LMR14030SDDAR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/LMR14030SDDAR.kicad_sym") (options "") (descr "Przetwornica 5 V - ten sam uklad co Sparrow-II"))
+)

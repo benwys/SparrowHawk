@@ -1,0 +1,7 @@
+[
+  {"net": "/SPI_SCK",  "width": 0.20, "layers": ["F.Cu"], "via_cost": 40, "tight": true},
+  {"net": "/SPI_MOSI", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 30, "tight": true},
+  {"net": "/SPI_MISO", "width": 0.20, "layers": ["B.Cu"], "via_cost": 40, "tight": true},
+  {"net": "/CS_BARO",  "width": 0.20, "layers": ["F.Cu"], "via_cost": 40, "tight": true},
+  {"net": "/IMU_INT1", "width": 0.20, "layers": ["B.Cu"], "via_cost": 40, "tight": true}
+]

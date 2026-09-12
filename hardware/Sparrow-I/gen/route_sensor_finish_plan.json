@@ -1,0 +1,4 @@
+[
+  {"net": "/SPI_MISO", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 30, "tight": true},
+  {"net": "/IMU_INT1", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 30, "tight": true}
+]

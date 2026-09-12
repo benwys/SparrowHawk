@@ -1,0 +1,10 @@
+[
+  {"net": "/I2C_SCL", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40},
+  {"net": "/I2C_SDA", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40},
+  {"net": "/SWDIO", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40},
+  {"net": "/SWCLK", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18},
+  {"net": "/UART1_TX", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40},
+  {"net": "/UART1_RX", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18},
+  {"net": "/PA3_AUX", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18},
+  {"net": "/ESC_SPARE", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18}
+]
