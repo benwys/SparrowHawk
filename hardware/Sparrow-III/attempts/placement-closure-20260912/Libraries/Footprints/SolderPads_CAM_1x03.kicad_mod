@@ -1,0 +1,172 @@
+(footprint "SolderPads_CAM_1x03"
+	(version 20241229)
+	(generator "sparrowhawk-fpgen")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Rzad padow lutowniczych zamiast zlacza JST-SH 3-pin (kamera analogowa). Pady S1/S2 to przedluzenie pada GND (ekran zlacza w schemacie).")
+	(tags "solder pad camera analog video")
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(property "Reference" "REF**"
+		(at 0 -2.80 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3f108785-716c-4404-9f8e-0892b2f8b950")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SolderPads_CAM_1x03"
+		(at 0 4.30 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52eabbb8-3f23-4701-abdc-c4a6842fc67f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33755637-2b1b-4f95-ac67-f4c1ad1a9b72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f558f059-482f-4c68-a55a-a42beb596715")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "5V"
+		(at -2.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "722022fd-2985-47e6-aaa6-c2532ca9ddfd")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "G"
+		(at 0.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "4f5eea81-de48-4b93-b5f4-46d3a007a0fe")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "VID"
+		(at 2.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "b148262c-c79f-49e9-9934-3299182caceb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.80 0)
+		(layer "F.Fab")
+		(uuid "a4230747-7016-4204-81df-465441a7b6a7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.650 -1.900)
+		(end 2.650 1.900)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "454fe389-bca5-42c5-9c15-3dd4402ebf7f")
+	)
+	(fp_rect
+		(start -2.900 -2.150)
+		(end 2.900 3.650)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6a42f8d3-0731-467c-9141-d6c59680b8a5")
+	)
+	(fp_circle
+		(center -3.100 0.000)
+		(end -2.900 0.000)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7ea360ec-97d0-40ff-a18c-5e032659d6be")
+	)
+	(pad "1" smd roundrect
+		(at -2.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "7f3a4da2-9f6d-4285-b00d-d844fd8a3ca4")
+	)
+	(pad "2" smd roundrect
+		(at 0.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "e8df8b37-60b3-47b1-94c1-238aea8ce536")
+	)
+	(pad "3" smd roundrect
+		(at 2.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "b99c1499-3ac9-4e3e-a4da-cfcfd3f42c3a")
+	)
+	(pad "S1" smd roundrect
+		(at 0.000 -1.450)
+		(size 1.30 0.90)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "c1d174a1-8980-456c-9229-0a8aca9531d4")
+	)
+	(pad "S2" smd roundrect
+		(at 0.000 1.450)
+		(size 1.30 0.90)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "88535cd5-0f56-45f8-a4ad-4b9c5fdbc81e")
+	)
+	(embedded_fonts no)
+)
