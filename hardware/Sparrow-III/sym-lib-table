@@ -1,0 +1,16 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SparrowHawk_Misc") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/SparrowHawk_Misc.kicad_sym") (options "") (descr ""))
+	(lib (name "AP2112K-3.3TRG1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/AP2112K-3.3TRG1.kicad_sym") (options "") (descr ""))
+	(lib (name "AT7456E") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/AT7456E.kicad_sym") (options "") (descr ""))
+	(lib (name "BM03B-SRSS-TB_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/BM03B-SRSS-TB_LF__SN_.kicad_sym") (options "") (descr ""))
+	(lib (name "BM04B-SRSS-TB_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/BM04B-SRSS-TB_LF__SN_.kicad_sym") (options "") (descr ""))
+	(lib (name "BM06B-SRSS-TB_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/BM06B-SRSS-TB_LF__SN_.kicad_sym") (options "") (descr ""))
+	(lib (name "BM08B-SRSS-TB_LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/BM08B-SRSS-TB_LF__SN_.kicad_sym") (options "") (descr ""))
+	(lib (name "DPS310") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/DPS310.kicad_sym") (options "") (descr ""))
+	(lib (name "ICM-42688-P") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/ICM-42688-P.kicad_sym") (options "") (descr ""))
+	(lib (name "LMR14030SDDAR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/LMR14030SDDAR.kicad_sym") (options "") (descr ""))
+	(lib (name "NON-BOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/NON-BOM.kicad_sym") (options "") (descr "Testpoints, mounting holes - excluded from BOM"))
+
+(lib (name "LIS2MDL") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/LIS2MDL.kicad_sym") (options "") (descr "Official KiCad LIS2MDL, local snapshot"))
+)
