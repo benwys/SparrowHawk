@@ -1,0 +1,190 @@
+(footprint "SolderPads_RX_1x04"
+	(version 20241229)
+	(generator "sparrowhawk-fpgen")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Rzad padow lutowniczych zamiast zlacza JST-SH 4-pin (odbiornik RC).")
+	(tags "solder pad receiver elrs crsf sbus")
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(property "Reference" "REF**"
+		(at 0 -2.80 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "369fc886-7efa-4da1-9368-baa274022b41")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SolderPads_RX_1x04"
+		(at 0 4.30 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce5e7355-205e-482c-ba29-d2f9c79ce54e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b1dbdcb-d53d-477c-b527-b662e67ed6c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7567f97-635f-4979-a606-44640e775c58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "5V"
+		(at -3.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "b48c3d26-7d2e-458b-8da0-598a23350da6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "G"
+		(at -1.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "d1025518-cd8a-4e09-83f3-d7f1ff7ee7b7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "RX"
+		(at 1.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "7d24923d-569e-46df-98bc-21983d47fb99")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "TX"
+		(at 3.000 2.75 0)
+		(layer "F.SilkS")
+		(uuid "325a57f2-ae52-41e2-8799-74898da9f891")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.80 0)
+		(layer "F.Fab")
+		(uuid "9f2ec020-fdee-4953-8f82-72036428f287")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_rect
+		(start -3.650 -1.900)
+		(end 3.650 1.900)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c1fd3adf-65af-4edb-89a8-2dca87d6fc92")
+	)
+	(fp_rect
+		(start -3.900 -2.150)
+		(end 3.900 3.650)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d096247-9ffe-4d87-8cb5-076ae763a299")
+	)
+	(fp_circle
+		(center -4.100 0.000)
+		(end -3.900 0.000)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "09d0e470-6eda-42dc-bce1-7e57cc3cbdd6")
+	)
+	(pad "1" smd roundrect
+		(at -3.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "6051b2f5-1811-4a61-a719-f283430258d0")
+	)
+	(pad "2" smd roundrect
+		(at -1.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "7086d505-fae0-4d94-a441-bf3f9dd06c10")
+	)
+	(pad "3" smd roundrect
+		(at 1.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "6f0fe209-8067-4ad3-8add-83a061ab62d6")
+	)
+	(pad "4" smd roundrect
+		(at 3.000 0)
+		(size 1.30 2.00)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "43051252-7f23-4035-9b59-02746731d087")
+	)
+	(pad "S1" smd roundrect
+		(at -1.000 -1.450)
+		(size 1.30 0.90)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "e856ac42-4bb7-4874-8d3f-cb629ce822cf")
+	)
+	(pad "S2" smd roundrect
+		(at -1.000 1.450)
+		(size 1.30 0.90)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "d2090f13-d9e1-48dc-acd5-33b22c3abe1f")
+	)
+	(embedded_fonts no)
+)
