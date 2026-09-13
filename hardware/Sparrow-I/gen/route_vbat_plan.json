@@ -1,3 +1,0 @@
-[
-  {"net": "/VBAT", "width": 1.00, "layers": ["F.Cu", "B.Cu"], "via_cost": 8, "tight": true}
-]

@@ -1,6 +1,8 @@
 (version 1)
 
-# Sparrow-II — reguly niestandardowe
+# Sparrow-III — reguly niestandardowe
+# UWAGA: przy kilku pasujacych regulach KiCad stosuje regule zapisana POZNIEJ.
+# Reguly szczegolowe musza byc ponizej ogolnych (sprawdzone kanarkiem 5 mm, 2026-10-03).
 
 (rule "Oscylatory — izolacja trasowanej miedzi"
 	(constraint clearance (min 0.25mm))
@@ -9,13 +11,6 @@
 (rule "Sprzezenie zwrotne przetwornicy — izolacja trasowanej miedzi"
 	(constraint clearance (min 0.30mm))
 	(condition "A.NetClass == 'Buck_FB' && A.Type != 'Pad' && B.Type != 'Pad'"))
-
-# Klasyczny blad ukladu przetwornicy: wysokoimpedancyjne FB poprowadzone
-# wzdluz wezla przelaczajacego. Dzielnik 100k/17.8k ma impedancje rzedu
-# 15 kOhm — sprzezenie pojemnosciowe z SW wprost moduluje napiecie wyjsciowe.
-(rule "FB z dala od wezla przelaczajacego"
-	(constraint clearance (min 0.60mm))
-	(condition "A.NetClass == 'Buck_FB' && B.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
 
 (rule "Tory analogowe ADC — izolacja trasowanej miedzi"
 	(constraint clearance (min 0.25mm))
@@ -26,19 +21,47 @@
 	(constraint clearance (min 0.30mm))
 	(condition "A.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
 
-# Para USB 2.0. Szerokosc 0.25 mm i odstep 0.15 mm nad prepregiem 0.2104 mm
-# (eps_r 4.4) daja ok. 92 Ohm roznicowo — patrz docs/sparrow-ii-pre-route.md.
+# Klasyczny blad ukladu przetwornicy: wysokoimpedancyjne FB poprowadzone
+# wzdluz wezla przelaczajacego. Dzielnik 100k/17.8k ma impedancje rzedu
+# 15 kOhm — sprzezenie pojemnosciowe z SW wprost moduluje napiecie wyjsciowe.
+# Regula musi stac PO regule "Wezel przelaczajacy", inaczej jest przykryta (0,30 mm).
+(rule "FB z dala od wezla przelaczajacego"
+	(constraint clearance (min 0.60mm))
+	(condition "A.NetClass == 'Buck_FB' && B.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+# Para USB 2.0 FS. Szerokosc 0.25 mm i odstep 0.15 mm nad prepregiem 0.2104 mm
+# (JLC04161H-7628) daja ok. 90 Ohm roznicowo (kalkulator JLC: 0.2474/0.1501 mm).
 (rule "USB — sprzezenie pary roznicowej"
 	(constraint diff_pair_gap (opt 0.15mm) (min 0.13mm) (max 0.25mm))
 	(condition "A.NetClass == 'USB_diff'"))
 
-(rule "USB — dlugosc odcinkow nieskorelowanych"
-	(constraint diff_pair_uncoupled (max 5mm))
-	(condition "A.NetClass == 'USB_diff'"))
+# Wyprowadzenie pinow USBLC6-2SC6: piny I/O leza co 1,9 mm (pomiedzy nimi VBUS / GND), wiec odcinki dojscia
+# do padow ESD nie moga byc sprzezone; DRC traktuje rownolegle dojscia jako pare o odstepie 1,65 mm.
+# Dotyczy wylacznie odcinkow calkowicie w obszarze regul 'USB ESD' (dojscia do padow). Reszta pary — regula wyzej.
+(rule "USB — dojscia do padow ESD"
+	(constraint diff_pair_gap (max 1.7mm))
+	(condition "A.NetClass == 'USB_diff' && A.enclosedByArea('USB ESD')"))
 
-# JAE SJ121836 rev.3: internal NPTH slot to copper >= 0.266 mm.
-# Apply the project hole-to-copper minimum to the slot, not the external board-edge setback.
-(rule "USB JAE internal NPTH slot"
+# Dlugosc niesprzezona, osobno dla kazdej pary. Pinout ESD (I/O co 1,9 mm) i dwurzedowy USB-C (D- po obu
+# stronach D+) wymuszaja rozejscie: osiagniete 2,25 mm (MCU-ESD) i 4,46 mm (ESD-zlacze). Limit 2 mm byl
+# niewykonalny; limity ponizej wychwytuja kazdy objazd > 0,3–0,5 mm. USB FS (12 Mb/s, tr >= 4 ns): cala para
+# ~5 mm jest elektrycznie krotka, wiec niesprzezony odcinek nie zmienia impedancji widzianej przez nadajnik.
+(rule "USB MCU-ESD — dlugosc odcinkow nieskorelowanych"
+	(constraint diff_pair_uncoupled (max 2.5mm))
+	(condition "A.NetName == '/Interfaces&IO/USB_DP' || A.NetName == '/Interfaces&IO/USB_DN'"))
+
+(rule "USB ESD-zlacze — dlugosc odcinkow nieskorelowanych"
+	(constraint diff_pair_uncoupled (max 5mm))
+	(condition "A.NetName == '/Interfaces&IO/USB_C_DP' || A.NetName == '/Interfaces&IO/USB_C_DN'"))
+
+# Zlacze USB JAE DX07S016JA1R1500, rysunek JAE SJ121836 rev.3: kolki ustalajace 2 x fi0,52 +-0,05 w rozstawie 6 +-0,1;
+# wzor PCB producenta: otwor fi0,6 + owal 0,85 x 0,6 (+-0,03). JLCPCB nie wykonuje szczelin NPTH wezszych niz 1,0 mm, wiec
+# otwory zastapiono okraglymi NPTH fi0,65 (x=-3) i fi0,8 (x=+3). Suma luzow promieniowych w osi rozstawu przy otworach
+# -0,03 i kolkach 0,57: 0,125 mm - tyle samo co wzor JAE z owalem (niedopasowanie skrajne 0,1 + 0,03). Przy nominalnych
+# otworach i rozstawie PCB 5,98: 0,155 mm wobec 0,12. JLCPCB: otwor NPTH - miedz >= 0,2 mm; fi0,8 ma 0,20 mm,
+# fi0,65 ma 0,275 mm do padow A1/B12 i A12/B1. Regula dotyczy wylacznie geometrii wewnatrz footprintu J_USB1.
+(rule "USB JAE - otwory ustalajace NPTH"
   (condition "A.memberOfFootprint('J_USB1') && B.memberOfFootprint('J_USB1')")
-  (constraint edge_clearance (min 0.254mm))
+  (constraint hole_clearance (min 0.2mm))
+  (constraint edge_clearance (min 0.2mm))
 )

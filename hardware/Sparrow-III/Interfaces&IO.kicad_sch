@@ -6083,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-075K1L"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6226,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6237,7 +6237,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-075K1L"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6350,7 +6350,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-075K1L" (at 113.03 91.44 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 113.03 91.44 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 113.03 91.44 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C105872" (at 113.03 91.44 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 100.33 180.34 0)
@@ -6884,7 +6888,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "BM06B-SRSS-TB (LF)(SN)"
+		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7020,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "BM06B-SRSS-TB(LF)(SN)"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7147,7 +7151,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C160392" (at 344.17 153.67 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 57.15 99.06 0)
@@ -7760,7 +7765,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C110921" (at 153.67 63.5 180) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:+5V")
 		(at 82.55 148.59 0)
@@ -8913,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Note" "PINOUT DO USTALENIA po wyborze 4in1 ESC - przepisac 1:1 z instrukcji"
+		(property "Note" "FC pinout fixed; custom harness must map selected ESC signals. Do not assume1:1 cable. With J_BAT input, omit ESC VBAT conductor; retain common GND."
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9171,7 +9177,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C160394" (at 347.98 100.33 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 113.03 95.25 0)
@@ -9919,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-075K1L"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10062,7 +10069,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10080,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-075K1L"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10186,7 +10193,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-075K1L" (at 124.46 91.44 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 124.46 91.44 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 124.46 91.44 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C105872" (at 124.46 91.44 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 335.28 59.69 0)
@@ -10388,7 +10399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0402C105K4PACTU"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10531,7 +10542,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "KEMET"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +10553,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "C0402C105K4PACTU"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10655,7 +10666,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "C0402C105K4PACTU" (at 261.62 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "KEMET" (at 261.62 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "1uF +/-10%, X5R, 16V, 0402. Selected in-stock procurement part; qualify ADC settling and VDDA noise on prototype." (at 261.62 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C172740" (at 261.62 97.79 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 76.2 99.06 0)
@@ -10701,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/chip-resistors/models/ERJ2GE0R00X"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10723,7 +10738,7 @@
 				)
 			)
 		)
-		(property "Note" "ekran USB-C wprost do GND (plytka ma jedna mase). Wczesniej 1M || 10nF"
+		(property "Note" "0ohm jumper, 0402; direct USB shield-to-GND connection."
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10855,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Panasonic"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10866,7 +10881,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ-2GE0R00X"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10979,7 +10994,10 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "ERJ-2GE0R00X" (at 76.2 99.06 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Panasonic" (at 76.2 99.06 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C242160" (at 76.2 99.06 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "BM04B-SRSS-TB_LF__SN_:BM04B-SRSS-TB_LF__SN_")
 		(at 345.44 54.61 0)
@@ -11842,7 +11860,8 @@
 			)
 		)
 	
- (property "Mounting" "Horizontal top mount; body inside PCB; entry from right edge" (at 83.82 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))))
+ (property "Mounting" "Horizontal top mount; body inside PCB; entry from right edge" (at 83.82 71.12 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C3197885" (at 83.82 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 92.71 97.79 0)
@@ -12042,7 +12061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
 			(at 275.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12185,7 +12204,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 275.59 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -12196,7 +12215,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
 			(at 275.59 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -12309,7 +12328,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-071KL" (at 275.59 93.98 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 275.59 93.98 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 275.59 93.98 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C106235" (at 275.59 93.98 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 153.67 88.9 0)
@@ -12637,7 +12660,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C7519" (at 153.67 88.9 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:Buzzer")
 		(at 120.65 143.51 0)

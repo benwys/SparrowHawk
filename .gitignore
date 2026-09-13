@@ -78,3 +78,6 @@ hardware/Sparrow-II/plan.py
 # System
 .DS_Store
 Thumbs.db
+
+# Prywatne planowanie
+docs/plan/

@@ -1,3 +1,0 @@
-[
-  {"net": "+5V", "width": 0.30, "layers": ["F.Cu", "B.Cu"], "via_cost": 5, "tight": true}
-]

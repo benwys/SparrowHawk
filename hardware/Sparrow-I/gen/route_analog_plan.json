@@ -1,6 +1,0 @@
-[
-  {"net": "/CURR_SENSE", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40, "tight": true},
-  {"net": "/CURR_DIV", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40, "tight": true},
-  {"net": "/VBAT_SENSE", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40, "tight": true},
-  {"net": "/CURR_RAW", "width": 0.20, "layers": ["F.Cu"], "via_cost": 40, "tight": true}
-]

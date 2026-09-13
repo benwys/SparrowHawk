@@ -13,4 +13,6 @@
 	(lib (name "NON-BOM") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/NON-BOM.kicad_sym") (options "") (descr "Testpoints, mounting holes - excluded from BOM"))
 
 (lib (name "LIS2MDL") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/LIS2MDL.kicad_sym") (options "") (descr "Official KiCad LIS2MDL, local snapshot"))
+
+(lib (name "TLV75533PDYD") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/TLV75533PDYD.kicad_sym") (options "") (descr "TI DYD thermal package"))
 )

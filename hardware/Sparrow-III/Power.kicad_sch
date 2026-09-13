@@ -5,296 +5,318 @@
 	(uuid "d14da3d9-5033-4645-b148-029ec984a698")
 	(paper "A3")
 	(lib_symbols
-		(symbol "AP2112K-3.3TRG1:AP2112K-3.3TRG1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U_LDO1"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AP2112K-3.3TRG1"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Diodes Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Voltage Regulators, LDO, 600mA CMOS LDO 50mA 3.3V 250mV | Diodes Inc AP2112K-3.3TRG1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "SOT-753 Diodes Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AP2112K-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "2-2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP2112K-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "AP2112K-3.3TRG1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Diodes Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "AP2112K-3.3TRG1_0_0"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AP2112K-3.3TRG1_1_1"
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "SH"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+		(symbol "TLV75533PDYD:TLV75533PDYD"
+  	(pin_names
+  		(offset 1.016)
+  	)
+  	(exclude_from_sim no)
+  	(in_bom yes)
+  	(on_board yes)
+  	(in_pos_files yes)
+  	(duplicate_pin_numbers_are_jumpers no)
+  	(property "Reference" "U_LDO1"
+  		(at 0 12.7 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "Value" "TLV75533PDYDR"
+  		(at 0 10.16 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "Footprint" "SparrowHawk:SOT-23-5_ThermalPad_TI_DYD0005A"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "Description" "500mA LDO, 3.3V, SOT-23-5 DYD with GND thermal pad"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "MF" "Texas Instruments"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Description_1" "3.3V 500mA LDO with exposed GND pad"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Package" "TI DYD0005A SOT-23-5 with thermal pad"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Price" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Check_prices" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "PARTREV" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "SnapEDA_Link" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "MP" "TLV75533PDYDR"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Availability" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "MANUFACTURER" "Texas Instruments"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(symbol "TLV75533PDYD_0_0"
+  		(rectangle
+  			(start -7.62 7.62)
+  			(end 7.62 -7.62)
+  			(stroke
+  				(width 0.41)
+  				(type default)
+  			)
+  			(fill
+  				(type background)
+  			)
+  		)
+  		(pin power_in line
+  			(at -12.7 5.08 0)
+  			(length 5.08)
+  			(name "VIN"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "1"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  		(pin power_in line
+  			(at 12.7 -5.08 180)
+  			(length 5.08)
+  			(name "GND"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "2"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  		(pin input line
+  			(at -12.7 0 0)
+  			(length 5.08)
+  			(name "EN"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "3"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  		(pin power_out line
+  			(at 12.7 5.08 180)
+  			(length 5.08)
+  			(name "VOUT"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "5"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  	
+(pin passive line
+  			(at 12.7 -5.08 180)
+  			(length 5.08)
+  			(name "EP"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "6"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		
+ (hide yes))
+)
+  	(symbol "TLV75533PDYD_1_1"
+  		(pin passive line
+  			(at -12.7 -5.08 0)
+  			(length 5.08)
+			(name "NC"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "4"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  	)
+  	(embedded_fonts no)
+  
+ (property "Manufacturer_Part_Number" "TLV75533PDYDR" (at 0 12.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer_Name" "Texas Instruments" (at 0 12.7 0) (hide yes) (effects (font (size 1.27 1.27)))))
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3137,7 +3159,7 @@
 			)
 			(embedded_fonts no)
 		)
-	
+
 
 )
 	(rectangle
@@ -4008,16 +4030,7 @@
 		)
 		(uuid "6b3b75aa-079c-490c-99ed-bed293cea95c")
 	)
-	(wire
-		(pts
-			(xy 149.86 123.19) (xy 149.86 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7143f9-c787-45d5-a249-2880391f1340")
-	)
+
 	(wire
 		(pts
 			(xy 152.4 40.64) (xy 171.45 40.64)
@@ -4048,16 +4061,7 @@
 		)
 		(uuid "746b14a7-30a7-4ab1-9151-0f15b6887a16")
 	)
-	(wire
-		(pts
-			(xy 149.86 123.19) (xy 166.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7823519b-2553-4eb7-b793-23bd464c6c09")
-	)
+
 	(wire
 		(pts
 			(xy 80.01 198.12) (xy 80.01 201.93)
@@ -4862,84 +4866,7 @@
 		)
 		(uuid "b9af0e58-5154-457c-8bf8-56461b3a3c70")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00807d59-c721-4179-b828-29196e068eae")
-		(property "Reference" "#PWR08"
-			(at 149.86 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cdca3c3-1d92-4ee8-a031-d90795e85b9c")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 328.93 121.92 0)
@@ -5519,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 259.08 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5662,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 259.08 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -5673,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 259.08 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -5786,7 +5713,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 259.08 43.18 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 259.08 43.18 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 259.08 43.18 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 259.08 43.18 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 232.41 116.84 0)
@@ -5832,7 +5763,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C92487.pdf"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5975,7 +5906,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5986,7 +5917,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "CL10A106MO8NQNC"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6099,7 +6030,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "Note" "10uF +/-20%, X5R, 16V, 0603; supplemental bulk. Replaces TDK C1608X5R1C106M080AB (JLC stock 4, 2026-10-03)." (at 232.41 116.84 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "CL10A106MO8NQNC" (at 232.41 116.84 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Samsung Electro-Mechanics" (at 232.41 116.84 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C92487" (at 232.41 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 313.69 116.84 0)
@@ -6412,7 +6347,7 @@
 				)
 			)
 		)
-	
+
  (property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB" (at 313.69 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
@@ -6726,7 +6661,7 @@
 				)
 			)
 		)
-	
+
  (property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB" (at 344.17 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
@@ -6851,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C342614.pdf"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6994,7 +6929,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "TDK"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7005,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "C3225X7S2A475KT000N"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7118,7 +7053,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "Note" "4.7uF +/-10%, X7S, 100V, 1210; buck input. Same TDK C3225 X7S 100V product under the older ordering code (JLC stock)." (at 171.45 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "C3225X7S2A475KT000N" (at 171.45 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "TDK" (at 171.45 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C342614" (at 171.45 45.72 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 215.9 69.85 0)
@@ -7164,7 +7103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C223KA01%23"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7307,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7318,7 +7257,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71C223KA01D"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7431,7 +7370,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "GRM155R71C223KA01D" (at 215.9 69.85 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 215.9 69.85 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "22nF +/-10%, X7R, 16V, 0402; soft-start timing." (at 215.9 69.85 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77010" (at 215.9 69.85 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 90.17 123.19 0)
@@ -8175,7 +8118,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C182078" (at 233.68 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 77.47 123.19 0)
@@ -9069,7 +9013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/CR.pdf"
 			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9212,7 +9156,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Bourns"
 			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9223,7 +9167,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "CR0402-FX-4992GLF"
 			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9336,7 +9280,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "CR0402-FX-4992GLF" (at 198.12 58.42 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Bourns" (at 198.12 58.42 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "49.9k +/-1%, 0402, 0.063W; selected in-stock part for buck switching-frequency resistor." (at 198.12 58.42 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C2076619" (at 198.12 58.42 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 287.02 52.07 0)
@@ -9360,7 +9308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "100uF"
 			(at 290.83 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +9330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C394395.pdf"
 			(at 287.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9525,7 +9473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Taiyo Yuden"
 			(at 287.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9484,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "EMK325ABJ107MM-T"
 			(at 287.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9649,7 +9597,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "Note" "100uF +/-20%, X5R, 16V, 1210; buck output. 16V rating keeps more capacitance at 5V bias than the 10V TDK it replaces; LMR14030 SNVSA81B 7.2.2.4 sets only minimum COUT." (at 287.02 52.07 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "EMK325ABJ107MM-T" (at 287.02 52.07 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Taiyo Yuden" (at 287.02 52.07 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C394395" (at 287.02 52.07 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 306.07 52.07 0)
@@ -9952,85 +9904,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 208.28 113.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a20545d-0866-4c0a-908c-77ca010ed42c")
-		(property "Reference" "#FLG03"
-			(at 210.185 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 212.09 113.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1d799fb-326d-429b-93cf-f4b33208ff12")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 63.5 123.19 0)
@@ -10365,7 +10239,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C92059" (at 63.5 123.19 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 149.86 119.38 0)
@@ -10389,7 +10264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "2.2uF"
 			(at 153.67 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10400,7 +10275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10411,7 +10286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C415535.pdf"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10422,7 +10297,7 @@
 				)
 			)
 		)
-		(property "Description" "Odsprzęganie wejścia stabilizatora 3,3 V"
+		(property "Description" "TLV755P local decoupling; effective capacitance greater than0.47uF required"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10433,7 +10308,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10554,7 +10429,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10565,7 +10440,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM188Z71E225KE43D"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10678,7 +10553,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "Note" "2.2uF +/-10%, X7R, 25V, 0603; LDO in/out. TLV755P SBVS320D requires >0.47uF effective. Replaces TDK X7S (not at JLC)." (at 149.86 119.38 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM188Z71E225KE43D" (at 149.86 119.38 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 149.86 119.38 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C415535" (at 149.86 119.38 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 208.28 116.84 0)
@@ -10702,7 +10581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "2.2uF"
 			(at 212.09 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +10592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 209.2452 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10724,7 +10603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C415535.pdf"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10735,7 +10614,7 @@
 				)
 			)
 		)
-		(property "Description" "Odsprzęganie wyjścia stabilizatora 3,3 V — AP2112K wymaga min. 1 µF dla stabilności pętli"
+		(property "Description" "TLV755P local decoupling; effective capacitance greater than0.47uF required"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10746,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +10746,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10878,7 +10757,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM188Z71E225KE43D"
 			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10991,7 +10870,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "Note" "2.2uF +/-10%, X7R, 25V, 0603; LDO in/out. TLV755P SBVS320D requires >0.47uF effective. Replaces TDK X7S (not at JLC)." (at 208.28 116.84 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM188Z71E225KE43D" (at 208.28 116.84 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 208.28 116.84 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C415535" (at 208.28 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 41.91 45.72 0)
@@ -11115,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C92487.pdf"
 			(at 356.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11258,7 +11141,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 356.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11152,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "CL10A106MO8NQNC"
 			(at 356.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11382,7 +11265,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "Note" "10uF +/-20%, X5R, 16V, 0603; supplemental bulk. Replaces TDK C1608X5R1C106M080AB (JLC stock 4, 2026-10-03)." (at 356.87 58.42 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "CL10A106MO8NQNC" (at 356.87 58.42 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Samsung Electro-Mechanics" (at 356.87 58.42 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C92487" (at 356.87 58.42 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 327.66 62.23 0)
@@ -11428,7 +11315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-07100KL"
 			(at 327.66 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11458,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 327.66 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11582,7 +11469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-07100KL"
 			(at 327.66 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11695,7 +11582,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-07100KL" (at 327.66 62.23 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 327.66 62.23 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 327.66 62.23 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C60491" (at 327.66 62.23 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 191.77 123.19 0)
@@ -11775,7 +11666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AP2112K-3.3TRG1:AP2112K-3.3TRG1")
+		(lib_id "TLV75533PDYD:TLV75533PDYD")
 		(at 179.07 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -11796,7 +11687,7 @@
 				)
 			)
 		)
-		(property "Value" "AP2112K-3.3TRG1"
+		(property "Value" "TLV75533PDYDR"
 			(at 179.07 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +11697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "SparrowHawk:SOT-23-5_ThermalPad_TI_DYD0005A"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11818,7 +11709,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11829,7 +11720,7 @@
 				)
 			)
 		)
-		(property "Description" "Stabilizator liniowy 5 V → 3,3 V, 600 mA. Zasila MCU, czujniki i pamięć"
+		(property "Description" "3.3V 500mA LDO; DYD exposed thermal pad connected to GND"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11840,7 +11731,7 @@
 				)
 			)
 		)
-		(property "Package" "SOT-753 Diodes Inc."
+		(property "Package" "TI DYD0005A SOT-23-5 with thermal pad"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11852,7 +11743,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "AP2112K-3.3TRG1"
+		(property "MPN" "TLV75533PDYDR"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11863,7 +11754,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diodes Inc."
+		(property "Manufacturer" "Texas Instruments"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11973,7 +11864,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Texas Instruments"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11984,7 +11875,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "TLV75533PDYDR"
 			(at 179.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12106,7 +11997,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "300mA board design budget; VIN<=5.5V. Thermal pad6 to GND with short thermal vias. Qualify actual board temperature; catalog RthetaJA is not a PCB measurement." (at 179.07 118.11 0) (hide yes) (effects (font (size 1.27 1.27))))
+(pin "6" (uuid "98303359-7c9b-4111-a20b-b1ca3f9ba127"))
+
+ (property "LCSC" "C28642215" (at 179.07 118.11 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 62.23 43.18 270)
@@ -12342,84 +12237,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 208.28 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af46d48e-6c1e-4daa-bae5-461f1b46fe8c")
-		(property "Reference" "#PWR011"
-			(at 208.28 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 208.28 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8c0606b-2c34-4ad1-9e34-47535f956452")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "power:GND")
 		(at 147.32 50.8 0)
@@ -12543,7 +12361,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM188R72A104KA35%23"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12686,7 +12504,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12697,7 +12515,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12810,7 +12628,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "GRM188R72A104KA35D" (at 190.5 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 190.5 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "100nF +/-10%, X7R, 100V, 0603; local high-frequency VIN bypass." (at 190.5 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77058" (at 190.5 45.72 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:D_Zener_Filled")
 		(at 57.15 80.01 90)
@@ -13514,7 +13336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparrowHawk:L_Sunlord_SWPA6028S"
+		(property "Footprint" "SparrowHawk:L_Vishay_IHLP-2525CZ-01"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13525,7 +13347,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.sunlordinc.com/product/power-inductors"
+		(property "Datasheet" "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13558,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Note" "Bourns SRN6028 jest wycofany z produkcji (EOL). Land pattern Sunlorda rozni sie od Bournsa: pad 1.7x5.7 @ +/-2.25 zamiast 1.6x5.7 @ +/-2.35"
+		(property "Note" "6.8uH +/-20%; Isat typ8A at 20% L drop/25C; heat rating typ4.5A; DCR max60mohm; h<=3mm. Replaces Sunlord2.6A. Buck ILIM max6.6A; hot/start/short validation still required. System5V design budget1A."
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13569,7 +13391,7 @@
 				)
 			)
 		)
-		(property "MPN" "SWPA6028S6R8MT"
+		(property "MPN" "IHLP2525CZER6R8M01"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13580,7 +13402,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunlord"
+		(property "Manufacturer" "Vishay"
 			(at 276.86 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13690,7 +13512,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Vishay"
 			(at 276.86 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13701,7 +13523,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IHLP2525CZER6R8M01"
 			(at 276.86 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13636,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C506575" (at 276.86 45.72 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 356.87 69.85 0)
@@ -14517,7 +14340,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C283521" (at 267.97 52.07 270) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:L")
 		(at 293.37 111.76 90)
@@ -14850,7 +14674,7 @@
 				)
 			)
 		)
-	
+
  (property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB" (at 293.37 111.76 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Diode:SMAJ28A")
@@ -14874,7 +14698,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ28A"
+		(property "Value" "SMAJ26A"
 			(at 52.07 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14917,7 +14741,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMAJ28A"
+		(property "MPN" "SMAJ26A"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14939,7 +14763,7 @@
 				)
 			)
 		)
-		(property "Note" "Vwm 28V, Vc 45.4V @8.8A. Uwaga: LMR14030 ma abs.max VIN = 44V"
+		(property "Note" "4S-6S conventional LiPo only, max steady input 25.2V. Vwm=26V; Vc=42.1V at 9.5A (10/1000us). Verify VIN overshoot and surge energy; not a guaranteed 44V clamp."
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15049,7 +14873,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Littelfuse"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15060,7 +14884,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "SMAJ26A"
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15173,7 +14997,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C148225" (at 52.07 45.72 180) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 232.41 124.46 0)
@@ -15609,7 +15434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 62.23 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15631,7 +15456,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 62.23 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15752,7 +15577,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 62.23 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15763,7 +15588,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 62.23 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15876,7 +15701,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 62.23 194.31 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 62.23 194.31 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 62.23 194.31 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 62.23 194.31 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 152.4 45.72 0)
@@ -15922,7 +15751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C342614.pdf"
 			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15966,7 +15795,7 @@
 				)
 			)
 		)
-		(property "Note" "100V wg TI SNVSA81B (2x Vin); przy 25V bias ok. 2uF efektywnie"
+		(property "Note" "4.7uF +/-10%, X7S, 100V, 1210; buck input. Same TDK C3225 X7S 100V product under the older ordering code (JLC stock)."
 			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16076,7 +15905,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "TDK"
 			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16087,7 +15916,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "C3225X7S2A475KT000N"
 			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16200,7 +16029,10 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "C3225X7S2A475KT000N" (at 152.4 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "TDK" (at 152.4 45.72 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C342614" (at 152.4 45.72 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "SparrowHawk_Misc:IRLML6402TRPBF")
 		(at 59.69 73.66 0)
@@ -16618,7 +16450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0710KL"
 			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16761,7 +16593,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16772,7 +16604,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
 			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16885,7 +16717,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-0710KL" (at 80.01 194.31 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 80.01 194.31 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 80.01 194.31 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C60490" (at 80.01 194.31 180) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 80.01 179.07 180)
@@ -16931,7 +16767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-07100KL"
 			(at 80.01 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17074,7 +16910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 80.01 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17085,7 +16921,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-07100KL"
 			(at 80.01 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17198,7 +17034,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-07100KL" (at 80.01 179.07 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 80.01 179.07 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 80.01 179.07 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C60491" (at 80.01 179.07 180) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 58.42 48.26 0)
@@ -17322,7 +17162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0717K8L"
 			(at 327.66 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -17465,7 +17305,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 327.66 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -17476,7 +17316,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-0717K8L"
 			(at 327.66 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -17589,7 +17429,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-0717K8L" (at 327.66 69.85 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 327.66 69.85 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 327.66 69.85 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C185458" (at 327.66 69.85 0) (hide yes) (effects (font (size 1.27 1.27)))))
 
 (wire (pts (xy 116.84 119.38) (xy 116.84 116.84))
 		(stroke (width 0) (type default))
@@ -17648,11 +17492,12 @@
 				)
 			)
 		)
-	
+
  (property "MPN" "EEE-FT1H470AP" (at 116.84 123.19 0) (hide yes) (effects (font (size 1.27 1.27))))
  (property "Voltage" "50V" (at 116.84 123.19 0) (hide yes) (effects (font (size 1.27 1.27))))
  (property "Manufacturer" "Panasonic" (at 116.84 123.19 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Note" "Parallel with C_B1: 94uF / 50V total, nominal parallel ESR 340mOhm, case height 5.8 +/-0.3mm" (at 116.84 123.19 0) (hide yes) (effects (font (size 1.27 1.27)))))
+ (property "Note" "Parallel with C_B1: 94uF / 50V total, nominal parallel ESR 340mOhm, case height 5.8 +/-0.3mm" (at 116.84 123.19 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C92059" (at 116.84 123.19 0) (hide yes) (effects (font (size 1.27 1.27)))))
 (symbol
 		(lib_id "power:GND")
 		(at 116.84 129.54 0)
@@ -17700,4 +17545,95 @@
 (text "Sparrow III: C_B1 + C_B5 = 94uF / 50V, h=5.8mm. ESR pary ~340mR." (at 50.8 142.24 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "47183407-c3e6-4956-bf42-94d5bf2c83b6"))
 
 (title_block (title "Sparrow III — Flight Controller") (date "2026-09-10") (rev "III-placement"))
+
+(no_connect (at 166.37 123.19) (uuid "73a18bed-c58f-4e9d-a21e-c0d8f359fb9f"))
+
+(wire
+		(pts
+			(xy 149.86 123.19) (xy 149.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7143f9-c787-45d5-a249-2880391f1340")
+	)
+(symbol
+		(lib_id "power:GND")
+		(at 149.86 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00807d59-c721-4179-b828-29196e068eae")
+		(property "Reference" "#PWR08"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cdca3c3-1d92-4ee8-a031-d90795e85b9c")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/591bf136-b725-40d6-a933-58d61d366558"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

@@ -6216,7 +6216,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Lite-On"
 			(at 74.93 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -6227,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "LTST-C190KGKT"
 			(at 74.93 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -6340,7 +6340,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "LTST-C190KGKT" (at 74.93 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Lite-On" (at 74.93 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0603 green indicator; KiCad pad1=cathode, pad2=anode. Verify cathode mark during assembly. Existing1k series resistor retained; brightness at board current must be checked." (at 74.93 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C125094" (at 74.93 204.47 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 363.22 167.64 180)
@@ -6386,7 +6390,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-074K7L"
 			(at 363.22 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6529,7 +6533,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 363.22 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6544,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-074K7L"
 			(at 363.22 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6653,7 +6657,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-074K7L" (at 363.22 167.64 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 363.22 167.64 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 363.22 167.64 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C105871" (at 363.22 167.64 180) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 83.82 64.77 90)
@@ -6697,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM1555C1H120GA01%23"
 			(at 83.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6840,7 +6848,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 83.82 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -6851,7 +6859,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM1555C1H120GA01D"
 			(at 83.82 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -6964,7 +6972,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "GRM1555C1H120GA01D" (at 83.82 64.77 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 83.82 64.77 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "12pF +/-2%, C0G/NP0, 50V, 0402. Prototype starting loads; effective CL=6pF+stray; verify startup margin/frequency/drive with actual crystal." (at 83.82 64.77 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C161527" (at 83.82 64.77 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 237.49 107.95 0)
@@ -7086,7 +7098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/chip-resistors/models/ERJ2GE0R00X"
 			(at 107.95 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Panasonic"
 			(at 107.95 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -7240,7 +7252,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ-2GE0R00X"
 			(at 107.95 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -7353,7 +7365,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "ERJ-2GE0R00X" (at 107.95 64.77 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Panasonic" (at 107.95 64.77 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0ohm jumper, 0402; series HSE tuning position, initially populated." (at 107.95 64.77 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C242160" (at 107.95 64.77 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 257.81 97.79 0)
@@ -7399,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0402C105K4PACTU"
 			(at 257.81 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7542,7 +7558,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "KEMET"
 			(at 257.81 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7553,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "C0402C105K4PACTU"
 			(at 257.81 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7666,7 +7682,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "C0402C105K4PACTU" (at 257.81 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "KEMET" (at 257.81 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "1uF +/-10%, X5R, 16V, 0402. Selected in-stock procurement part; qualify ADC settling and VDDA noise on prototype." (at 257.81 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C172740" (at 257.81 97.79 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 363.22 162.56 0)
@@ -8244,7 +8264,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Lite-On"
 			(at 127 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -8255,7 +8275,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "LTST-C190KRKT"
 			(at 127 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -8368,7 +8388,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "LTST-C190KRKT" (at 127 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Lite-On" (at 127 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0603 red indicator; KiCad pad1=cathode, pad2=anode. Verify cathode mark during assembly. Existing1k series resistor retained; brightness at board current must be checked." (at 127 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C94869" (at 127 204.47 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 210.82 182.88 0)
@@ -8414,7 +8438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A475K125AC"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C87998.pdf"
 			(at 210.82 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8557,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 210.82 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8568,7 +8592,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C2012X7R1A475K125AC"
+		(property "Manufacturer_Part_Number" "CL21B475KPFNNNE"
 			(at 210.82 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8681,7 +8705,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "CL21B475KPFNNNE" (at 210.82 182.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Samsung Electro-Mechanics" (at 210.82 182.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "4.7uF +/-10%, X7R, 10V, 0805; VCAP. Branch ESR set by R_VCAP_ESR1 0.15R (DS11853 table 19: 0.1-0.2 ohm)." (at 210.82 182.88 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C87998" (at 210.82 182.88 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 83.82 52.07 90)
@@ -8725,7 +8753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM1555C1H120GA01%23"
 			(at 83.82 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8868,7 +8896,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 83.82 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -8879,7 +8907,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM1555C1H120GA01D"
 			(at 83.82 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -8992,7 +9020,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "GRM1555C1H120GA01D" (at 83.82 52.07 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 83.82 52.07 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "12pF +/-2%, C0G/NP0, 50V, 0402. Prototype starting loads; effective CL=6pF+stray; verify startup margin/frequency/drive with actual crystal." (at 83.82 52.07 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C161527" (at 83.82 52.07 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 363.22 143.51 0)
@@ -9270,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C356953.pdf"
 			(at 280.67 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9434,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "TAI-TECH"
 			(at 280.67 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9413,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "HCB1005KF-101T10"
 			(at 280.67 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9526,7 +9558,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "HCB1005KF-101T10" (at 280.67 91.44 270) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "TAI-TECH" (at 280.67 91.44 270) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "100ohm +/-25% at 100MHz, 0402, 1A, DCR 0.2ohm; VDDA filter. Replaces TE 1-2176742-6 (not at LCSC/JLC)." (at 280.67 91.44 270) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C356953" (at 280.67 91.44 270) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 293.37 72.39 0)
@@ -9572,7 +9608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 293.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9594,7 +9630,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 293.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9715,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 293.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9726,7 +9762,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 293.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9839,7 +9875,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 293.37 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 293.37 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 293.37 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 293.37 72.39 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 86.36 77.47 0)
@@ -10417,7 +10457,8 @@
 				)
 			)
 		)
-	)
+	
+ (property "LCSC" "C118207" (at 242.57 156.21 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 74.93 190.5 0)
@@ -10462,7 +10503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
 			(at 74.93 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10605,7 +10646,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 74.93 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10616,7 +10657,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
 			(at 74.93 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10729,7 +10770,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-071KL" (at 74.93 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 74.93 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 74.93 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C106235" (at 74.93 190.5 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 189.23 115.57 270)
@@ -11066,7 +11111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +11133,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11209,7 +11254,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11220,7 +11265,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11333,7 +11378,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 265.43 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 265.43 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 265.43 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 265.43 72.39 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 96.52 58.42 90)
@@ -11356,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz CL=10pF ESR<150R"
+		(property "Value" "8MHz"
 			(at 104.14 56.0068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11377,7 +11426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2682775.pdf"
 			(at 96.52 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +11448,7 @@
 				)
 			)
 		)
-		(property "Spec" "8 MHz, CL = 10 pF, ESR ≤ 150 Ω, obudowa 3225 4-pad (C_HSE1/2 = 12 pF C0G)"
+		(property "Spec" "8MHz; CL12pF; ESR150ohm custom R150 option; C0 max2pF; drive max100uW; +/-50ppm initial, +/-100ppm temperature. Pins1/3 crystal,2/4 grounded lid."
 			(at 96.52 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11509,7 +11558,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YXC"
 			(at 96.52 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -11520,7 +11569,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "X32258MOB4SI"
 			(at 96.52 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -11639,7 +11688,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "8MHz, CL 12pF, ESR max 180ohm, +/-10ppm/+/-20ppm, 3225-4P, -40..+85C. gm_crit ~0.41mA/V < 1mA/V (STM32F722 Gm_crit_max). Replaces Abracon custom code not stocked by distributors." (at 96.52 58.42 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "X32258MOB4SI" (at 96.52 58.42 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YXC" (at 96.52 58.42 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C2682775" (at 96.52 58.42 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 101.6 190.5 0)
@@ -11684,7 +11737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
 			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11827,7 +11880,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11838,7 +11891,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
 			(at 101.6 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11951,7 +12004,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-071KL" (at 101.6 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 101.6 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 101.6 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C106235" (at 101.6 190.5 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 271.78 97.79 0)
@@ -11997,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12019,7 +12076,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12140,7 +12197,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12151,7 +12208,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12264,7 +12321,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 271.78 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 271.78 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 271.78 97.79 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 271.78 97.79 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 189.23 110.49 0)
@@ -12544,7 +12605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12566,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12687,7 +12748,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12698,7 +12759,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12811,7 +12872,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 250.19 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 250.19 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 250.19 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 250.19 72.39 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:GND")
 		(at 189.23 128.27 0)
@@ -13091,7 +13156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 208.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13178,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 208.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13234,7 +13299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 208.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13245,7 +13310,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 208.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13358,7 +13423,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 208.28 107.95 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 208.28 107.95 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 208.28 107.95 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 208.28 107.95 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 363.22 148.59 0)
@@ -13404,7 +13473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-074K7L"
 			(at 363.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13547,7 +13616,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 363.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13558,7 +13627,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-074K7L"
 			(at 363.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13671,7 +13740,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-074K7L" (at 363.22 148.59 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 363.22 148.59 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 363.22 148.59 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C105871" (at 363.22 148.59 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:C")
 		(at 279.4 72.39 0)
@@ -13717,7 +13790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 279.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13739,7 +13812,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 279.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13860,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 279.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13871,7 +13944,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 279.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13984,7 +14057,11 @@
 				)
 			)
 		)
-	)
+
+ (property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance." (at 279.4 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "MPN" "GRM155R71H104KE14D" (at 279.4 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 279.4 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77020" (at 279.4 72.39 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:LED")
 		(at 101.6 204.47 90)
@@ -14173,7 +14250,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Lite-On"
 			(at 101.6 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -14184,7 +14261,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "LTST-C190TBKT"
 			(at 101.6 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -14297,7 +14374,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "LTST-C190TBKT" (at 101.6 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Lite-On" (at 101.6 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0603 blue indicator; KiCad pad1=cathode, pad2=anode. Verify cathode mark during assembly. Existing1k series resistor retained; brightness at board current must be checked." (at 101.6 204.47 90) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C125096" (at 101.6 204.47 90) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 74.93 181.61 0)
@@ -14421,7 +14502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM188R61C475KE11%23"
 			(at 308.61 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14564,7 +14645,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 308.61 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14575,7 +14656,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM188R61C475KE11D"
 			(at 308.61 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14688,7 +14769,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "GRM188R61C475KE11D" (at 308.61 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "Murata" (at 308.61 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "4.7uF +/-10%, X5R, 16V, 0603; supplementary MCU bulk." (at 308.61 72.39 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C77045" (at 308.61 72.39 0) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 189.23 124.46 180)
@@ -14734,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0710KL"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14877,7 +14962,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14888,7 +14973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15001,7 +15086,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-0710KL" (at 189.23 124.46 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 189.23 124.46 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 189.23 124.46 180) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C60490" (at 189.23 124.46 180) (hide yes) (effects (font (size 1.27 1.27)))))
 	(symbol
 		(lib_id "Device:R")
 		(at 127 190.5 0)
@@ -15046,7 +15135,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
 			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -15189,7 +15278,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -15200,7 +15289,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
 			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -15313,7 +15402,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "RC0402FR-071KL" (at 127 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "YAGEO" (at 127 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies." (at 127 190.5 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C106235" (at 127 190.5 0) (hide yes) (effects (font (size 1.27 1.27)))))
 
 (title_block (title "Sparrow III — Flight Controller") (date "2026-09-10") (rev "III-placement"))
 
@@ -15337,7 +15430,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			
+
 (justify right)
 )
 		)
@@ -15349,7 +15442,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			
+
 (justify right)
 )
 		)
@@ -15364,7 +15457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/low-ohmic-resistors/low-ohmic-resistors/number/erj3rsfr15v"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C45879.pdf"
 			(at 210.82 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15507,7 +15600,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "UNI-ROYAL"
 			(at 210.82 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15518,7 +15611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3RSFR15V"
+		(property "Manufacturer_Part_Number" "0603WAF150LT5E"
 			(at 210.82 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15631,7 +15724,11 @@
 				)
 			)
 		)
-	)
+	
+ (property "MPN" "0603WAF150LT5E" (at 210.82 191.77 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer" "UNI-ROYAL" (at 210.82 191.77 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Note" "0.15ohm +/-1%, 0.1W, 0603, TCR 800ppm/K; VCAP series ESR, branch stays within 0.1-0.2 ohm over temperature." (at 210.82 191.77 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "LCSC" "C45879" (at 210.82 191.77 0) (hide yes) (effects (font (size 1.27 1.27)))))
 (wire (pts (xy 210.82 186.69) (xy 210.82 187.96)) (stroke (width 0) (type default)) (uuid "12aaf764-5180-475b-b6e7-3366c2f01e32"))
 (wire (pts (xy 210.82 195.58) (xy 210.82 196.85)) (stroke (width 0) (type default)) (uuid "79961721-e6e2-41d8-addd-fd4c463d445c"))
 (label "VCAP_RETURN" (at 210.82 187.96 0) (effects (font (size 0.9 0.9)) (justify left bottom)) (uuid "860dfc4a-367a-46bb-bbf8-550734fc8c8d"))

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flight Controller FPV")
-		(rev "v1.0")
+		(rev "III-order-20261003")
 		(company "Politechnika Warszawska - Wydział Elektryczny")
 		(comment 1 "Projekt inżynieryjno-techniczny")
 		(comment 2 "Benedykt Wysocki")

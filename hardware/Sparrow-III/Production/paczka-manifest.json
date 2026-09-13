@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-03T13:49:13.706455+00:00",
+  "name": "Flight_Controller-III-order-20261003",
+  "revision": "III-order-20261003",
+  "kicad_version": "10.0.6",
+  "source": {
+    "project": "/tmp/claude-1000/-home-benio-Desktop-SparrowHawk/64d008f5-8a54-4878-97ff-b0f477662982/scratchpad/cand",
+    "pcb": "Flight Controller.kicad_pcb",
+    "schematic": "Flight Controller.kicad_sch"
+  },
+  "source_hashes": {
+    "Flight Controller.kicad_pcb": "66e0bdad26a726dd4877f443cbf43a265bde04790567c823ff8448184effeb92",
+    "MCU Core.kicad_sch": "bd00e35dc43a8c47ed1717f06aa53a1c39a2e118b3f7fe64f8975f5c92f7f1bf",
+    "Video&OSD.kicad_sch": "520eba561d4c6b98f1c77b33c5ec32b1efbb9f141be77c51ac5c297519ccf2a2",
+    "Flight Controller.kicad_pro": "43dd3516396b01ec7608b86fed73687b1d3884d394989332ea26499c210ea996",
+    "Flight Controller.kicad_dru": "169632e6551485bdf2a136513b24fe0aad985b77ea4752d16086f73db2bd0bc9",
+    "Power.kicad_sch": "259c8d738517d2542eb70125dc7d0e83b1e7b0d243a84e7cd188ddb4c03eb164",
+    "fp-lib-table": "a787d79f9d1527970d1645716fee5df9531be93982f7382f193295f35cca2317",
+    "Sensors.kicad_sch": "842d2ead84decae05ff220aa60cf96d057ef3eccbd01cc7e4945a40b213c51d1",
+    "Flight Controller.kicad_sch": "0b194ed0ec1f5777a73cb19d2d86cbffe8f877c00b8dd8744b1973d8ea12f8ea",
+    "Interfaces&IO.kicad_sch": "2dc5ec5cb4c14d7e0ad6363887224713441fdc785a5fdf89038676c666b63ebe",
+    "sym-lib-table": "3057b4e794db636103f29ade122d3966598409a0ed89bdc62741850294947e2f",
+    "MCU.kicad_sch": "b24733ad26255f46dbb5e45ec88543f9bf8816434fa7b1448fb1764865f1ae81",
+    "Libraries/Symbols/AT7456E.lib": "26765d6ecac6ca4b7ff30179edbf8ee74924bef166aea726a3be28672e2f6c31",
+    "Libraries/Symbols/BM03B-SRSS-TB_LF__SN_.kicad_sym": "e5f61cbaaf537e87b01329c83f284566330be03c7e70d4ad18d21b132e4e0ea6",
+    "Libraries/Symbols/LMR14030SDDAR.kicad_sym": "ad2c41a0187089abe8b99bde6f4c6bfd25a83752b04d2393fec411c0ddd3debb",
+    "Libraries/Symbols/BM08B-SRSS-TB_LF__SN_.kicad_sym": "b2b9ed1213a493724d4b6efacc051645479ab9214f098b8c36cd98cca07aef3e",
+    "Libraries/Symbols/AT7456E.kicad_sym": "d76da945a4fc8fe11be7a1033d22e9ede44a0056533a9ae589ebaf9e4ea486cf",
+    "Libraries/Symbols/AP2112K-3.3TRG1.kicad_sym": "0aff82c2647953d500e7ca3abfce1d45e82adc560b650625e138c00ae3651fb3",
+    "Libraries/Symbols/SparrowHawk_Misc.bak": "e539afed457b979adf3e52fe9104b3708343d617fb024d419f7a4d00e088f1b4",
+    "Libraries/Symbols/NON-BOM.kicad_sym": "3f4168758fc815d922606754a4e4eee77c2688aef2c531b2240ed61698b4c428",
+    "Libraries/Symbols/DPS310.bak": "0388b42ad339d309d35f48a22a9efc27da1d047ed2a9321967d005bda554dfa0",
+    "Libraries/Symbols/TLV75533PDYD.kicad_sym": "8d847b2d5bd14ef49a919f754d516f9af07d1dae55aca71553dbce05159604d4",
+    "Libraries/Symbols/ICM-42688-P.kicad_sym": "aa8b5b2f895c89e5491313a7ef930b5b7ee078404e14eb750c4a0d9bbe523de9",
+    "Libraries/Symbols/LMR14030SDDAR.bak": "8520bc9d6c06ee7df58c57387c32f68128c31a67a3b7b60ea9e502eee1c4ba9e",
+    "Libraries/Symbols/BM06B-SRSS-TB_LF__SN_.kicad_sym": "260764d5636fb9f7d081b19adece90563fa06d5f7c32ccef04eabddb92ef3dea",
+    "Libraries/Symbols/DPS310.kicad_sym": "fba15a96af6c2c202d47f2357e2b316e3ef17e19f5f115ec40766c2b84a703a9",
+    "Libraries/Symbols/SparrowHawk_Misc.kicad_sym": "92ff9b9c2ff2268be18db4883eea4ff53e3fda03cddbbec600f2c726ad756cdd",
+    "Libraries/Symbols/BM04B-SRSS-TB_LF__SN_.kicad_sym": "7a136c9c373c4e4a1ddf48406c5e011948dd0706254f06e7e3b5dac44b64422e",
+    "Libraries/Symbols/LIS2MDL.kicad_sym": "a841111b2cde41fe48fd990119cd1556fddd87864aee1e9650b31ac57d241252",
+    "Libraries/3D models/BZT52C15-7-F.STEP": "abe50072b241c6ce69f8e79d787644ab3ff54d1ea09d74ee8025fb2bf4228722",
+    "Libraries/3D models/W25Q128JVEIQ.STEP": "92c21ba9861535bafb6a09aa657077c2f9485353ae570ce4ad442a2ff2f8ec93",
+    "Libraries/3D models/EEH-ZU1V471P.dcm": "f70dbf16f55d1248d5147145a9f6bd1d65614f79b9b29eed919cf1422cacc9b7",
+    "Libraries/3D models/BM04B-SRSS-TB_LF__SN_.step": "4a0408a7170fa27949610d7ce35c1926ad8b36f740f376bcb8b246341f598592",
+    "Libraries/3D models/BM06B-SRSS-TB_LF__SN_.step": "fe3d374a2a38d5543ab7ab4581cabcb920188677047cc8ca4031f4181b6b31d1",
+    "Libraries/3D models/Download_WE-PD_7345_STP+%28rev1%29.stp": "cf5fc001dd4254a80431c3e769d86995e71ab04bdf271f77b44604a385944b6e",
+    "Libraries/3D models/DPS310.step": "24d43ede5a62d8f4131c5ac706bd2ca2e29ccf9f41e7ba28517d02cb28038f4e",
+    "Libraries/3D models/DPS310--3DModel-STEP-56544.STEP": "24d43ede5a62d8f4131c5ac706bd2ca2e29ccf9f41e7ba28517d02cb28038f4e",
+    "Libraries/3D models/SMAJ28A.STEP": "29fce7ce7651a27660e085127972a6abc7d74ffa70eeb2ffe3bb2a1fa011243c",
+    "Libraries/3D models/AP2112K-3.3TRG1--3DModel-STEP-418109.STEP": "8576be8136757f6ababc09e38a8967242323e34cc465476c85d78ddb9f479890",
+    "Libraries/3D models/WE-PD_7345.step": "cf5fc001dd4254a80431c3e769d86995e71ab04bdf271f77b44604a385944b6e",
+    "Libraries/3D models/AT7456E.dcm": "90051df7528e1b4ab26d1ce0f060cdc8c5a3c31192bd39ed4811aded83563c3e",
+    "Libraries/3D models/LMR14030SDDAR.step": "2bc3302741296544db5588c9805cdf5fcdd603945e295fc0df3969bc1ba8ec99",
+    "Libraries/3D models/BM08B-SRSS-TB_LF__SN_.step": "5568d0a041e51c41c4d9b57842b848cdc5a74c0ab9a7db7e146de092e87d3673",
+    "Libraries/3D models/INA240A2D.STEP": "cdd01ec4ff2fb9fe9684cc8aa8964b4d8ca610fdc1b421168429316f535e9148",
+    "Libraries/3D models/ICM-42688-P.step": "6a75a0451e95c368906bdfb831d934c6946d747422d3ab7fc21fd18e8254b8e4",
+    "Libraries/3D models/ICM-42688-P--3DModel-STEP-1.STEP": "6a75a0451e95c368906bdfb831d934c6946d747422d3ab7fc21fd18e8254b8e4",
+    "Libraries/3D models/RC0402FR-07100KL.STEP": "9351c6977c2018021fe395062b3d36cb6af327dcb1bd22c1b81b4367095983b0",
+    "Libraries/3D models/STM32F722RET6.STEP": "7bd718ecaa4d13cb8df0ff77ff812d16cce84dae50ae56d3283327c34a2c8e25",
+    "Libraries/3D models/AP2112K-3.3TRG1.step": "1cece5acbf24e270686684d977bbe7643b4485bf3b4335aad01edf31fd38f28b",
+    "Libraries/3D models/BM03B-SRSS-TB_LF__SN_.step": "553d829d791d78ae5953fdea66dbe605d4f72b598a1a585abcba77721c644e49",
+    "Libraries/3D models/GRM32ER71H106KA12L.STEP": "0c2d8398c40e7a6cfcebfc64ca038d47a431765e35e9c8bf56d8e973bbf522f8",
+    "Libraries/Footprints/D_SMB.kicad_mod": "01274857b58e3d532f8898cda40fefd5f39fa93c2dd03a54db2230d411f9f402",
+    "Libraries/Footprints/JST_BM08B-SRSS-TB_LF__SN_.kicad_mod": "5043e0216191ce94b1404ed76927e07d9dec506ea581daa4fac64b0313b6a733",
+    "Libraries/Footprints/JST_BM06B-SRSS-TB_LF__SN_.kicad_mod": "7328bf31829a238735e509a8309888440b6b509f90d3d18dbf5a0bbed9812411",
+    "Libraries/Footprints/CP_Elec_6.3x5.8.kicad_mod": "3e486860d8806d23331d3e53b4ec01c8a40087729f1f037167db2a17598ad444",
+    "Libraries/Footprints/L_Vishay_IHLP-2525CZ-01.kicad_mod": "9d3cce133e471c148b4c9deed0765eb3d52c3cfa8ae275cd9d9d86dd49642d25",
+    "Libraries/Footprints/PQFN50P300X250X97-14N.kicad_mod": "1ab104356a5740bfc7ddb20d2c9433fcb22ee33d34aa4c7152990aa327a63535",
+    "Libraries/Footprints/SOT-23-5_ThermalPad_TI_DYD0005A.kicad_mod": "660f8a07fdd83df2897d2dbbfd90d3f72b0c9cb85aa9e71e0c3da0f35ee0018d",
+    "Libraries/Footprints/L_Sunlord_SWPA6028S.kicad_mod": "9ea8d0dddedc4900d1cb8b49466cdc7c81e105d68e1adfc0d5d86ab917f1d7fd",
+    "Libraries/Footprints/VBAT_SolderPad_2x_5x5mm.kicad_mod": "6e8bd10afa406b66e778d1ccb30826527407261299ab43143302d82cb46ea069",
+    "Libraries/Footprints/SOIC127P600X170-9N.kicad_mod": "d656ea44259faa5d1f3308a7916d2311de6f76c5a31f2c7b961b0ed37a5ebaaf",
+    "Libraries/Footprints/Sparrowhawk_Logo.kicad_mod": "a78bb446022064420a7282b34927c6b0029df90e3ecfb4a4f3ce8f616f9c9316",
+    "Libraries/Footprints/SOIC127P600X170-9N_SparrowIII.kicad_mod": "c3728829bb1d0f1e4553fac9adf3a81213feaec507932f220f02e19d428975fd",
+    "Libraries/Footprints/XDCR_DPS310.kicad_mod": "24acf4be08597ce8fecab9614c94a6e16af3f1598ed0514b46020a5a23ecb2eb",
+    "Libraries/Footprints/R_0603_1608Metric.kicad_mod": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+    "Libraries/Footprints/SOP65P640X120-29N.kicad_mod": "df98dfc0473196114b0279ddd8d4100cbacbf8879466e2ae4d5d94da9b3ffc03",
+    "Libraries/Footprints/USB_C_Receptacle_GCT_USB4085_SparrowIII.kicad_mod": "0f9aa1547cd21496dbdf64f9bb37823653dae6c827657773d2a2340591f3174e",
+    "Libraries/Footprints/SolderPads_SWD_1x05.kicad_mod": "70c4cb53446d54a5b262dba13287bcb3992df10e02df7952a935d4fd9c849601",
+    "Libraries/Footprints/USB_C_Receptacle_JAE_DX07S016JA1R1500.kicad_mod": "e3ecd7ac9acbd0d268f72526e91972b85cc11f2320dcd073a0d1ec1712e8550b",
+    "Libraries/Footprints/SolderPads_VTX_1x04.kicad_mod": "0f66cf945239d1bdfe3b9854abf46cee5d810a73546c08cd62372b4899871c5b",
+    "Libraries/Footprints/SolderPads_VTX_1x03.kicad_mod": "3af1ec76af4226834dbfaec9f519143ead127807fdf80307f5de55b274635911",
+    "Libraries/Footprints/JST_BM04B-SRSS-TB_LF__SN_.kicad_mod": "f7887be23255bcb7b459f48b04c92a5b1989bd5cd753b226f90875f684fbf1bf",
+    "Libraries/Footprints/SolderPads_CAM_1x03.kicad_mod": "52aac0a83f5d12fde03458abfbf064778e8da26ade6ec85f72d715a451b33895",
+    "Libraries/Footprints/LGA-12_2x2mm_P0.5mm.kicad_mod": "603e50fb34dd28070bd043781cdd30e3f52f4e7f11b12e5f5ddb2dc73c862de5",
+    "Libraries/Footprints/SOT23_INF-M.kicad_mod": "cd592e0706ccb2f39c5e79d97fdba92099a55a117f2e4f0755ec480b350e72aa",
+    "Libraries/Footprints/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm.kicad_mod": "44ada221f741840e631fefbff6cf0ad79ed3cf839029a05ce88fbc7e52e6a8bc",
+    "Libraries/Footprints/SolderPads_RX_1x04.kicad_mod": "c82d51d52c1954355dd255b7b68583e035138c9cd1214a87812eccdf37c30475",
+    "Libraries/Footprints/JST_BM03B-SRSS-TB_LF__SN_.kicad_mod": "fbd1cb0c581fe4536cecbec1931bb4f76c8d1aed4118e8b95ac82a0d595a0c57"
+  },
+  "source_unchanged": true,
+  "options": {
+    "fab": null,
+    "profile": {
+      "name": "jlcpcb-4l-1oz-2026-10-03",
+      "track": 0.09,
+      "clearance": 0.09,
+      "drill": 0.15,
+      "annular": 0.15,
+      "via": 0.25,
+      "edge": 0.2,
+      "silk_text_height": 1.0,
+      "silk_text_thickness": 0.15,
+      "source": "https://jlcpcb.com/capabilities/pcb-capabilities (odczyt 2026-10-03): ścieżka/odstęp 0,09/0,09 mm (wielowarstwowe), przelotka 0,15/0,25 mm, pierścień min. 0,15 mm, miedź–krawędź frezowana 0,2 mm, NPTH–ścieżka 0,2 mm, szczelina NPTH min. 1,0 mm, napis min. 1,0/0,15 mm",
+      "verified": "2026-10-03",
+      "builtin": false
+    },
+    "assembly": "jlcpcb",
+    "variant": null,
+    "rotations": null,
+    "board_plot_params": false
+  },
+  "copper_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "status": "clear",
+  "findings": [
+    {
+      "level": "info",
+      "area": "assembly",
+      "message": "na płytce, ale poza BOM: H_MNT1, H_MNT2, H_MNT3, H_MNT4, JP_BOOT0, J_BAT1, J_RX1, J_SWD1, J_VTX2, TP_IMU_INT_0, TP_VBAT_ADC_0 — nie trafią do montażu"
+    },
+    {
+      "level": "warning",
+      "area": "jlcpcb",
+      "message": "montaż na spodzie: obroty i położenie elementów strony Bottom sprawdź w podglądzie producenta"
+    }
+  ],
+  "limitations": [],
+  "commands": [
+    {
+      "name": "version",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "drc",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "erc",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "stats",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "gerbers",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "drill",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "ipcd356",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "pos",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "assembly-top",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "assembly-bottom",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "netlist",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "bom-flat",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "bom",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "step",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "render-top",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "render-bottom",
+      "ok": true,
+      "returncode": 0
+    }
+  ],
+  "checks": {
+    "custom_rules": {
+      "status": "ok",
+      "path": "/tmp/claude-1000/-home-benio-Desktop-SparrowHawk/64d008f5-8a54-4878-97ff-b0f477662982/scratchpad/fab-final/project/Flight Controller.kicad_dru",
+      "rules": [
+        "Oscylatory — izolacja trasowanej miedzi",
+        "Sprzezenie zwrotne przetwornicy — izolacja trasowanej miedzi",
+        "Tory analogowe ADC — izolacja trasowanej miedzi",
+        "Wezel przelaczajacy — izolacja trasowanej miedzi",
+        "FB z dala od wezla przelaczajacego",
+        "USB — sprzezenie pary roznicowej",
+        "USB — dojscia do padow ESD",
+        "USB MCU-ESD — dlugosc odcinkow nieskorelowanych",
+        "USB ESD-zlacze — dlugosc odcinkow nieskorelowanych",
+        "USB JAE - otwory ustalajace NPTH"
+      ],
+      "problems": [],
+      "detail": "KiCad wczytuje plik (reguł: 10)"
+    },
+    "drc": {
+      "errors": {},
+      "warnings": {},
+      "unconnected": 0,
+      "parity": {},
+      "excluded": {},
+      "ignored_checks": [
+        "missing_courtyard",
+        "tuning_profile_track_geometries",
+        "footprint_filters_mismatch",
+        "pth_inside_courtyard",
+        "npth_inside_courtyard",
+        "footprint_type_mismatch"
+      ]
+    },
+    "erc": {
+      "errors": {},
+      "warnings": {}
+    },
+    "stats": {
+      "min_track_width": 0.2,
+      "min_track_clearance": 0.15,
+      "min_drill": 0.3,
+      "thickness": 1.6062,
+      "components_front": 31,
+      "components_back": 58,
+      "npth_pads": 6,
+      "special_vias": {},
+      "holes": 159
+    },
+    "package": {
+      "gerbers": [
+        "Flight Controller-B_Cu.gbl",
+        "Flight Controller-B_Mask.gbs",
+        "Flight Controller-B_Paste.gbp",
+        "Flight Controller-B_Silkscreen.gbo",
+        "Flight Controller-Edge_Cuts.gm1",
+        "Flight Controller-F_Cu.gtl",
+        "Flight Controller-F_Mask.gts",
+        "Flight Controller-F_Paste.gtp",
+        "Flight Controller-F_Silkscreen.gto",
+        "Flight Controller-In1_Cu.g1",
+        "Flight Controller-In2_Cu.g2"
+      ],
+      "copper": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "functions": [
+        "copper,l1,top",
+        "copper,l2,inr",
+        "copper,l3,inr",
+        "copper,l4,bot",
+        "legend,bot",
+        "legend,top",
+        "paste,bot",
+        "paste,top",
+        "profile,np",
+        "soldermask,bot",
+        "soldermask,top"
+      ],
+      "job": {
+        "name": "Flight Controller-job.gbrjob",
+        "layers": 4,
+        "project": "Flight Controller",
+        "revision": "III-order-20261003",
+        "thickness": 1.6062,
+        "size": {
+          "X": 40.05,
+          "Y": 40.05
+        },
+        "files": [
+          [
+            "Flight Controller-F_Cu.gtl",
+            "Copper,L1,Top"
+          ],
+          [
+            "Flight Controller-In1_Cu.g1",
+            "Copper,L2,Inr"
+          ],
+          [
+            "Flight Controller-In2_Cu.g2",
+            "Copper,L3,Inr"
+          ],
+          [
+            "Flight Controller-B_Cu.gbl",
+            "Copper,L4,Bot"
+          ],
+          [
+            "Flight Controller-F_Paste.gtp",
+            "SolderPaste,Top"
+          ],
+          [
+            "Flight Controller-B_Paste.gbp",
+            "SolderPaste,Bot"
+          ],
+          [
+            "Flight Controller-F_Silkscreen.gto",
+            "Legend,Top"
+          ],
+          [
+            "Flight Controller-B_Silkscreen.gbo",
+            "Legend,Bot"
+          ],
+          [
+            "Flight Controller-F_Mask.gts",
+            "SolderMask,Top"
+          ],
+          [
+            "Flight Controller-B_Mask.gbs",
+            "SolderMask,Bot"
+          ],
+          [
+            "Flight Controller-Edge_Cuts.gm1",
+            "Profile"
+          ]
+        ]
+      },
+      "drills": [
+        {
+          "name": "Flight Controller-NPTH.drl",
+          "plated": false,
+          "tools_mm": {
+            "1": 0.65,
+            "2": 0.8,
+            "3": 3.2
+          },
+          "hits": 6
+        },
+        {
+          "name": "Flight Controller-PTH.drl",
+          "plated": true,
+          "tools_mm": {
+            "1": 0.3,
+            "2": 0.3,
+            "3": 0.6
+          },
+          "hits": 153
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "assembly/Flight_Controller-III-order-20261003-assembly-bottom.pdf": "edd672fa9b272b4fead0017eab602373b8fd86fdc4275b3c2f3725869c33feda",
+    "assembly/Flight_Controller-III-order-20261003-assembly-top.pdf": "ea1dadfc94d57e3c2968ca54c66da824af4b497cb3a218f331791231b018036e",
+    "assembly/Flight_Controller-III-order-20261003-bom.csv": "f4f90fe6df5342fc0f90100b82ea2308aab28dc9bdb4dc7230cd8b87f3d541de",
+    "assembly/Flight_Controller-III-order-20261003-pos.csv": "6eb8ebf5dbd3a78c9023e9db1ab9573aa10daa8f3b52bf0cb4813012e268c9c0",
+    "assembly/jlcpcb/Flight_Controller-III-order-20261003-bom-jlcpcb.csv": "15d6037075cec57584cb81eceff34af83736d032e7b24f1e0676c028baa8c15b",
+    "assembly/jlcpcb/Flight_Controller-III-order-20261003-cpl-jlcpcb.csv": "0a06cd9df2a1287e24bea55324e1998a62f9647aeabd9b8bde7f069373f4a2a3",
+    "checks/bom-flat.csv": "e95bb49ba814e7af29423d5cfd53ebc6e9be2a4bfa4c628570a64c9abf1a8542",
+    "checks/drc.json": "6d383ca821c8c3ecff8b382d5a13ba0de27bd65bd91b812ba78b7f9dd787c356",
+    "checks/erc.json": "91a6091b6c93644d63e2ce7b0f72a7fbd11fe3ac07dd00ddc0d1d4a5eaf1fa67",
+    "checks/netlist.net": "c30bb73a64df60d169153fb8e7fb7324856cf80cb7eb1bd326dc39c57ad28f50",
+    "checks/stats.json": "6af166f9924ae66badc126d20de86a5adf8ce49a198f77d7010cac46cafb2c82",
+    "fab/Flight_Controller-III-order-20261003-gerbers.zip": "f06b81663f7129ff6becd74907b855bcf95298f5e180e19290efdd6ef13181a6",
+    "fab/Flight_Controller-III-order-20261003.d356": "35f59fbd68ceda0f61d868c8b60093a1ac30f176e604a9adb13c2944b32673af",
+    "fab/gerber/Flight Controller-B_Cu.gbl": "faf0ec9b44177d90a0263e7fedcb59df8bdd83d7512f7f7f50385314a45b0775",
+    "fab/gerber/Flight Controller-B_Mask.gbs": "0d753b15118df10d7cf6b9ca1e2327e4098afb348c40ddc9f12b886d9ddd78fb",
+    "fab/gerber/Flight Controller-B_Paste.gbp": "4788db532783d5b08f22c0c4e7f41a0c5019ebb292ea83da2d109dde8076993f",
+    "fab/gerber/Flight Controller-B_Silkscreen.gbo": "6faba5ca946e612f8c5bf100731c07e73e8a6156d44ae7043c8b71416dddbc78",
+    "fab/gerber/Flight Controller-Edge_Cuts.gm1": "9b857cdf41a7027fa5e1cc06a5c24365e0c987076497ab1ed64532221436a8a8",
+    "fab/gerber/Flight Controller-F_Cu.gtl": "d4666fd3c111abdab0f0d700ec243e9cb501ebe171e317ce4c12de09e8ef4632",
+    "fab/gerber/Flight Controller-F_Mask.gts": "400726e594d7ac4e0b9898ae293dce73dfb7630477a84a7dfd13ccfd3da21536",
+    "fab/gerber/Flight Controller-F_Paste.gtp": "91eff9d7df774a4ae7c239163e5550dbae19bc61ac75ab6ed3211f69cd3432c3",
+    "fab/gerber/Flight Controller-F_Silkscreen.gto": "95464bdb085935274b1cedfdfdb13f4ebdb01571e6380ae1bf952c4dfcdcd1da",
+    "fab/gerber/Flight Controller-In1_Cu.g1": "5964d0f3a02b7950d43520692fabbfebf971dc06da34e6bc54a63f82d8da4d87",
+    "fab/gerber/Flight Controller-In2_Cu.g2": "662b664ad6bea61069677ecc12e8346c93128e4e6974ab3eb3362849041a1fb4",
+    "fab/gerber/Flight Controller-NPTH-drl_map.pdf": "dfda6ebd6e7608996b77916a640ce594f45007e24cd07e270481dde3e771a79e",
+    "fab/gerber/Flight Controller-NPTH.drl": "5c0d0fb2c61847360427f923936d223a5422241b38c5c3ba65fa2f318f6845d1",
+    "fab/gerber/Flight Controller-PTH-drl_map.pdf": "add3697946cb92640f30e074a61512d97694a094b8020895b46987d0a76df0db",
+    "fab/gerber/Flight Controller-PTH.drl": "c50dc63af4d60eb8200c9c04361f1beff0914a19739d4409c017c6b15fc49651",
+    "fab/gerber/Flight Controller-job.gbrjob": "a866229484b7bd00d36310c500fa9fd9a2697533dce26819271147684c3ec408",
+    "mech/Flight_Controller-III-order-20261003.step": "445618cde5815101c5e564add39a2c519a2f0ef42c08f9633fef851f65825e04",
+    "preview/Flight_Controller-III-order-20261003-bottom.png": "1b5f0f5479203b00eca9c60396a54ae5af659e438e0a527ba7cbb2a0a982a30d",
+    "preview/Flight_Controller-III-order-20261003-top.png": "da7e486dbb4444cc01b0925cddff0438c76475bb0bd029e69805e53b0f0c261d"
+  }
+}

@@ -1,5 +1,0 @@
-[
-  {"net": "/RSV_PA10", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18},
-  {"net": "/RSV_PB3", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18},
-  {"net": "/RSV_PA9", "width": 0.20, "layers": ["F.Cu", "B.Cu"], "via_cost": 18}
-]
