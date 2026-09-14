@@ -1,0 +1,29 @@
+(version 1)
+
+# Sparrow-I — reguly niestandardowe dla przetwornicy i torow analogowych.
+
+# Pad VIN LMR14030 ma tylko 0,29 mm do exposed GND. Klasa dopuszcza tam
+# 0,25 mm, natomiast cala trasowana magistrala VBAT zachowuje 0,30 mm.
+(rule "VBAT — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.30mm))
+	(condition "A.NetClass == 'Power_VBAT' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "Sprzezenie zwrotne przetwornicy — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.30mm))
+	(condition "A.NetClass == 'Buck_FB' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "FB z dala od wezla przelaczajacego"
+	(constraint clearance (min 0.60mm))
+	(condition "A.NetClass == 'Buck_FB' && B.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "Sterowanie przetwornicy — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.25mm))
+	(condition "A.NetClass == 'Buck_Control' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "Tory analogowe ADC — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.25mm))
+	(condition "A.NetClass == 'Analog_Sense' && A.Type != 'Pad' && B.Type != 'Pad'"))
+
+(rule "Wezel przelaczajacy — izolacja trasowanej miedzi"
+	(constraint clearance (min 0.30mm))
+	(condition "A.NetClass == 'Buck_SW' && A.Type != 'Pad' && B.Type != 'Pad'"))
