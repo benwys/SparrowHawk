@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "d14da3d9-5033-4645-b148-029ec984a698")
 	(paper "A3")
+	(title_block
+		(title "Sparrow III — Flight Controller")
+		(date "2026-09-10")
+		(rev "III-placement")
+	)
 	(lib_symbols
 		(symbol "DPS310:DPS310"
 			(pin_names
@@ -1297,6 +1302,326 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LIS2MDL:LIS2MDL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LIS2MDL"
+				(at 7.62 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparrowHawk:LGA-12_2x2mm_P0.5mm"
+				(at 30.48 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf"
+				(at 38.1 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ultra-low-power, 3-axis digital output magnetometer, LGA-12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "digital magnetometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LGA*2x2mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LIS2MDL_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LIS2MDL_1_1"
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "DRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "INT" output line)
+					(alternate "SDO" output line)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "Vdd_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:W25Q128JVE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1926,328 +2251,7 @@
 			)
 			(embedded_fonts no)
 		)
-	
-(symbol "LIS2MDL:LIS2MDL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LIS2MDL"
-				(at 7.62 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparrowHawk:LGA-12_2x2mm_P0.5mm"
-				(at 30.48 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf"
-				(at 38.1 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ultra-low-power, 3-axis digital output magnetometer, LGA-12"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "digital magnetometer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LGA*2x2mm*P0.5mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LIS2MDL_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LIS2MDL_1_1"
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SCL/SPC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "SDA/SDI/SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "DRDY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "INT" output line)
-					(alternate "SDO" output line)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "Vdd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 12.7 270)
-					(length 2.54)
-					(name "Vdd_IO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-)
+	)
 	(rectangle
 		(start 233.426 63.754)
 		(end 346.964 116.078)
@@ -2296,6 +2300,18 @@
 		)
 		(uuid "d2b7f4d8-b4b3-4316-9ce2-7e96aa067894")
 	)
+	(rectangle
+		(start 215.9 128.27)
+		(end 345.44 213.36)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dad988d4-a88f-474c-955d-544c79ad4079")
+	)
 	(text "IMU (żyroskop)"
 		(exclude_from_sim no)
 		(at 60.452 59.944 0)
@@ -2328,6 +2344,17 @@
 			(justify left bottom)
 		)
 		(uuid "5293bef2-1907-48e4-a18d-5ed75e2c5f18")
+	)
+	(text "Magnetometr"
+		(exclude_from_sim no)
+		(at 217.17 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6671a073-e1b3-472b-a0f8-eb66e9a8c9ac")
 	)
 	(junction
 		(at 144.78 101.6)
@@ -2426,6 +2453,10 @@
 		(uuid "bdc21c96-57ed-4858-8b70-387661797b4b")
 	)
 	(no_connect
+		(at 271.78 167.64)
+		(uuid "2720aa05-15f4-44d5-bd68-e8b12e575266")
+	)
+	(no_connect
 		(at 139.7 91.44)
 		(uuid "3b3c5a71-7e65-40d7-a74f-7a2e01d09441")
 	)
@@ -2454,6 +2485,16 @@
 			(type default)
 		)
 		(uuid "00f81cc8-0a9b-4cdc-94a2-361712c672d0")
+	)
+	(wire
+		(pts
+			(xy 256.54 138.43) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0751434a-4f85-45e2-9e5d-68706c290084")
 	)
 	(wire
 		(pts
@@ -2517,6 +2558,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 160.02) (xy 259.08 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22116a12-7f0b-4f37-b3dc-ec3f9cd0ce61")
+	)
+	(wire
+		(pts
 			(xy 139.7 77.47) (xy 157.48 77.47)
 		)
 		(stroke
@@ -2544,6 +2595,16 @@
 			(type default)
 		)
 		(uuid "2a5f3447-a470-4628-bfc1-8d6578d91409")
+	)
+	(wire
+		(pts
+			(xy 256.54 160.02) (xy 256.54 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddb9081-9c40-4be4-8723-21d0a4b0aac4")
 	)
 	(wire
 		(pts
@@ -2587,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 185.42) (xy 256.54 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3deeae9e-6fb4-4551-8a30-9075ee83bd7e")
+	)
+	(wire
+		(pts
 			(xy 285.75 87.63) (xy 293.37 87.63)
 		)
 		(stroke
@@ -2594,6 +2665,16 @@
 			(type default)
 		)
 		(uuid "404f5a77-16c9-4123-a3b6-33e447715acd")
+	)
+	(wire
+		(pts
+			(xy 256.54 146.05) (xy 256.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418f6f7c-1be7-4811-843d-73f3f094e199")
 	)
 	(wire
 		(pts
@@ -2627,6 +2708,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 146.05) (xy 231.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50461238-c98e-4cbc-a20f-6e6e8ae314e5")
+	)
+	(wire
+		(pts
 			(xy 241.3 85.09) (xy 241.3 86.36)
 		)
 		(stroke
@@ -2634,6 +2725,26 @@
 			(type default)
 		)
 		(uuid "513f8fa2-b553-4680-9059-3bed4150e5a5")
+	)
+	(wire
+		(pts
+			(xy 243.84 172.72) (xy 241.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52487394-3a21-4491-8151-562fe06c1e26")
+	)
+	(wire
+		(pts
+			(xy 243.84 170.18) (xy 241.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53aad321-9fa6-4926-8d47-e4008832fc47")
 	)
 	(wire
 		(pts
@@ -2717,6 +2828,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 179.07) (xy 289.56 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8028093f-53b5-4fd1-bdbf-e77700b33152")
+	)
+	(wire
+		(pts
 			(xy 160.02 90.17) (xy 177.8 90.17)
 		)
 		(stroke
@@ -2724,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "80742c7d-ae00-4e7d-83a7-2ae16f7fb57d")
+	)
+	(wire
+		(pts
+			(xy 281.94 146.05) (xy 281.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ae6a01-be90-4cf2-8203-20e86134bf2b")
 	)
 	(wire
 		(pts
@@ -2737,6 +2868,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 138.43) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d81f7f8-bca7-4744-8509-02405adbe9a7")
+	)
+	(wire
+		(pts
 			(xy 177.8 91.44) (xy 177.8 92.71)
 		)
 		(stroke
@@ -2744,6 +2885,16 @@
 			(type default)
 		)
 		(uuid "8dba8908-75fc-4169-8f4a-e2ef86502a85")
+	)
+	(wire
+		(pts
+			(xy 289.56 171.45) (xy 289.56 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904f8fd1-856c-4c9d-8440-1869817316da")
 	)
 	(wire
 		(pts
@@ -2794,6 +2945,16 @@
 			(type default)
 		)
 		(uuid "a8ccd18a-15e4-475b-a1f6-1e3b47fe052f")
+	)
+	(wire
+		(pts
+			(xy 243.84 167.64) (xy 241.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07ccfbc-84e1-4ca0-aeb8-cd7b21f9e383")
 	)
 	(wire
 		(pts
@@ -2967,6 +3128,26 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 138.43) (xy 281.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7eb1353-d16d-4689-8ec1-4c86dd6b1a9f")
+	)
+	(wire
+		(pts
+			(xy 269.24 167.64) (xy 271.78 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8e855c-dd45-4cd4-9db7-fedf9c5db09f")
+	)
+	(wire
+		(pts
 			(xy 167.64 170.18) (xy 167.64 171.45)
 		)
 		(stroke
@@ -3007,6 +3188,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 175.26) (xy 271.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4305586-9657-405e-97ba-9033e5d5cc74")
+	)
+	(wire
+		(pts
 			(xy 177.8 90.17) (xy 177.8 88.9)
 		)
 		(stroke
@@ -3044,6 +3235,56 @@
 			(type default)
 		)
 		(uuid "fd2d4625-bf86-4988-9a42-428939ffce65")
+	)
+	(label "MAG_C1"
+		(at 289.56 168.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0db43073-2691-4495-9c0b-980f5a80525b")
+	)
+	(label "MAG_C1"
+		(at 271.78 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2078401d-c2ee-48da-afa9-7381d5dfb411")
+	)
+	(label "I2C1_SDA"
+		(at 241.3 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e68d8de-ed81-4581-8a6d-b62a3a6e613a")
+	)
+	(label "I2C1_SCL"
+		(at 241.3 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50d076e3-0432-4468-8038-99456c0578d3")
+	)
+	(label "+3V3"
+		(at 241.3 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b60ae45-b646-4860-9d2d-4a4e6a4fbe60")
 	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
@@ -3288,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0710KL"
 			(at 257.81 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3672,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 257.81 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
 			(at 257.81 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3541,6 +3782,50 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 257.81 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 257.81 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies."
+			(at 257.81 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 257.81 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "18dd7657-27ff-4caf-8148-aa934fd6f53d")
 		)
@@ -3551,6 +3836,324 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "R_FLASH_WP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 289.56 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3308b493-ae6b-440b-91c9-fe6d73679568")
+		(property "Reference" "C_MAG_SET1"
+			(at 292.1 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 292.1 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C16772.pdf"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "220nF +/-10%, X7R, 16V, 0402; LIS2MDL C1 set/reset capacitor. JLC basic part."
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B224KO5NNNC"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B224KO5NNNC"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16772"
+			(at 289.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "118cac8e-1363-4221-b289-896ece08d1ca")
+		)
+		(pin "2"
+			(uuid "2c525e94-61fd-4a0b-9fff-de5bc0809128")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "C_MAG_SET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 281.94 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33780927-7229-4fb3-9aff-957d5e6cf10b")
+		(property "Reference" "C_MAG_BULK1"
+			(at 284.48 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 284.48 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98190.pdf"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "22uF +/-20%, X5R, 16V, 0805; LIS2MDL local bulk."
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A226MOQNNNE"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A226MOQNNNE"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98190"
+			(at 281.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a70fc727-9d06-4243-bebb-02ecf9eebec4")
+		)
+		(pin "2"
+			(uuid "09318710-abf3-46be-85bf-8cd946f6d589")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "C_MAG_BULK1")
 					(unit 1)
 				)
 			)
@@ -3601,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C103KA01%23"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3744,7 +4347,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3755,7 +4358,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71C103KA01D"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3854,6 +4457,50 @@
 				)
 			)
 		)
+		(property "MPN" "GRM155R71C103KA01D"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "10nF +/-10%, X7R, 16V, 0402; IMU VDDIO high-frequency decoupling."
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85735"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "29be7a65-578c-4237-b08b-4a40a48ae988")
 		)
@@ -3914,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61C225KE11%23"
 			(at 160.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4057,7 +4704,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 160.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4068,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R61C225KE11D"
 			(at 160.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4157,6 +4804,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 160.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61C225KE11D"
+			(at 160.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 160.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "2.2uF +/-10%, X5R, 16V, 0402; local IMU decoupling; nominal capacitance is not guaranteed biased capacitance."
+			(at 160.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C88944"
 			(at 160.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4410,6 +5101,86 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50383f7a-b8cb-427d-bbb5-7d1f951f3b2f")
+		(property "Reference" "#PWR927"
+			(at 259.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9323d27a-7a4b-40af-85ca-1ca0a01087f1")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR927")
 					(unit 1)
 				)
 			)
@@ -4735,6 +5506,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C190862"
+			(at 303.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "d4d66822-8f8d-4e9f-9cd6-f8b76fb25681")
 		)
@@ -4766,6 +5548,86 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "U_FLASH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a8bbead-b215-4914-81df-8da8d591aaee")
+		(property "Reference" "#PWR926"
+			(at 233.68 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5070063d-05bc-4b41-a0d3-b75124745b3b")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR926")
 					(unit 1)
 				)
 			)
@@ -4894,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +5778,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5037,7 +5899,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5048,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5137,6 +5999,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 160.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 160.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 160.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 160.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5207,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5229,7 +6135,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5350,7 +6256,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5361,7 +6267,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5460,6 +6366,50 @@
 				)
 			)
 		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 167.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 167.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 167.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 167.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "183641b6-fac5-43bc-bab1-4497527fdd75")
 		)
@@ -5518,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=BLM15AG601SN1%23"
 			(at 163.83 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5650,7 +6600,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 163.83 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -5661,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "BLM15AG601SN1D"
 			(at 163.83 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -5750,6 +6700,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 163.83 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM15AG601SN1D"
+			(at 163.83 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 163.83 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "600ohm +/-25% at100MHz, 0402, rated300mA, DCR max0.52ohm. Low-current IMU branch; test rail noise."
+			(at 163.83 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76884"
 			(at 163.83 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -5931,6 +6925,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 281.94 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "965c9bba-0391-4744-9aa2-e5c3cdafe9fa")
+		(property "Reference" "#PWR929"
+			(at 284.48 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 281.94 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ed3e0c6-6763-4c4f-88b1-f23c478ac1af")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR929")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 173.99 0)
 		(unit 1)
@@ -6029,7 +7103,7 @@
 				)
 			)
 		)
-		(property "Value" "DPS310"
+		(property "Value" "DPS368"
 			(at 137.16 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +7125,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_02-EN.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3232508.pdf"
 			(at 137.16 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +7172,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "DPS310"
+		(property "MPN" "DPS368XTSA1"
 			(at 137.16 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6219,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 137.16 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6230,7 +7304,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "DPS368XTSA1"
 			(at 137.16 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6329,6 +7403,28 @@
 				)
 			)
 		)
+		(property "Note" "Baro: DPS310XTSA1 discontinued at LCSC/JLC. DPS368 has the same 2.0x2.5mm LGA-8 pinout (height 1.1mm) and DPS3xx register interface; firmware must accept DPS368."
+			(at 137.16 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3232508"
+			(at 137.16 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "47087edf-9c42-4784-a299-1f3e78bd8d16")
 		)
@@ -6357,6 +7453,166 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "U_BARO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b7aeea7-e623-4847-836f-403d20d99359")
+		(property "Reference" "#PWR924"
+			(at 292.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c7ce9fb-094f-499b-86d3-78fbe0bd3cd7")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR924")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 231.14 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3459cf2-4108-4277-beac-d5243212c030")
+		(property "Reference" "#PWR925"
+			(at 233.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 231.14 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6301a3da-e8e8-40e1-a288-796fae15f587")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR925")
 					(unit 1)
 				)
 			)
@@ -6405,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 321.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6427,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 321.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6548,7 +7804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 321.31 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -6559,7 +7815,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 321.31 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -6658,6 +7914,50 @@
 				)
 			)
 		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 321.31 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 321.31 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 321.31 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 321.31 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f44b282-843f-489c-88f3-007a4d1c3d87")
 		)
@@ -6668,6 +7968,86 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "C_FLASH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 259.08 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aea935bf-0c99-4e5f-9974-766bb314f6e1")
+		(property "Reference" "#PWR923"
+			(at 261.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 261.62 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4756f283-cd99-4c20-acac-7f0f4a69e22c")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR923")
 					(unit 1)
 				)
 			)
@@ -6796,7 +8176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6818,7 +8198,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6939,7 +8319,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6950,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7039,6 +8419,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7375,6 +8799,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5885a54-efd4-4fbc-9d42-7677af2b335b")
+		(property "Reference" "#PWR921"
+			(at 259.08 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17ca9963-738c-4e1a-86f1-791724154819")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR921")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 167.64 156.21 0)
 		(unit 1)
@@ -7447,6 +8951,564 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d71788ab-1041-4c6d-8ea2-885c888d2323")
+		(property "Reference" "C_MAG_VIO1"
+			(at 259.08 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 259.08 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 256.54 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ddcdc7d-4ba6-4029-958a-2b739fb62af0")
+		)
+		(pin "2"
+			(uuid "3e5017e1-632d-4c9f-91ab-3164c6018df0")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "C_MAG_VIO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db97c902-0721-4848-96fe-6d2ed936798e")
+		(property "Reference" "#PWR928"
+			(at 259.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "558e1ea9-8255-438f-85ea-e8215a6dd03a")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR928")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe3a843-2802-4f91-a07e-8b5fa03bef4a")
+		(property "Reference" "#PWR922"
+			(at 259.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3670bf8-8713-4792-a6b5-642d967cd97e")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR922")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e7da0b-3cef-420b-9d29-49f53e52e00d")
+		(property "Reference" "#PWR930"
+			(at 284.48 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2d244be-ee31-470e-9073-75528ba2df6d")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "#PWR930")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e64d1ac2-67bc-412b-ba6c-9172b48e6851")
+		(property "Reference" "C_MAG_VDD1"
+			(at 233.68 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 233.68 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a5ae775-3309-4a43-bfe3-b674415012f9")
+		)
+		(pin "2"
+			(uuid "f11135ed-b46e-4d80-af31-c91ac67fa759")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "C_MAG_VDD1")
 					(unit 1)
 				)
 			)
@@ -7574,7 +9636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0710KL"
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7717,7 +9779,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7728,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7817,6 +9879,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies."
+			(at 241.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8151,6 +10257,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1850418"
+			(at 114.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "a6c58857-16fd-4205-93ff-9126eda5052c")
 		)
@@ -8247,7 +10364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0710KL"
 			(at 287.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8390,7 +10507,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 287.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8401,7 +10518,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-0710KL"
 			(at 287.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8500,6 +10617,50 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 287.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 287.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies."
+			(at 287.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 287.02 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1042a0a0-6e9c-4d8e-9148-2b57ba0c695b")
 		)
@@ -8510,6 +10671,160 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
 					(reference "R_FLASH_CS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIS2MDL:LIS2MDL")
+		(at 256.54 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f73f8197-c13b-4917-8718-7cf1b4ba4d6a")
+		(property "Reference" "U_MAG1"
+			(at 277 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIS2MDLTR"
+			(at 277 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparrowHawk:LGA-12_2x2mm_P0.5mm"
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf"
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "I2C address 0x1E; CS=VDDIO. No additional pull-ups. Reserved GPS compass address must differ."
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LIS2MDLTR"
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "LIS2MDLTR, I2C1 address 0x1E, Betaflight LIS2MDL driver. Distributor stock unresolved on 2026-09-10; GPS compass address must differ"
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C919695"
+			(at 256.54 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ba46f0-1ab6-4a52-b2b1-f3c85bf0d0b8")
+		)
+		(pin "2"
+			(uuid "9786e262-6b75-4179-8d39-1543833b1dfa")
+		)
+		(pin "3"
+			(uuid "814e86a4-e81f-471d-9124-78fc3d87c013")
+		)
+		(pin "4"
+			(uuid "dcf885ab-97d0-4120-b0b3-430013b7e85c")
+		)
+		(pin "5"
+			(uuid "f76fd668-203c-4749-bd0e-2087aa0b4bf3")
+		)
+		(pin "6"
+			(uuid "f1a4c97a-f2f3-48ad-a4a7-d89f8f912190")
+		)
+		(pin "7"
+			(uuid "a494017f-38b2-460a-9e89-e1079eda6033")
+		)
+		(pin "8"
+			(uuid "1e7c3512-1c50-44fe-9235-f5db73e27c42")
+		)
+		(pin "9"
+			(uuid "34f2a135-c769-43e9-b8d0-6cbc6d37305c")
+		)
+		(pin "10"
+			(uuid "ea24fc9b-7c02-419e-aa6b-1778c7cd2d4c")
+		)
+		(pin "11"
+			(uuid "46cff818-e7b7-4ae8-93ec-81c6b102b94d")
+		)
+		(pin "12"
+			(uuid "c2cb569b-5d28-4aff-b23f-d5cc3da9afe6")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
+					(reference "U_MAG1")
 					(unit 1)
 				)
 			)
@@ -8560,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 177.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8582,7 +10897,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 177.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8703,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Murata"
 			(at 177.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8714,7 +11029,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "GRM155R71H104KE14D"
 			(at 177.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8813,6 +11128,50 @@
 				)
 			)
 		)
+		(property "Note" "100nF +/-10%, X7R, 50V, 0402. Manufacturer reference sheet archived in docs/Datasheets; nominal value is not a measured effective capacitance."
+			(at 177.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 177.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 177.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 177.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15a15ee0-2737-42a8-80f5-c5b7f0a4d5a6")
 		)
@@ -8828,787 +11187,4 @@
 			)
 		)
 	)
-
-(wire (pts (xy 243.84 170.18) (xy 241.3 170.18))
-		(stroke (width 0) (type default))
-		(uuid "53aad321-9fa6-4926-8d47-e4008832fc47")
-	)
-(wire (pts (xy 243.84 167.64) (xy 241.3 167.64))
-		(stroke (width 0) (type default))
-		(uuid "b07ccfbc-84e1-4ca0-aeb8-cd7b21f9e383")
-	)
-(wire (pts (xy 243.84 172.72) (xy 241.3 172.72))
-		(stroke (width 0) (type default))
-		(uuid "52487394-3a21-4491-8151-562fe06c1e26")
-	)
-(wire (pts (xy 269.24 175.26) (xy 271.78 175.26))
-		(stroke (width 0) (type default))
-		(uuid "f4305586-9657-405e-97ba-9033e5d5cc74")
-	)
-(wire (pts (xy 256.54 185.42) (xy 256.54 187.96))
-		(stroke (width 0) (type default))
-		(uuid "3deeae9e-6fb4-4551-8a30-9075ee83bd7e")
-	)
-(wire (pts (xy 256.54 160.02) (xy 256.54 157.48))
-		(stroke (width 0) (type default))
-		(uuid "2ddb9081-9c40-4be4-8723-21d0a4b0aac4")
-	)
-(wire (pts (xy 259.08 160.02) (xy 259.08 157.48))
-		(stroke (width 0) (type default))
-		(uuid "22116a12-7f0b-4f37-b3dc-ec3f9cd0ce61")
-	)
-(wire (pts (xy 269.24 167.64) (xy 271.78 167.64))
-		(stroke (width 0) (type default))
-		(uuid "ee8e855c-dd45-4cd4-9db7-fedf9c5db09f")
-	)
-(wire (pts (xy 289.56 171.45) (xy 289.56 168.91))
-		(stroke (width 0) (type default))
-		(uuid "904f8fd1-856c-4c9d-8440-1869817316da")
-	)
-(wire (pts (xy 289.56 179.07) (xy 289.56 181.61))
-		(stroke (width 0) (type default))
-		(uuid "8028093f-53b5-4fd1-bdbf-e77700b33152")
-	)
-(wire (pts (xy 231.14 138.43) (xy 231.14 135.89))
-		(stroke (width 0) (type default))
-		(uuid "8d81f7f8-bca7-4744-8509-02405adbe9a7")
-	)
-(wire (pts (xy 231.14 146.05) (xy 231.14 148.59))
-		(stroke (width 0) (type default))
-		(uuid "50461238-c98e-4cbc-a20f-6e6e8ae314e5")
-	)
-(wire (pts (xy 256.54 138.43) (xy 256.54 135.89))
-		(stroke (width 0) (type default))
-		(uuid "0751434a-4f85-45e2-9e5d-68706c290084")
-	)
-(wire (pts (xy 256.54 146.05) (xy 256.54 148.59))
-		(stroke (width 0) (type default))
-		(uuid "418f6f7c-1be7-4811-843d-73f3f094e199")
-	)
-(wire (pts (xy 281.94 138.43) (xy 281.94 135.89))
-		(stroke (width 0) (type default))
-		(uuid "e7eb1353-d16d-4689-8ec1-4c86dd6b1a9f")
-	)
-(wire (pts (xy 281.94 146.05) (xy 281.94 148.59))
-		(stroke (width 0) (type default))
-		(uuid "85ae6a01-be90-4cf2-8203-20e86134bf2b")
-	)
-(no_connect (at 271.78 167.64) (uuid "2720aa05-15f4-44d5-bd68-e8b12e575266"))
-(label "I2C1_SCL"
-		(at 241.3 170.18 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right bottom))
-		(uuid "50d076e3-0432-4468-8038-99456c0578d3")
-	)
-(label "+3V3"
-		(at 241.3 167.64 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right bottom))
-		(uuid "5b60ae45-b646-4860-9d2d-4a4e6a4fbe60")
-	)
-(label "I2C1_SDA"
-		(at 241.3 172.72 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right bottom))
-		(uuid "4e68d8de-ed81-4581-8a6d-b62a3a6e613a")
-	)
-(label "MAG_C1"
-		(at 271.78 175.26 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify left bottom))
-		(uuid "2078401d-c2ee-48da-afa9-7381d5dfb411")
-	)
-(label "MAG_C1"
-		(at 289.56 168.91 90)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify left bottom))
-		(uuid "0db43073-2691-4495-9c0b-980f5a80525b")
-	)
-(symbol
-		(lib_id "LIS2MDL:LIS2MDL")
-		(at 256.54 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f73f8197-c13b-4917-8718-7cf1b4ba4d6a")
-		(property "Reference" "U_MAG1"
-			(at 277.00 157.48 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "LIS2MDLTR"
-			(at 277.00 160.02 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "SparrowHawk:LGA-12_2x2mm_P0.5mm"
-			(at 256.54 172.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf"
-			(at 256.54 172.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "I2C address 0x1E; CS=VDDIO. No additional pull-ups. Reserved GPS compass address must differ."
-			(at 256.54 172.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "f7ba46f0-1ab6-4a52-b2b1-f3c85bf0d0b8"))
-		(pin "2" (uuid "9786e262-6b75-4179-8d39-1543833b1dfa"))
-		(pin "3" (uuid "814e86a4-e81f-471d-9124-78fc3d87c013"))
-		(pin "4" (uuid "dcf885ab-97d0-4120-b0b3-430013b7e85c"))
-		(pin "5" (uuid "f76fd668-203c-4749-bd0e-2087aa0b4bf3"))
-		(pin "6" (uuid "f1a4c97a-f2f3-48ad-a4a7-d89f8f912190"))
-		(pin "7" (uuid "a494017f-38b2-460a-9e89-e1079eda6033"))
-		(pin "8" (uuid "1e7c3512-1c50-44fe-9235-f5db73e27c42"))
-		(pin "9" (uuid "34f2a135-c769-43e9-b8d0-6cbc6d37305c"))
-		(pin "10" (uuid "ea24fc9b-7c02-419e-aa6b-1778c7cd2d4c"))
-		(pin "11" (uuid "46cff818-e7b7-4ae8-93ec-81c6b102b94d"))
-		(pin "12" (uuid "c2cb569b-5d28-4aff-b23f-d5cc3da9afe6"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "U_MAG1")
-					(unit 1)
-				)
-			)
-		)
-	
- (property "MPN" "LIS2MDLTR" (at 256.54 172.72 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Manufacturer" "STMicroelectronics" (at 256.54 172.72 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Note" "LIS2MDLTR, I2C1 address 0x1E, Betaflight LIS2MDL driver. Distributor stock unresolved on 2026-09-10; GPS compass address must differ" (at 256.54 172.72 0) (hide yes) (effects (font (size 1.27 1.27)))))
-(symbol
-		(lib_id "Device:C")
-		(at 289.56 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3308b493-ae6b-440b-91c9-fe6d73679568")
-		(property "Reference" "C_MAG_SET1"
-			(at 292.1 173.99 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "220nF"
-			(at 292.1 176.53 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 289.56 175.26 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 289.56 175.26 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
-			(at 289.56 175.26 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "118cac8e-1363-4221-b289-896ece08d1ca"))
-		(pin "2" (uuid "2c525e94-61fd-4a0b-9fff-de5bc0809128"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "C_MAG_SET1")
-					(unit 1)
-				)
-			)
-		)
-	
- (property "Voltage" "16V" (at 289.56 175.26 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Note" "220nF ceramic X7R, ESR <=200mOhm per LIS2MDL application circuit; select exact MPN in HW-11" (at 289.56 175.26 0) (hide yes) (effects (font (size 1.27 1.27)))))
-(symbol
-		(lib_id "Device:C")
-		(at 231.14 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e64d1ac2-67bc-412b-ba6c-9172b48e6851")
-		(property "Reference" "C_MAG_VDD1"
-			(at 233.68 140.97 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "100nF"
-			(at 233.68 143.51 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 231.14 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 231.14 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
-			(at 231.14 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "3a5ae775-3309-4a43-bfe3-b674415012f9"))
-		(pin "2" (uuid "f11135ed-b46e-4d80-af31-c91ac67fa759"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "C_MAG_VDD1")
-					(unit 1)
-				)
-			)
-		)
-	
- (property "Voltage" "16V" (at 231.14 142.24 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Note" "100nF ceramic X7R; VDD pin 9 local decoupling" (at 231.14 142.24 0) (hide yes) (effects (font (size 1.27 1.27)))))
-(symbol
-		(lib_id "Device:C")
-		(at 256.54 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d71788ab-1041-4c6d-8ea2-885c888d2323")
-		(property "Reference" "C_MAG_VIO1"
-			(at 259.08 140.97 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "100nF"
-			(at 259.08 143.51 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 256.54 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 256.54 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
-			(at 256.54 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "9ddcdc7d-4ba6-4029-958a-2b739fb62af0"))
-		(pin "2" (uuid "3e5017e1-632d-4c9f-91ab-3164c6018df0"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "C_MAG_VIO1")
-					(unit 1)
-				)
-			)
-		)
-	
- (property "Voltage" "16V" (at 256.54 142.24 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Note" "100nF ceramic X7R; VDDIO pin 10 local decoupling" (at 256.54 142.24 0) (hide yes) (effects (font (size 1.27 1.27)))))
-(symbol
-		(lib_id "Device:C")
-		(at 281.94 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33780927-7229-4fb3-9aff-957d5e6cf10b")
-		(property "Reference" "C_MAG_BULK1"
-			(at 284.48 140.97 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "10uF"
-			(at 284.48 143.51 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 281.94 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 281.94 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "LIS2MDL application circuit. Ceramic low-ESR; 10uF bulk: 16V X5R, verify effective capacitance at 3.3V."
-			(at 281.94 142.24 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "a70fc727-9d06-4243-bebb-02ecf9eebec4"))
-		(pin "2" (uuid "09318710-abf3-46be-85bf-8cd946f6d589"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "C_MAG_BULK1")
-					(unit 1)
-				)
-			)
-		)
-	
- (property "Voltage" "16V" (at 281.94 142.24 0) (hide yes) (effects (font (size 1.27 1.27))))
- (property "Note" "10uF ceramic X5R/X7R, 0805. Verify effective capacitance at 3.3V when selecting MPN; ST recommends about 10uF local bulk" (at 281.94 142.24 0) (hide yes) (effects (font (size 1.27 1.27)))))
-(symbol
-		(lib_id "power:GND")
-		(at 256.54 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5885a54-efd4-4fbc-9d42-7677af2b335b")
-		(property "Reference" "#PWR921"
-			(at 259.08 189.23 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "GND"
-			(at 256.54 191.77 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 256.54 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 256.54 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 256.54 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "17ca9963-738c-4e1a-86f1-791724154819"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR921")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:+3V3")
-		(at 256.54 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfe3a843-2802-4f91-a07e-8b5fa03bef4a")
-		(property "Reference" "#PWR922"
-			(at 259.08 158.75 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "+3V3"
-			(at 254.00 154.94 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 256.54 157.48 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 256.54 157.48 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 256.54 157.48 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "e3670bf8-8713-4792-a6b5-642d967cd97e"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR922")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:+3V3")
-		(at 259.08 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aea935bf-0c99-4e5f-9974-766bb314f6e1")
-		(property "Reference" "#PWR923"
-			(at 261.62 158.75 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "+3V3"
-			(at 261.62 154.94 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 259.08 157.48 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 259.08 157.48 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 259.08 157.48 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "4756f283-cd99-4c20-acac-7f0f4a69e22c"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR923")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:GND")
-		(at 289.56 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b7aeea7-e623-4847-836f-403d20d99359")
-		(property "Reference" "#PWR924"
-			(at 292.1 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "GND"
-			(at 289.56 185.42 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 289.56 181.61 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 289.56 181.61 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 289.56 181.61 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "2c7ce9fb-094f-499b-86d3-78fbe0bd3cd7"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR924")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:+3V3")
-		(at 231.14 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3459cf2-4108-4277-beac-d5243212c030")
-		(property "Reference" "#PWR925"
-			(at 233.68 137.16 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "+3V3"
-			(at 231.14 133.35 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 231.14 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 231.14 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 231.14 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "6301a3da-e8e8-40e1-a288-796fae15f587"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR925")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:GND")
-		(at 231.14 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a8bbead-b215-4914-81df-8da8d591aaee")
-		(property "Reference" "#PWR926"
-			(at 233.68 149.86 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "GND"
-			(at 231.14 152.40 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 231.14 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 231.14 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 231.14 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "5070063d-05bc-4b41-a0d3-b75124745b3b"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR926")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:+3V3")
-		(at 256.54 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50383f7a-b8cb-427d-bbb5-7d1f951f3b2f")
-		(property "Reference" "#PWR927"
-			(at 259.08 137.16 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "+3V3"
-			(at 256.54 133.35 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 256.54 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 256.54 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 256.54 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "9323d27a-7a4b-40af-85ca-1ca0a01087f1"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR927")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:GND")
-		(at 256.54 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db97c902-0721-4848-96fe-6d2ed936798e")
-		(property "Reference" "#PWR928"
-			(at 259.08 149.86 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "GND"
-			(at 256.54 152.40 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 256.54 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 256.54 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 256.54 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "558e1ea9-8255-438f-85ea-e8215a6dd03a"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR928")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:+3V3")
-		(at 281.94 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "965c9bba-0391-4744-9aa2-e5c3cdafe9fa")
-		(property "Reference" "#PWR929"
-			(at 284.48 137.16 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "+3V3"
-			(at 281.94 133.35 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 281.94 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 281.94 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 281.94 135.89 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "7ed3e0c6-6763-4c4f-88b1-f23c478ac1af"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR929")
-					(unit 1)
-				)
-			)
-		)
-	)
-(symbol
-		(lib_id "power:GND")
-		(at 281.94 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0e7da0b-3cef-420b-9d29-49f53e52e00d")
-		(property "Reference" "#PWR930"
-			(at 284.48 149.86 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "GND"
-			(at 281.94 152.40 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" ""
-			(at 281.94 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 281.94 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" ""
-			(at 281.94 148.59 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "d2d244be-ee31-470e-9073-75528ba2df6d"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/ad2b0bc7-5e4b-4028-937e-6a7c45ea413d"
-					(reference "#PWR930")
-					(unit 1)
-				)
-			)
-		)
-	)
-(text "Sparrow III: LIS2MDL, I2C1 @ 0x1E. C1=220nF low ESR <=200mR.\nGPS: choose compass with address other than 0x1E, or leave GPS I2C unconnected.\nLGA requires controlled reflow / hot air; do not attempt iron-only assembly." (at 218.44 205.74 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "51e0c5e5-91ca-49a2-9e0e-ec4a4a7895c6"))
-
-(title_block (title "Sparrow III — Flight Controller") (date "2026-09-10") (rev "III-placement"))
-
-(rectangle (start 215.9 128.27) (end 345.44 213.36) (stroke (width 0.1524) (type default)) (fill (type none)) (uuid "dad988d4-a88f-474c-955d-544c79ad4079"))
-(text "Magnetometr — LIS2MDL / I2C1" (at 217.17 127 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6671a073-e1b3-472b-a0f8-eb66e9a8c9ac"))
 )
