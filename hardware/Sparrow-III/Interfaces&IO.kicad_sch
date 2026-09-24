@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "d14da3d9-5033-4645-b148-029ec984a698")
 	(paper "A3")
+	(title_block
+		(title "Sparrow III — Flight Controller")
+		(date "2026-09-10")
+		(rev "III-placement")
+	)
 	(lib_symbols
 		(symbol "BM03B-SRSS-TB_LF__SN_:BM03B-SRSS-TB_LF__SN_"
 			(pin_names
@@ -2370,6 +2375,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -4226,195 +4418,19 @@
 			)
 			(embedded_fonts no)
 		)
-	
-(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+	)
+	(rectangle
+		(start 300.99 193.04)
+		(end 384.81 231.14)
+		(stroke
+			(width 0.1524)
+			(type default)
 		)
-)
+		(fill
+			(type none)
+		)
+		(uuid "2e020aa9-e8b9-40a7-b0d8-a98f004d2233")
+	)
 	(rectangle
 		(start 218.186 38.608)
 		(end 302.006 67.564)
@@ -4552,6 +4568,28 @@
 			(justify left bottom)
 		)
 		(uuid "a22f73f1-d7cd-43a9-b31e-0669ad7c1bae")
+	)
+	(text "Sparrow III: J_VTX2 = +5V / GND / SmartAudio (PC10).\nJ_VTX1 and J_CAM1 retained as DNP, excluded from PCB."
+		(exclude_from_sim no)
+		(at 302.26 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a481add1-f968-42a2-9046-92163bda5cb8")
+	)
+	(text "VTX — Sparrow III"
+		(exclude_from_sim no)
+		(at 302.26 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb423365-d8b7-4803-8fa3-9862f7cc0012")
 	)
 	(text "Magistrala do ESC + filtr RC dla pomiaru prądu"
 		(exclude_from_sim no)
@@ -4981,6 +5019,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 200.66) (xy 340.36 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c57e2b8-4a98-48f0-a8f2-c01a880d721b")
+	)
+	(wire
+		(pts
 			(xy 250.19 151.13) (xy 255.27 151.13)
 		)
 		(stroke
@@ -4988,6 +5036,16 @@
 			(type default)
 		)
 		(uuid "7e549cfd-5c9d-4f24-b1c4-6bf3f7f1d228")
+	)
+	(wire
+		(pts
+			(xy 342.9 203.2) (xy 340.36 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6e23c1-1242-44d4-98ff-0564a95834d2")
 	)
 	(wire
 		(pts
@@ -5078,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "9a18c4c8-151f-46cf-93af-fd7cfab18005")
+	)
+	(wire
+		(pts
+			(xy 342.9 205.74) (xy 340.36 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e76e90b-4f0e-4a10-8f56-4af686258161")
 	)
 	(wire
 		(pts
@@ -5299,6 +5367,16 @@
 		)
 		(uuid "0aff4a76-dfd9-4c04-a410-09eb6e942a07")
 	)
+	(label "VTX_TX"
+		(at 340.36 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e96eb01-195e-49dc-8729-33b69b652463")
+	)
 	(label "ESC_CURR_IN"
 		(at 285.75 93.98 0)
 		(effects
@@ -5308,6 +5386,16 @@
 			(justify left bottom)
 		)
 		(uuid "20f75f03-0aee-4766-81ca-086c8b11cf52")
+	)
+	(label "+5V"
+		(at 340.36 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28a13ca6-cc8e-4f9c-9c79-4d6631b5c1d3")
 	)
 	(label "USB_C_DP"
 		(at 101.6 73.66 0)
@@ -5358,6 +5446,16 @@
 			(justify right bottom)
 		)
 		(uuid "b78d5e5f-174b-4f3a-9bc6-596d30ca7943")
+	)
+	(label "GND"
+		(at 340.36 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2f31dee-98fc-4362-8da7-e0b427dc6594")
 	)
 	(label "ESC_CURR_IN"
 		(at 332.74 102.87 180)
@@ -6083,7 +6181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-075K1L"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6324,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6237,7 +6335,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-075K1L"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6326,6 +6424,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies."
+			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C105872"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6884,7 +7026,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "BM06B-SRSS-TB (LF)(SN)"
+		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "BM06B-SRSS-TB(LF)(SN)"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7105,6 +7247,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 344.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160392"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7737,6 +7890,17 @@
 		)
 		(property "SnapEDA_Link" ""
 			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C110921"
+			(at 153.67 63.5 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +9077,7 @@
 				)
 			)
 		)
-		(property "Note" "PINOUT DO USTALENIA po wyborze 4in1 ESC - przepisac 1:1 z instrukcji"
+		(property "Note" "FC pinout fixed; custom harness must map selected ESC signals. Do not assume1:1 cable. With J_BAT input, omit ESC VBAT conductor; retain common GND."
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9123,6 +9287,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 347.98 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160394"
 			(at 347.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9919,7 +10094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-075K1L"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10062,7 +10237,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10248,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-075K1L"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10162,6 +10337,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies."
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C105872"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10388,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0402C105K4PACTU"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10531,7 +10750,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "KEMET"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +10761,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "C0402C105K4PACTU"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10641,6 +10860,50 @@
 				)
 			)
 		)
+		(property "MPN" "C0402C105K4PACTU"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "1uF +/-10%, X5R, 16V, 0402. Selected in-stock procurement part; qualify ADC settling and VDDA noise on prototype."
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C172740"
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "903b085d-b5d8-46bc-9bb1-078ebea76e08")
 		)
@@ -10701,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/chip-resistors/models/ERJ2GE0R00X"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10723,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Note" "ekran USB-C wprost do GND (plytka ma jedna mase). Wczesniej 1M || 10nF"
+		(property "Note" "0ohm jumper, 0402; direct USB shield-to-GND connection."
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10855,7 +11118,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Panasonic"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10866,7 +11129,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ-2GE0R00X"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10955,6 +11218,39 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C242160"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11302,6 +11598,17 @@
 				)
 			)
 		)
+		(property "Assembly" "DNP; old VBAT/video connector. Use J_VTX2 in Sparrow III."
+			(at 345.44 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56271164-b44a-4368-8166-fa2becd989bc")
 		)
@@ -11328,8 +11635,7 @@
 				)
 			)
 		)
-	
- (property "Assembly" "DNP; old VBAT/video connector. Use J_VTX2 in Sparrow III." (at 345.44 54.61 0) (hide yes) (effects (font (size 1.27 1.27)))))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 261.62 101.6 0)
@@ -11782,6 +12088,28 @@
 				)
 			)
 		)
+		(property "Mounting" "Horizontal top mount; body inside PCB; entry from right edge"
+			(at 83.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3197885"
+			(at 83.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B1"
 			(uuid "86eb7af8-f908-4d8a-857c-30e64c148899")
 		)
@@ -11841,8 +12169,7 @@
 				)
 			)
 		)
-	
- (property "Mounting" "Horizontal top mount; body inside PCB; entry from right edge" (at 83.82 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 92.71 97.79 0)
@@ -11916,6 +12243,89 @@
 			(project "Flight Controller"
 				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/a7a67c1a-3f82-4b2b-a6bb-d7bf8bb803f3"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 347.98 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e3c959-dd6f-44af-8021-fd71ddf895ba")
+		(property "Reference" "J_VTX2"
+			(at 366 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VTX: 5V / GND / SA"
+			(at 366 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparrowHawk:SolderPads_VTX_1x03"
+			(at 347.98 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder pads: 1 +5V, 2 GND, 3 SmartAudio MCU PC10. External 5V-compatible VTX only."
+			(at 347.98 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f99a6691-dc05-41f1-9790-c74c74b738a4")
+		)
+		(pin "2"
+			(uuid "b6975c9c-e086-4e30-a095-264e3acecbf6")
+		)
+		(pin "3"
+			(uuid "05a75618-7d55-4efb-b32f-03fde835b530")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/a7a67c1a-3f82-4b2b-a6bb-d7bf8bb803f3"
+					(reference "J_VTX2")
 					(unit 1)
 				)
 			)
@@ -12042,7 +12452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
 			(at 275.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12185,7 +12595,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 275.59 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -12196,7 +12606,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
 			(at 275.59 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -12285,6 +12695,50 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 275.59 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 275.59 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 275.59 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "0402 thick-film, +/-1%, 0.063W. Voltage/power derating applies."
+			(at 275.59 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106235"
 			(at 275.59 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -12601,6 +13055,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7519"
 			(at 153.67 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13329,6 +13794,17 @@
 				)
 			)
 		)
+		(property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB"
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S2"
 			(uuid "80452d60-1571-4619-9cee-68ebda550e74")
 		)
@@ -13352,8 +13828,7 @@
 				)
 			)
 		)
-	
- (property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB" (at 262.89 53.34 0) (hide yes) (effects (font (size 1.27 1.27)))))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 330.2 54.61 0)
@@ -13801,86 +14276,4 @@
 			)
 		)
 	)
-
-(wire (pts (xy 342.9 200.66) (xy 340.36 200.66))
-		(stroke (width 0) (type default))
-		(uuid "7c57e2b8-4a98-48f0-a8f2-c01a880d721b")
-	)
-(wire (pts (xy 342.9 203.2) (xy 340.36 203.2))
-		(stroke (width 0) (type default))
-		(uuid "7e6e23c1-1242-44d4-98ff-0564a95834d2")
-	)
-(wire (pts (xy 342.9 205.74) (xy 340.36 205.74))
-		(stroke (width 0) (type default))
-		(uuid "9e76e90b-4f0e-4a10-8f56-4af686258161")
-	)
-(label "+5V"
-		(at 340.36 200.66 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right bottom))
-		(uuid "28a13ca6-cc8e-4f9c-9c79-4d6631b5c1d3")
-	)
-(label "GND"
-		(at 340.36 203.2 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right bottom))
-		(uuid "d2f31dee-98fc-4362-8da7-e0b427dc6594")
-	)
-(label "VTX_TX"
-		(at 340.36 205.74 0)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right bottom))
-		(uuid "0e96eb01-195e-49dc-8729-33b69b652463")
-	)
-(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 347.98 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2e3c959-dd6f-44af-8021-fd71ddf895ba")
-		(property "Reference" "J_VTX2"
-			(at 366.00 201.93 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "VTX: 5V / GND / SA"
-			(at 366.00 204.47 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "SparrowHawk:SolderPads_VTX_1x03"
-			(at 347.98 203.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Datasheet" ""
-			(at 347.98 203.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Description" "Solder pads: 1 +5V, 2 GND, 3 SmartAudio MCU PC10. External 5V-compatible VTX only."
-			(at 347.98 203.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1" (uuid "f99a6691-dc05-41f1-9790-c74c74b738a4"))
-		(pin "2" (uuid "b6975c9c-e086-4e30-a095-264e3acecbf6"))
-		(pin "3" (uuid "05a75618-7d55-4efb-b32f-03fde835b530"))
-		(instances
-			(project "Flight Controller"
-				(path "/64d08664-7c2b-4b48-a9dd-dae3f797396a/a7a67c1a-3f82-4b2b-a6bb-d7bf8bb803f3"
-					(reference "J_VTX2")
-					(unit 1)
-				)
-			)
-		)
-	)
-(text "Sparrow III: J_VTX2 = +5V / GND / SmartAudio (PC10).\nJ_VTX1 and J_CAM1 retained as DNP, excluded from PCB." (at 302.26 224.79 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "a481add1-f968-42a2-9046-92163bda5cb8"))
-
-(title_block (title "Sparrow III — Flight Controller") (date "2026-09-10") (rev "III-placement"))
-
-(rectangle (start 300.99 193.04) (end 384.81 231.14) (stroke (width 0.1524) (type default)) (fill (type none)) (uuid "2e020aa9-e8b9-40a7-b0d8-a98f004d2233"))
-(text "VTX — Sparrow III" (at 302.26 191.77 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "bb423365-d8b7-4803-8fa3-9862f7cc0012"))
 )
