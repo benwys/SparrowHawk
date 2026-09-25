@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flight Controller FPV")
-		(rev "v1.0")
+		(rev "III-order-20261003")
 		(company "Politechnika Warszawska - Wydział Elektryczny")
 		(comment 1 "Projekt inżynieryjno-techniczny")
 		(comment 2 "Benedykt Wysocki")
@@ -3359,6 +3359,17 @@
 				)
 			)
 		)
+		(property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB"
+			(at 78.74 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52187d9d-b680-4dd6-a9e3-774f20e91d09")
 		)
@@ -3370,8 +3381,7 @@
 				)
 			)
 		)
-	
- (property "Assembly" "DNP; retained on schematic; excluded from Sparrow III PCB" (at 78.74 181.61 90) (hide yes) (effects (font (size 1.27 1.27)))))
+	)
 	(symbol
 		(lib_id "NON-BOM:TestPoint 1mmPad")
 		(at 156.21 19.05 0)
