@@ -1,0 +1,314 @@
+(kicad_symbol_lib (version 20241209) (generator kicad_symbol_editor)
+(symbol "TLV75533PDYD"
+  	(pin_names
+  		(offset 1.016)
+  	)
+  	(exclude_from_sim no)
+  	(in_bom yes)
+  	(on_board yes)
+  	(in_pos_files yes)
+  	(duplicate_pin_numbers_are_jumpers no)
+  	(property "Reference" "U_LDO1"
+  		(at 0 12.7 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "Value" "TLV75533PDYDR"
+  		(at 0 10.16 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "Footprint" "SparrowHawk:SOT-23-5_ThermalPad_TI_DYD0005A"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "Description" "500mA LDO, 3.3V, SOT-23-5 DYD with GND thermal pad"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  		)
+  	)
+  	(property "MF" "Texas Instruments"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Description_1" "3.3V 500mA LDO with exposed GND pad"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Package" "TI DYD0005A SOT-23-5 with thermal pad"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Price" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Check_prices" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "PARTREV" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "SnapEDA_Link" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "MP" "TLV75533PDYDR"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "Availability" ""
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(property "MANUFACTURER" "Texas Instruments"
+  		(at 0 0 0)
+  		(show_name no)
+  		(do_not_autoplace no)
+  		(hide yes)
+  		(effects
+  			(font
+  				(size 1.27 1.27)
+  			)
+  			(justify bottom)
+  		)
+  	)
+  	(symbol "TLV75533PDYD_0_0"
+  		(rectangle
+  			(start -7.62 7.62)
+  			(end 7.62 -7.62)
+  			(stroke
+  				(width 0.41)
+  				(type default)
+  			)
+  			(fill
+  				(type background)
+  			)
+  		)
+  		(pin power_in line
+  			(at -12.7 5.08 0)
+  			(length 5.08)
+  			(name "VIN"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "1"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  		(pin power_in line
+  			(at 12.7 -5.08 180)
+  			(length 5.08)
+  			(name "GND"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "2"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  		(pin input line
+  			(at -12.7 0 0)
+  			(length 5.08)
+  			(name "EN"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "3"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  		(pin power_out line
+  			(at 12.7 5.08 180)
+  			(length 5.08)
+  			(name "VOUT"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "5"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  	
+(pin passive line
+  			(at 12.7 -5.08 180)
+  			(length 5.08)
+  			(name "EP"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "6"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		
+ (hide yes))
+)
+  	(symbol "TLV75533PDYD_1_1"
+  		(pin passive line
+  			(at -12.7 -5.08 0)
+  			(length 5.08)
+			(name "NC"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  			(number "4"
+  				(effects
+  					(font
+  						(size 1.016 1.016)
+  					)
+  				)
+  			)
+  		)
+  	)
+  	(embedded_fonts no)
+  
+ (property "Manufacturer_Part_Number" "TLV75533PDYDR" (at 0 12.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+ (property "Manufacturer_Name" "Texas Instruments" (at 0 12.7 0) (hide yes) (effects (font (size 1.27 1.27)))))
+)
