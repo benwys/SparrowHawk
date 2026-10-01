@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
+	(descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780; SparrowHawk: otwory ustalajace NPTH 0.65 i 0.8 zamiast 0.6 i owalu 0.85x0.6 (JLC: min. szczelina NPTH 1.0 mm; JAE SJ121836: kolki 2x0.52+-0.05, rozstaw 6+-0.1)")
 	(tags "USB C Type-C Receptacle SMD USB 2.0")
 	(property "Reference" "REF**"
 		(at 0 -5 0)
@@ -198,8 +198,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -3 -1.95)
-		(size 0.6 0.6)
-		(drill 0.6)
+		(size 0.65 0.65)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(uuid "54731c52-a14e-46bb-8018-94a1ccf6c976")
 	)
@@ -217,10 +217,10 @@
 		(roundrect_rratio 0.25)
 		(uuid "4bce69d9-6258-4f55-8ea4-285ff1e54d43")
 	)
-	(pad "" np_thru_hole oval
+	(pad "" np_thru_hole circle
 		(at 3 -1.95)
-		(size 0.85 0.6)
-		(drill oval 0.85 0.6)
+		(size 0.8 0.8)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(uuid "9a844dfa-4fcf-4eb3-8597-ffa838f92d18")
 	)
