@@ -81,28 +81,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|132654608|106811479|87cfec5a-e336-4d9f-9b6f-9b284616f251|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|168181936|101295086|a9bb256e-a5b7-499c-a6af-3ce115259bac|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|168190443|100487732|0f6f4dbb-7e4d-49b1-8221-50b0a463e9fb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|168224057|103078039|edf47a6d-b290-4330-a8f7-841fdfc89023|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|168309750|103600020|f863bcdb-6fda-4d83-bda4-285fa828844a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -159,7 +138,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "error",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -287,7 +266,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.0"
+      "sch_revision": "III-order-20261003"
     },
     "layer_pairs": [
       {
@@ -627,7 +606,7 @@
         "pcb_color": "rgb(164, 18, 255)",
         "priority": 3,
         "schematic_color": "rgb(164, 18, 255)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -858,6 +837,14 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power_Local",
+        "pattern": "/MCU Core/VCAP_RETURN"
+      },
+      {
+        "netclass": "Power_Local",
+        "pattern": "/Sensors/MAG_C1"
       }
     ]
   },
